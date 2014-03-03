@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>{% block title %}{% endblock %}</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/static/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    {% block customcss %}{% endblock %}
+</head>
+
+<body>
+  {% include "merchant/navbar.html" %}
+    {% block content %}  <h1>content block in base.html</h1>  {% endblock %}
+    
+    <hr>
+    <footer>
+    {% block footer %}
+        <p>&copy; 养娃宝 2014 </p>
+    {% endblock %}
+    </footer>
+    
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/static/js/offcanvas.js"></script>
+    {% block customjs %}{% endblock %}
+</body>
+</html>

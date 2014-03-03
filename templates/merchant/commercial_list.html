@@ -1,0 +1,22 @@
+{%extends "merchant/merchant_home.html"%}
+
+{%block home_content%}
+<div class="container">
+  <div class="row row-offcanvas-right">
+    <div class="col-md-8">
+      <p>已发布商业信息列表</p>
+		   <div class="list-group">
+		   {%for commercial in commercial_list%}
+  		  <a href="#" class="list-group-item">
+    		  <h4 class="list-group-item-heading">{{commercial.title}}</h4>
+    		  <p class="list-group-item-text">{{commercial.content}}</p>
+  		  </a>
+  		  <img src="/media/{{commercial.photo}}" class="img-responsive" alt="Responsive image">
+  		  {%endfor%}
+		   </div>
+    </div>
+  </div>
+</div>
+{%endblock%}
+
+

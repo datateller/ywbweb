@@ -1,0 +1,19 @@
+{% extends "merchant/base.html" %}
+
+{% block title %}The current time{% endblock %}
+
+{% block customcss %}
+    <!-- Custom styles for this template -->
+    <link href="/static/css/offcanvas.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+  {% include "merchant/home_slogan.html" %}
+  {% include "merchant/home_info.html" %}
+
+{% block customjs %}
+    <script src="/static/js/offcanvas.js"></script>
+{% endblock %}
+
+{% endblock %}
