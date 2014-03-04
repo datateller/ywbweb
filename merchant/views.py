@@ -123,6 +123,10 @@ class CommercialPostView(FormView):
                 temp.merchant = self.request.user
                 if self.request.FILES:
                     temp.photo = self.request.FILES['photo']
+		    if 'photo1' in list(self.request.FILES):
+		        temp.photo1 = self.request.FILES['photo1']
+		    if 'photo2' in list(self.request.FILES):
+                        temp.photo2 = self.request.FILES['photo2']
                 temp.save()
             else:
                 print(form_post.errors)
