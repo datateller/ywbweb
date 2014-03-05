@@ -42,12 +42,13 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
+    'django.contrib.sites',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bootstrap3',
     'merchant',
+    'registration',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -91,8 +92,26 @@ USE_L10N = True
 
 USE_TZ = True
 
-
+SITE_ID = 1
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
+LOGIN_URL = '/merchant/login/'
+
 STATIC_URL = '/static/'
+
+ACCOUNT_ACTIVATION_DAYS = 7
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+# Host for sending email.
+#EMAIL_HOST = 'localhost'
+EMAIL_HOST = 'smtp.126.com'
+DEFAULT_FROM_EMAIL = 'datateller@126.com'
+# Port for sending email.
+EMAIL_PORT = 25
+
+# Optional SMTP authentication information for EMAIL_HOST.
+EMAIL_HOST_USER = 'datateller@126.com'
+EMAIL_HOST_PASSWORD = 'wjbb111'
+EMAIL_USE_TLS = True

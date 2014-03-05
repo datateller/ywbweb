@@ -10,4 +10,6 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^merchant/', include('merchant.urls')),
+    url(r'^merchant/accounts/', include('registration.backends.default.urls')),
 )
+

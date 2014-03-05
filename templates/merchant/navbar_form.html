@@ -6,6 +6,14 @@
 				</div>
     </form>
 {% else %}
+  {% if login_form %}
     {% include "merchant/login.html" %}
+  {% else %}
+  <form name = "logout" class="navbar-form navbar-right" role="form" action="/merchant/login/" method="get">
+  <div class="form-group">
+    <p><a class="btn btn-primary" role="button" href="/merchant/login/">登录 </a></p>
+  </div>
+  </form>
+  {% endif %}
 {% endif %}
 

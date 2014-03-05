@@ -1,0 +1,6 @@
+激活链接:	
+
+http://{{site}}/merchant/accounts/activate/{{activation_key}}/
+
+
+{{expiration_days}} 天后失效！

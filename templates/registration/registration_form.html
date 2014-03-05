@@ -1,0 +1,68 @@
+{% extends "merchant/base.html" %}
+
+{% block title %}{% endblock %}
+
+{% block customcss %}
+    <!-- Custom styles for this template -->
+    <link href="/static/css/offcanvas.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+  {% include "merchant/register_form.html" %}
+
+{% block customjs %}
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=GLbmnUGjCe4B62dqW6l695fL"></script>
+    <script type="text/javascript">
+var map = new BMap.Map("allmap");
+var point = new BMap.Point(116.404, 39.915);
+map.centerAndZoom(point, 15);
+var marker = new BMap.Marker();
+//map.addOverlay(marker);              
+//marker.setAnimation(BMAP_ANIMATION_BOUNCE);
+//marker.enableDragging();
+
+function fillform(){
+  var p = marker.getPosition();
+  //alert(p.lng + "," +p.lat);
+  if(p.lng) {
+    register_form.longitude.value = p.lng;
+    register_form.latitude.value = p.lat;
+  } else {
+  var myGeo = new BMap.Geocoder();
+	// 将地址解析结果显示在地图上,并调整地图视野
+	var city = register_form.city.value;
+	var address = register_form.address.value;
+	myGeo.getPoint(address, function(point){
+  if (point) {
+    register_form.longitude.value = point.lng;
+    register_form.latitude.value = point.lat;
+ }
+},city);
+      }
+}
+
+function locatemap(){
+var myGeo = new BMap.Geocoder();
+// 将地址解析结果显示在地图上,并调整地图视野
+var city = register_form.city.value
+var address = register_form.address.value
+myGeo.getPoint(address, function(point){
+  if (point) {
+    map.centerAndZoom(point, 16);
+    marker = new BMap.Marker(point)
+    map.addOverlay(marker);
+    marker.enableDragging();
+ }
+},city);
+}
+
+</script>
+{% endblock %}
+
+{% endblock %}
+
+
+
+
+

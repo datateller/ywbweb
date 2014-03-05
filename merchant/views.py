@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views.generic import FormView
 from django.views.generic.base import TemplateView
 from django.views.generic.edit import FormView, ProcessFormView
@@ -10,6 +10,9 @@ from .models import *
 from django.http import *
 from django.shortcuts import render_to_response
 from  django.template import RequestContext
+from registration.backends.default.views import *
+from django.contrib.auth.decorators import login_required
+from django.utils.decorators import method_decorator
 # Create your views here.
 
 
@@ -27,7 +30,7 @@ def login_view(request):
             return render_to_response(MerchantHomeView.template_name, rcontext)
         else:
             rcontext = RequestContext(request, locals())
-            return render_to_response(MerchantHomeView.template_name, rcontext)
+            return render_to_response(MerchantMainPageView.template_name, rcontext)
     else:
         return HttpResponseRedirect("/merchant/")
 
@@ -40,7 +43,7 @@ def logout_view(request):
     return HttpResponseRedirect("/merchant/")
 
 
-class RegisterView(FormView):
+class RegisterView(RegistrationView):
     template_name = 'merchant/register.html'
     form_class = RegisterForm
     def get_context_data(self, **kwargs):
@@ -67,7 +70,7 @@ class RegisterView(FormView):
                 merchant.longitude = float(form_reg.cleaned_data['longitude'])
                 merchant.latitude = form_reg.cleaned_data['latitude']
                 merchant.description = form_reg.cleaned_data['description']
-                user.save()
+                #user.save()
                 merchant.save()
             else:
                 print("error: not post?")
@@ -84,14 +87,20 @@ class MerchantMainPageView(TemplateView):
 
 class MerchantHomeView(TemplateView):
     template_name = 'merchant/merchant_home.html'
+    
     def get_context_data(self, **kwargs):
         context = super(MerchantHomeView, self).get_context_data(**kwargs)
         context['login_form'] = LoginForm()
         return context
 
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(MerchantHomeView, self).dispatch(*args, **kwargs)
+
 
 class CommercialListView(TemplateView):
     template_name = 'merchant/commercial_list.html'
+    
     def get_context_data(self, **kwargs):
         context = super(CommercialListView, self).get_context_data(**kwargs)
         context['login_form'] = LoginForm()
@@ -101,11 +110,19 @@ class CommercialListView(TemplateView):
         context['commercial_list'] = clist
         return context
     
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(CommercialListView, self).dispatch(*args, **kwargs)
     
     
 class CommercialPostView(FormView):
     form_class = PostCommercialForm
     template_name = 'merchant/commercial_post.html'
+    
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(CommercialPostView, self).dispatch(*args, **kwargs)
+    
     def get_context_data(self, **kwargs):
         context = super(CommercialPostView, self).get_context_data(**kwargs)
         context['login_form'] = LoginForm()
