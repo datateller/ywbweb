@@ -49,6 +49,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'merchant',
     'registration',
+    'weixin',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -76,7 +77,23 @@ DATABASES = {
         'PASSWORD': 'wjbb111',
         'HOST': 'localhost',
         'PORT': '5432',
-    }
+    },
+    'wjbbserverdb': {
+        'ENGINE':'django.db.backends.postgresql_psycopg2',
+        'NAME': 'wjbbserverdb',
+        'USER': 'wjbb',
+        'PASSWORD': 'wjbb111',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    },
+    'weixindb': {
+        'ENGINE':'django.db.backends.postgresql_psycopg2',
+        'NAME': 'weixindb',
+        'USER': 'wjbb',
+        'PASSWORD': 'wjbb111',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    },
 }
 
 # Internationalization
@@ -115,3 +132,5 @@ EMAIL_PORT = 25
 EMAIL_HOST_USER = 'datateller@126.com'
 EMAIL_HOST_PASSWORD = 'wjbb111'
 EMAIL_USE_TLS = True
+
+DATABASE_ROUTERS = ['ywbweb.dbrouter.DBRouter',]

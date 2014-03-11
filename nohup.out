@@ -1,0 +1,1262 @@
+[09/Mar/2014 12:32:23] "GET / HTTP/1.1" 404 2234
+[09/Mar/2014 12:32:24] "POST /weixin/dev/?signature=17d4af3c0d3af1aeb8cbfb8bfe94133a38d62e4c&timestamp=1394368342&nonce=806914699 HTTP/1.0" 200 255
+[09/Mar/2014 12:32:29] "POST /weixin/dev/?signature=805c7e3207b262997966028ee93e966c309f73c2&timestamp=1394368349&nonce=1233043036 HTTP/1.0" 200 255
+Validating models...
+
+0 errors found
+March 09, 2014 - 12:32:08
+Django version 1.6.1, using settings 'ywbweb.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394368342</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.965240</Latitude>
+<Longitude>116.301933</Longitude>
+<Precision>34.000000</Precision>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394368349</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.965187</Latitude>
+<Longitude>116.302048</Longitude>
+<Precision>42.000000</Precision>
+</xml>
+event output: 
+[09/Mar/2014 13:36:04] "POST /weixin/dev/?signature=08858058bba5bd87efec19237b0724a8eb44da96&timestamp=1394372162&nonce=1096625322 HTTP/1.0" 200 255
+[09/Mar/2014 14:02:44] "GET / HTTP/1.1" 200 8168
+[09/Mar/2014 14:02:44] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 200 324
+[09/Mar/2014 14:02:44] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 200 581
+[09/Mar/2014 14:02:44] "GET /static/apphome/files/sea.js HTTP/1.1" 200 11483
+[09/Mar/2014 14:02:44] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 200 11534
+[09/Mar/2014 14:02:44] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 200 10748
+[09/Mar/2014 14:02:45] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 200 135349
+[09/Mar/2014 14:02:45] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 200 108476
+[09/Mar/2014 14:02:45] "GET /static/apphome/files/ HTTP/1.1" 404 1633
+[09/Mar/2014 14:15:10] "POST /weixin/dev/?signature=8bbd70a610d38f65efb17a719518681189740e25&timestamp=1394374509&nonce=1634084140 HTTP/1.0" 200 422
+[09/Mar/2014 14:15:35] "POST /weixin/dev/?signature=e49086f63680100e38b8f20cee5903ed935c3267&timestamp=1394374534&nonce=1279994259 HTTP/1.0" 200 255
+[09/Mar/2014 14:15:35] "POST /weixin/dev/?signature=136c47aebe36715ee00bdfd45da0c3772958eb6f&timestamp=1394374535&nonce=1091949308 HTTP/1.0" 200 338
+[09/Mar/2014 14:15:45] "POST /weixin/dev/?signature=1ede0f1a7a28dab81e2b3b54313b4952e9402e2e&timestamp=1394374544&nonce=1344493872 HTTP/1.0" 200 393
+[09/Mar/2014 14:18:41] "POST /weixin/dev/?signature=c1bc5a9389f121f76acb991437c2c6eacd7bf649&timestamp=1394374721&nonce=1578686658 HTTP/1.0" 200 422
+[09/Mar/2014 14:19:29] "POST /weixin/dev/?signature=9d38ca1452b0d0f17eae5f44f2404491db1b5b62&timestamp=1394374768&nonce=1260605767 HTTP/1.0" 200 393
+/usr/local/lib/python3.3/site-packages/django/db/models/fields/__init__.py:903: RuntimeWarning: DateTimeField WeixinUser.baby_birthday received a naive datetime (2008-08-08 00:00:00) while time zone support is active.
+  RuntimeWarning)
+
+Validating models...
+
+0 errors found
+March 09, 2014 - 13:33:12
+Django version 1.6.1, using settings 'ywbweb.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394372161</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.965237</Latitude>
+<Longitude>116.301781</Longitude>
+<Precision>61.000000</Precision>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuODSPxJsi1q4YMnZ-OGKQzM]]></FromUserName>
+<CreateTime>1394374509</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+event output: 欢迎来养娃宝瞅一瞅~ 为了获得更精确的知识推送，请在聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuODSPxJsi1q4YMnZ-OGKQzM]]></FromUserName>
+<CreateTime>1394374534</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.965092</Latitude>
+<Longitude>116.302307</Longitude>
+<Precision>67.000000</Precision>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuODSPxJsi1q4YMnZ-OGKQzM]]></FromUserName>
+<CreateTime>1394374534</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: 您的位置是 ： 北京市海淀区长春桥路29号，更多功能稍后即来~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuODSPxJsi1q4YMnZ-OGKQzM]]></FromUserName>
+<CreateTime>1394374544</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+event output: 为了获得更精确的知识推送，请去聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394374721</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+event output: 欢迎来养娃宝瞅一瞅~ 为了获得更精确的知识推送，请在聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394374768</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+event output: 为了获得更精确的知识推送，请去聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394374805</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[20080808]]></Content>
+<MsgId>5988794186041439743</MsgId>
+</xml>
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394374850</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+有些父母在辅导孩子阅读时发现，他们朗读不是很流畅，有时结结巴巴，甚至有时还出现丢字落字、错字错行的毛病。家长以为是孩子看书不认真造成的，就不停地责怪他们，训斥他们，想让他们再认真点。可在家长的干涉下，他们读得更结巴了，丢字错行的情况也更严重了。家长再稍微施加压力，他们甚至就有可能对读书产生厌倦情绪。
+
+	　　家长不知道，孩子之所以出现这种情况，也许并不是因为他们不认真，也不是因为他们智力不够高...
+event output: 有些父母在辅导孩子阅读时发现，他们朗读不是很流畅，有时结结巴巴，甚至有时还出现丢字落字、错字错行的毛病。家长以为是孩子看书不认真造成的，就不停地责怪他们，训斥他们，想让他们再认真点。可在家长的干涉下，他们读得更结巴了，丢字错行的情况也更严重了。家长再稍微施加压力，他们甚至就有可能对读书产生厌倦情绪。
+
+	　　家长不知道，孩子之所以出现这种情况，也许并不是因为他们不认真，也不是因为他们智力不够高...
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394374883</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+拒绝别人是很正常的事情，没有什么不好意思的。
+
+	　　大多数父母都明白一个道理，即孩子最终要走向社会，要在群体中生活。与人分享，才能得到别人的信任、支持和尊重，因此，父母们希望自己的孩子学会与人分享，养成慷慨大方的美德。这一点没错。
+
+	　　然而，任何事情都要讲究一个度，若是轻易承诺了自己无法履行的职责，将会带给自己更大的困扰和沟通上的困难度，这就需要学会拒绝别人。
+
+	　　拒绝别人实在不...
+event output: 拒绝别人是很正常的事情，没有什么不好意思的。
+
+	　　大多数父母都明白一个道理，即孩子最终要走向社会，要在群体中生活。与人分享，才能得到别人的信任、支持和尊重，因此，父母们希望自己的孩子学会与人分享，养成慷慨大方的美德。这一点没错。
+
+	　　然而，任何事情都要讲究一个度，若是轻易承诺了自己无法履行的职责，将会带给自己更大的困扰和沟通上的困难度，这就需要学会拒绝别人。
+
+	　　拒绝别人实在不...
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394374902</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394374916</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394405913</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.965195</Latitude>
+<Longitude>116.302109</Longitude>
+<Precision>40.000000</Precision>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394405914</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+来自广东省中医院儿科主任、著名儿科专家许尤佳教授向公众传授儿童保健知识时指出，喂养孩子先要了解孩子的生理特点，部分家长爱给孩子喝凉茶，吃过寒食物，这都不符合孩子体质特性。
+
+	　　“纯阳之体”不代表容易上火
+
+	　　一般来说，孩子身体的脏器功能要发育到接近大人的程度，差不多要到7岁。若7岁前家长的一些做法违背了孩子的生理特点，饮食、疾病治疗没有和大人区分开来，就会使小孩子在7周岁后仍然多病痛...
+event output: 来自广东省中医院儿科主任、著名儿科专家许尤佳教授向公众传授儿童保健知识时指出，喂养孩子先要了解孩子的生理特点，部分家长爱给孩子喝凉茶，吃过寒食物，这都不符合孩子体质特性。
+
+	　　“纯阳之体”不代表容易上火
+
+	　　一般来说，孩子身体的脏器功能要发育到接近大人的程度，差不多要到7岁。若7岁前家长的一些做法违背了孩子的生理特点，饮食、疾病治疗没有和大人区分开来，就会使小孩子在7周岁后仍然多病痛...
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394405931</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: 您的位置是 ： 北京市海淀区长春桥路29号，更多功能稍后即来~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394409261</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: 您的位置是 ： 北京市海淀区长春桥路29号，更多功能稍后即来~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394409271</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: 您的位置是 ： 北京市海淀区长春桥路29号，更多功能稍后即来~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394409281</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: 您的位置是 ： 北京市海淀区长春桥路29号，更多功能稍后即来~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394409282</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>40.014729</Latitude>
+<Longitude>116.279846</Longitude>
+<Precision>685.000000</Precision>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394409308</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>40.016800</Latitude>
+<Longitude>116.278816</Longitude>
+<Precision>758.000000</Precision>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394409317</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: 您的位置是 ： 北京市海淀区正红旗东街21号，更多功能稍后即来~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394410917</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+event output: 欢迎来养娃宝瞅一瞅~ 为了获得更精确的知识推送，请在聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394410926</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.977154</Latitude>
+<Longitude>116.330299</Longitude>
+<Precision>63.000000</Precision>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394410943</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: 您的位置是 ： 北京市海淀区双榆树一街，更多功能稍后即来~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394410955</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.977203</Latitude>
+<Longitude>116.330406</Longitude>
+<Precision>64.000000</Precision>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394410975</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.977203</Latitude>
+<Longitude>116.330406</Longitude>
+<Precision>64.000000</Precision>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394410976</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+event output: 为了获得更精确的知识推送，请去聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1394412106</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+event output: 欢迎来养娃宝瞅一瞅~ 为了获得更精确的知识推送，请在聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394419624</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+分离焦虑症是儿童时期较常见的一种情绪障碍，而这种不适应行为或情绪，依不同年龄，会有不同的行为反应，例如：越小的孩子，会表现出来紧紧抱着父母不放、害怕、非常爱哭;而较大的孩子，则会有惧怕的表情出现、情绪非常不稳定、又叫又跳的、耍赖、哭躺在底上不起来等等。下面就来告诉你对待宝宝分离焦虑的办法。
+
+	　　1.降低亲子依恋强度
+
+	　　因为孩子将父母作为自己安全的港湾，所有的事情都依靠父母来完成，所...
+event output: 分离焦虑症是儿童时期较常见的一种情绪障碍，而这种不适应行为或情绪，依不同年龄，会有不同的行为反应，例如：越小的孩子，会表现出来紧紧抱着父母不放、害怕、非常爱哭;而较大的孩子，则会有惧怕的表情出现、情绪非常不稳定、又叫又跳的、耍赖、哭躺在底上不起来等等。下面就来告诉你对待宝宝分离焦虑的办法。
+
+	　　1.降低亲子依恋强度
+
+	　　因为孩子将父母作为自己安全的港湾，所有的事情都依靠父母来完成，所...
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394419702</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+糖、话梅、薯条等等，这些零食色彩缤纷、味道吸引人，常常成为了宝宝的至爱之物。你有没有发现自己的宝宝也吃零食吃上瘾了呢？根据有关研究报告显示，睡眠不足的宝宝更爱吃零食哦，零食问题再也不只是好吃与否的问题了，还折射出宝宝的睡眠健康问题！
+
+	         缺睡的宝宝更爱吃零食
+
+	　　我们知道睡眠不足常常会让人精神萎靡，注意力分散进而打瞌睡，因此常常做错事甚至发生一些事故，如车祸、医疗事故等...[09/Mar/2014 14:20:07] "POST /weixin/dev/?signature=3a402b9ae868c4f617be5ccc10cb643d09b94e97&timestamp=1394374805&nonce=1578077072 HTTP/1.0" 200 398
+[09/Mar/2014 14:20:52] "POST /weixin/dev/?signature=2c07b11e9e18524a4388f6d92f9becae393e5434&timestamp=1394374850&nonce=1212687221 HTTP/1.0" 200 847
+[09/Mar/2014 14:21:23] "POST /weixin/dev/?signature=02cff853d8df3e4ac8aa59d2b672a0a1f50d440e&timestamp=1394374883&nonce=674251763 HTTP/1.0" 200 831
+[09/Mar/2014 14:21:43] "POST /weixin/dev/?signature=ada2628d83ac20bdba71cc75195b57864554f101&timestamp=1394374902&nonce=650150307 HTTP/1.0" 200 255
+[09/Mar/2014 14:21:57] "POST /weixin/dev/?signature=03101ffe68f4434ad47d6216be13280845a88ca0&timestamp=1394374916&nonce=122865048 HTTP/1.0" 200 255
+[09/Mar/2014 18:02:53] "HEAD / HTTP/1.0" 200 0
+[09/Mar/2014 22:44:23] "HEAD / HTTP/1.0" 200 0
+[09/Mar/2014 22:58:33] "POST /weixin/dev/?signature=f567df68f394955ee74c4a4f6cb3515ce769653a&timestamp=1394405913&nonce=1375042873 HTTP/1.0" 200 255
+[09/Mar/2014 22:58:35] "POST /weixin/dev/?signature=a5d66d36101df163d30844be276a930432df5726&timestamp=1394405915&nonce=659753425 HTTP/1.0" 200 833
+[09/Mar/2014 22:58:51] "POST /weixin/dev/?signature=a5dad25dc259057bb91d4890451bdfe55cd2945b&timestamp=1394405931&nonce=1364977018 HTTP/1.0" 200 338
+[09/Mar/2014 22:59:02] "GET / HTTP/1.1" 200 8168
+[09/Mar/2014 22:59:02] "GET /static/apphome/files/base.css HTTP/1.1" 304 0
+[09/Mar/2014 22:59:03] "GET /static/apphome/files/index.css HTTP/1.1" 304 0
+[09/Mar/2014 22:59:03] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 304 0
+[09/Mar/2014 22:59:03] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 304 0
+[09/Mar/2014 22:59:03] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 304 0
+[09/Mar/2014 22:59:03] "GET /static/apphome/files/sea.js HTTP/1.1" 304 0
+[09/Mar/2014 22:59:03] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 304 0
+[09/Mar/2014 22:59:03] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 304 0
+[09/Mar/2014 22:59:03] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 304 0
+[09/Mar/2014 22:59:03] "GET /static/apphome/files/logo.jpg HTTP/1.1" 304 0
+[09/Mar/2014 22:59:03] "GET /static/img/home-page.jpg HTTP/1.1" 304 0
+[09/Mar/2014 22:59:03] "GET /static/img/home-slider-download.png HTTP/1.1" 404 1691
+[09/Mar/2014 22:59:03] "GET /static/apphome/files/vdisk.png HTTP/1.1" 304 0
+[09/Mar/2014 22:59:03] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 304 0
+[09/Mar/2014 22:59:03] "GET /static/apphome/files/vablum.png HTTP/1.1" 304 0
+[09/Mar/2014 23:54:22] "POST /weixin/dev/?signature=ec6b94a38d78e3f12a7b921d48e91c3609b67318&timestamp=1394409262&nonce=326980632 HTTP/1.0" 200 338
+[09/Mar/2014 23:54:32] "POST /weixin/dev/?signature=c8e302d90601cea46078a815dd02fc7e341473d6&timestamp=1394409271&nonce=668984505 HTTP/1.0" 200 338
+[09/Mar/2014 23:54:42] "POST /weixin/dev/?signature=eb8f7d8264dc45a716cd7ea39211fd4dfa19452e&timestamp=1394409282&nonce=1500839028 HTTP/1.0" 200 338
+[09/Mar/2014 23:54:43] "POST /weixin/dev/?signature=2b4812fd9141ccce5bd6131adb55b4d2ec4aa9dd&timestamp=1394409282&nonce=407360906 HTTP/1.0" 200 255
+[09/Mar/2014 23:55:08] "POST /weixin/dev/?signature=4b76b6a5f1a291ff7760ec7fa58edb8514f6e08a&timestamp=1394409308&nonce=776262794 HTTP/1.0" 200 255
+[09/Mar/2014 23:55:19] "POST /weixin/dev/?signature=f77f55d158f4e43abede61fc10f9a0e64510c0d9&timestamp=1394409317&nonce=596500413 HTTP/1.0" 200 341
+[10/Mar/2014 00:21:58] "POST /weixin/dev/?signature=e0c5182244b61baa9ce48ad4fa1e8c858878cef0&timestamp=1394410917&nonce=927175009 HTTP/1.0" 200 422
+[10/Mar/2014 00:22:06] "POST /weixin/dev/?signature=1393e92c2acce55a4ec8751ce107b2026d210b04&timestamp=1394410926&nonce=1239386269 HTTP/1.0" 200 255
+[10/Mar/2014 00:22:25] "POST /weixin/dev/?signature=8d0f0595ac5d6f43818a6af87ab270b4d878a083&timestamp=1394410943&nonce=565706934 HTTP/1.0" 200 336
+[10/Mar/2014 00:22:36] "POST /weixin/dev/?signature=1187a6b33b1a42fec5f55c4f65f713d9d2a28a30&timestamp=1394410955&nonce=328323464 HTTP/1.0" 200 255
+[10/Mar/2014 00:22:38] "GET / HTTP/1.1" 200 8168
+[10/Mar/2014 00:22:39] "GET /static/apphome/files/base.css HTTP/1.1" 200 2772
+[10/Mar/2014 00:22:39] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 200 581
+[10/Mar/2014 00:22:39] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 200 324
+[10/Mar/2014 00:22:39] "GET /static/apphome/files/index.css HTTP/1.1" 200 6307
+[10/Mar/2014 00:22:39] "GET /static/apphome/files/sea.js HTTP/1.1" 200 11483
+[10/Mar/2014 00:22:39] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 200 10748
+[10/Mar/2014 00:22:39] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 200 11534
+[10/Mar/2014 00:22:39] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 200 135349
+[10/Mar/2014 00:22:39] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 200 108476
+[10/Mar/2014 00:22:39] "GET /static/img/home-slider-download.png HTTP/1.1" 404 1691
+[10/Mar/2014 00:22:40] "GET /static/img/home-page.jpg HTTP/1.1" 200 30499
+[10/Mar/2014 00:22:40] "GET /static/apphome/files/vdisk.png HTTP/1.1" 200 15060
+[10/Mar/2014 00:22:40] "GET /static/apphome/files/vablum.png HTTP/1.1" 200 14484
+[10/Mar/2014 00:22:40] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 200 13904
+[10/Mar/2014 00:22:40] "GET /static/apphome/files/logo.jpg HTTP/1.1" 200 128645
+[10/Mar/2014 00:22:49] "GET /merchant/ HTTP/1.1" 200 4208
+[10/Mar/2014 00:22:49] "GET /static/css/offcanvas.css HTTP/1.1" 200 917
+[10/Mar/2014 00:22:49] "GET /static/js/offcanvas.js HTTP/1.1" 200 138
+[10/Mar/2014 00:22:49] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 27822
+[10/Mar/2014 00:22:50] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 200 99548
+[10/Mar/2014 00:22:56] "POST /weixin/dev/?signature=a3b98565802ceca592e7c82b6583acf5369385bb&timestamp=1394410975&nonce=1503497534 HTTP/1.0" 200 255
+[10/Mar/2014 00:22:56] "POST /weixin/dev/?signature=5c34703bd32332601e860625301663c51771dceb&timestamp=1394410976&nonce=694275469 HTTP/1.0" 200 393
+[10/Mar/2014 00:41:46] "POST /weixin/dev/?signature=66215f5d19a07264c9ee3571f652ef031657fd30&timestamp=1394412106&nonce=223390770 HTTP/1.0" 200 422
+[10/Mar/2014 02:47:04] "POST /weixin/dev/?signature=9831acd0f7ca624faaa12182b512d33c85b75bf4&timestamp=1394419624&nonce=1718110222 HTTP/1.0" 200 833
+[10/Mar/2014 02:48:22] "POST /weixin/dev/?signature=416b0092d896398e21a2190d9003187acb33c19c&timestamp=1394419702&nonce=1717272832 HTTP/1.0" 200 829
+[10/Mar/2014 02:58:10] "POST /weixin/dev/?signature=8f1d6d19eab2c777f399c75fc9bdf03960eb041e&timestamp=1394420289&nonce=2012978170 HTTP/1.0" 200 341
+[10/Mar/2014 02:58:21] "POST /weixin/dev/?signature=82c36407db72e672a2e28bf0a0035e2b1297f74d&timestamp=1394420300&nonce=1440644550 HTTP/1.0" 200 341
+[10/Mar/2014 02:58:24] "POST /weixin/dev/?signature=923ee06d4e4c8c9112a845514b6de19cecb705b8&timestamp=1394420303&nonce=1824653987 HTTP/1.0" 200 341
+[10/Mar/2014 02:58:30] "POST /weixin/dev/?signature=9ef1dd8c5218d801b7a8ff2f8d5b813d170c5f1f&timestamp=1394420310&nonce=167705089 HTTP/1.0" 200 393
+[10/Mar/2014 02:58:34] "POST /weixin/dev/?signature=9120d733abeb6900c7c2eab5bb9e15da26957d5d&timestamp=1394420314&nonce=1651989461 HTTP/1.0" 200 341
+[10/Mar/2014 03:06:23] "POST /weixin/dev/?signature=8916653eaa8731a2bee2a8386056f89b68c261b1&timestamp=1394420782&nonce=1710496939 HTTP/1.0" 200 341
+[10/Mar/2014 03:06:26] "POST /weixin/dev/?signature=5afc20c6d79d0c722ca1bcc44c0e1eb7d6c03c8d&timestamp=1394420786&nonce=2002771448 HTTP/1.0" 200 341
+[10/Mar/2014 03:06:30] "POST /weixin/dev/?signature=b5642bd00fe94ab96c9c25420b84693c283ba66a&timestamp=1394420788&nonce=1818214218 HTTP/1.0" 200 341
+[10/Mar/2014 03:06:32] "POST /weixin/dev/?signature=130d76364b5de721deb4f81d69b3152c4cf8d2ca&timestamp=1394420791&nonce=592104938 HTTP/1.0" 200 341
+[10/Mar/2014 03:06:34] "POST /weixin/dev/?signature=9cb0a1f69eed4a99aad37ef68658e56280680a87&timestamp=1394420794&nonce=897113306 HTTP/1.0" 200 341
+[10/Mar/2014 03:06:36] "POST /weixin/dev/?signature=405386ae9a5787aa353f87b7b0dfea1e706a1571&timestamp=1394420795&nonce=1906795633 HTTP/1.0" 200 341
+[10/Mar/2014 03:06:38] "POST /weixin/dev/?signature=ad3f5f7584d86a6695169bc3cb715137a8d3f90e&timestamp=1394420798&nonce=1496644181 HTTP/1.0" 200 341
+[10/Mar/2014 03:06:41] "POST /weixin/dev/?signature=0d238d1fea20689e779f090aa099fae38ed21016&timestamp=1394420800&nonce=1362787548 HTTP/1.0" 200 341
+[10/Mar/2014 03:57:45] "POST /weixin/dev/?signature=151e6d61bc0b6137b659322ac888d8b30c557b7a&timestamp=1394423864&nonce=549916929 HTTP/1.0" 200 255
+[10/Mar/2014 03:57:53] "POST /weixin/dev/?signature=d63e2160283a40867226b47d0d76bca3537f9acd&timestamp=1394423873&nonce=920762646 HTTP/1.0" 200 255
+[10/Mar/2014 05:04:36] "GET /robots.txt HTTP/1.0" 404 2462
+[10/Mar/2014 05:35:28] "POST /weixin/dev/?signature=dd33df52a5ce22daa63a81243f22e4af2878d405&timestamp=1394429727&nonce=1632954957 HTTP/1.0" 200 255
+[10/Mar/2014 06:27:16] "HEAD / HTTP/1.0" 200 0
+[10/Mar/2014 06:57:55] "POST http://best-proxies.ru/azenv.php?rand=da34f6f55a9e3f03e4dfa9a8a6db128b HTTP/1.1" 404 1724
+[10/Mar/2014 07:24:57] "GET / HTTP/1.0" 200 8168
+[10/Mar/2014 08:01:40] "HEAD / HTTP/1.0" 200 0
+[10/Mar/2014 10:02:37] "POST http://best-proxies.ru/azenv.php?rand=38ac358fdc7131630b5f78351f4e4fd5 HTTP/1.1" 404 1724
+[10/Mar/2014 10:31:00] "POST /weixin/dev/?signature=7baf81d9d2bfec93be5410bfc9ce2a9ce40094ed&timestamp=1394447459&nonce=1638098729 HTTP/1.0" 200 255
+/usr/local/lib/python3.3/site-packages/django/db/models/fields/__init__.py:903: RuntimeWarning: DateTimeField WeixinUser.baby_birthday received a naive datetime (2014-02-15 00:00:00) while time zone support is active.
+  RuntimeWarning)
+
+*** longjmp causes uninitialized stack frame ***: /usr/bin/python terminated
+======= Backtrace: =========
+/lib/x86_64-linux-gnu/libc.so.6(__fortify_fail+0x37)[0x7fce112e2f47]
+/lib/x86_64-linux-gnu/libc.so.6(+0x10aebd)[0x7fce112e2ebd]
+/lib/x86_64-linux-gnu/libc.so.6(__longjmp_chk+0x33)[0x7fce112e2e23]
+/usr/lib/x86_64-linux-gnu/libcurl.so.4(+0xdff5)[0x7fce01599ff5]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0xfcb0)[0x7fce11caacb0]
+/lib/x86_64-linux-gnu/libc.so.6(__select+0x33)[0x7fce112c5763]
+/usr/local/lib/python3.3/lib-dynload/time.cpython-33m.so(+0x2e40)[0x7fce108b2e40]
+/usr/bin/python(PyEval_EvalFrameEx+0x736a)[0x48136a]
+/usr/bin/python(PyEval_EvalFrameEx+0x7953)[0x481953]
+/usr/bin/python(PyEval_EvalFrameEx+0x7953)[0x481953]
+/usr/bin/python(PyEval_EvalCodeEx+0x892)[0x479f32]
+/usr/bin/python(PyEval_EvalFrameEx+0x7816)[0x481816]
+/usr/bin/python(PyEval_EvalCodeEx+0x892)[0x479f32]
+/usr/bin/python[0x535c4c]
+/usr/bin/python(PyObject_Call+0x6a)[0x50b23a]
+/usr/bin/python(PyEval_EvalFrameEx+0x3c95)[0x47dc95]
+/usr/bin/python(PyEval_EvalCodeEx+0x892)[0x479f32]
+/usr/bin/python[0x535c4c]
+/usr/bin/python(PyObject_Call+0x6a)[0x50b23a]
+/usr/bin/python(PyEval_EvalFrameEx+0x3c95)[0x47dc95]
+/usr/bin/python(PyEval_EvalCodeEx+0x892)[0x479f32]
+/usr/bin/python[0x535c4c]
+/usr/bin/python(PyObject_Call+0x6a)[0x50b23a]
+/usr/bin/python(PyEval_EvalFrameEx+0x3c95)[0x47dc95]
+/usr/bin/python(PyEval_EvalFrameEx+0x7953)[0x481953]
+/usr/bin/python(PyEval_EvalFrameEx+0x7953)[0x481953]
+/usr/bin/python(PyEval_EvalCodeEx+0x892)[0x479f32]
+/usr/bin/python(PyEval_EvalFrameEx+0x7816)[0x481816]
+/usr/bin/python(PyEval_EvalCodeEx+0x892)[0x479f32]
+/usr/bin/python(PyEval_EvalCode+0x3b)[0x479ffb]
+/usr/bin/python(PyRun_FileExFlags+0xbd)[0x4a59dd]
+/usr/bin/python(PyRun_SimpleFileExFlags+0x10d)[0x4a688d]
+/usr/bin/python(Py_Main+0xa22)[0x4bd802]
+/usr/bin/python(main+0x13e)[0x4196de]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xed)[0x7fce111f976d]
+/usr/bin/python[0x419775]
+======= Memory map: ========
+00400000-005d7000 r-xp 00000000 08:01 56737                              /usr/local/bin/python3.3
+007d6000-007d7000 r--p 001d6000 08:01 56737                              /usr/local/bin/python3.3
+007d7000-0083f000 rw-p 001d7000 08:01 56737                              /usr/local/bin/python3.3
+0083f000-0085a000 rw-p 00000000 00:00 0 
+01e1c000-0245a000 rw-p 00000000 00:00 0                                  [heap]
+7fcdf4000000-7fcdf4044000 rw-p 00000000 00:00 0 
+7fcdf4044000-7fcdf8000000 ---p 00000000 00:00 0 
+7fcdfc000000-7fcdfc0fb000 rw-p 00000000 00:00 0 
+7fcdfc0fb000-7fce00000000 ---p 00000000 00:00 0 
+7fce0113f000-7fce01157000 r-xp 00000000 08:01 4730                       /usr/lib/x86_64-linux-gnu/librtmp.so.0
+7fce01157000-7fce01357000 ---p 00018000 08:01 4730                       /usr/lib/x86_64-linux-gnu/librtmp.so.0
+7fce01357000-7fce01358000 r--p 00018000 08:01 4730                       /usr/lib/x86_64-linux-gnu/librtmp.so.0
+7fce01358000-7fce01359000 rw-p 00019000 08:01 4730                       /usr/lib/x86_64-linux-gnu/librtmp.so.0
+7fce01359000-7fce0138b000 r-xp 00000000 08:01 5031                       /usr/lib/x86_64-linux-gnu/libidn.so.11.6.6
+7fce0138b000-7fce0158a000 ---p 00032000 08:01 5031                       /usr/lib/x86_64-linux-gnu/libidn.so.11.6.6
+7fce0158a000-7fce0158b000 r--p 00031000 08:01 5031                       /usr/lib/x86_64-linux-gnu/libidn.so.11.6.6
+7fce0158b000-7fce0158c000 rw-p 00032000 08:01 5031                       /usr/lib/x86_64-linux-gnu/libidn.so.11.6.6
+7fce0158c000-7fce015e6000 r-xp 00000000 08:01 57256                      /usr/lib/x86_64-linux-gnu/libcurl.so.4.2.0
+7fce015e6000-7fce017e6000 ---p 0005a000 08:01 57256                      /usr/lib/x86_64-linux-gnu/libcurl.so.4.2.0
+7fce017e6000-7fce017e8000 r--p 0005a000 08:01 57256                      /usr/lib/x86_64-linux-gnu/libcurl.so.4.2.0
+7fce017e8000-7fce017e9000 rw-p 0005c000 08:01 57256                      /usr/lib/x86_64-linux-gnu/libcurl.so.4.2.0
+7fce017e9000-7fce017fc000 r-xp 00000000 08:01 131631                     /usr/local/lib/python3.3/site-packages/pycurl.cpython-33m.so
+7fce017fc000-7fce019fb000 ---p 00013000 08:01 131631                     /usr/local/lib/python3.3/site-packages/pycurl.cpython-33m.so
+7fce019fb000-7fce019fc000 r--p 00012000 08:01 131631                     /usr/local/lib/python3.3/site-packages/pycurl.cpython-33m.so
+7fce019fc000-7fce019fd000 rw-p 00013000 08:01 131631                     /usr/local/lib/python3.3/site-packages/pycurl.cpython-33m.so
+7fce019fd000-7fce019fe000 ---p 00000000 00:00 0 
+7fce019fe000-7fce021fe000 rw-p 00000000 00:00 0 
+7fce021fe000-7fce02213000 r-xp 00000000 08:01 2197                       /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fce02213000-7fce02412000 ---p 00015000 08:01 2197                       /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fce02412000-7fce02413000 r--p 00014000 08:01 2197                       /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fce02413000-7fce02414000 rw-p 00015000 08:01 2197                       /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fce02414000-7fce0241e000 r-xp 00000000 08:01 2192                       /lib/x86_64-linux-gnu/libnss_nis-2.15.so
+7fce0241e000-7fce0261e000 ---p 0000a000 08:01 2192                       /lib/x86_64-linux-gnu/libnss_nis-2.15.so
+7fce0261e000-7fce0261f000 r--p 0000a000 08:01 2192                       /lib/x86_64-linux-gnu/libnss_nis-2.15.so
+7fce0261f000-7fce02620000 rw-p 0000b000 08:01 2192                       /lib/x86_64-linux-gnu/libnss_nis-2.15.so
+7fce02620000-7fce02637000 r-xp 00000000 08:01 2122                       /lib/x86_64-linux-gnu/libnsl-2.15.so
+7fce02637000-7fce02836000 ---p 00017000 08:01 2122                       /lib/x86_64-linux-gnu/libnsl-2.15.so
+7fce02836000-7fce02837000 r--p 00016000 08:01 2122                       /lib/x86_64-linux-gnu/libnsl-2.15.so
+7fce02837000-7fce02838000 rw-p 00017000 08:01 2122                       /lib/x86_64-linux-gnu/libnsl-2.15.so
+7fce02838000-7fce0283a000 rw-p 00000000 00:00 0 
+7fce0283a000-7fce02842000 r-xp 00000000 08:01 2125                       /lib/x86_64-linux-gnu/libnss_compat-2.15.so
+7fce02842000-7fce02a41000 ---p 00008000 08:01 2125                       /lib/x86_64-linux-gnu/libnss_compat-2.15.so
+7fce02a41000-7fce02a42000 r--p 00007000 08:01 2125                       /lib/x86_64-linux-gnu/libnss_compat-2.15.so
+7fce02a42000-7fce02a43000 rw-p 00008000 08:01 2125                       /lib/x86_64-linux-gnu/libnss_compat-2.15.so
+7fce02a43000-7fce02a7a000 r-xp 00000000 08:01 268966                     /usr/local/lib/python3.3/lib-dynload/pyexpat.cpython-33m.so
+7fce02a7a000-7fce02c79000 ---p 00037000 08:01 268966                     /usr/local/lib/python3.3/lib-dynload/pyexpat.cpython-33m.so
+7fce02c79000-7fce02c7c000 r--p 00036000 08:01 268966                     /usr/local/lib/python3.3/lib-dynload/pyexpat.cpython-33m.so
+7fce02c7c000-7fce02c7e000 rw-p 00039000 08:01 268966                     /usr/local/lib/python3.3/lib-dynload/pyexpat.cpython-33m.so
+7fce02c7e000-7fce02c8a000 r-xp 00000000 08:01 268942                     /usr/local/lib/python3.3/lib-dynload/_elementtree.cpython-33m.so
+7fce02c8a000-7fce02e89000 ---p 0000c000 08:01 268942                     /usr/local/lib/python3.3/lib-dynload/_elementtree.cpython-33m.so
+7fce02e89000-7fce02e8a000 r--p 0000b000 08:01 268942                     /usr/local/lib/python3.3/lib-dynload/_elementtree.cpython-33m.so
+7fce02e8a000-7fce02e8c000 rw-p 0000c000 08:01 268942                     /usr/local/lib/python3.3/lib-dynload/_elementtree.cpython-33m.so
+7fce02e8c000-7fce02e8d000 ---p 00000000 00:00 0 
+7fce02e8d000-7fce0368d000 rw-p 00000000 00:00 0 
+7fce0368d000-7fce03694000 r-xp 00000000 08:01 2077                       /lib/x86_64-linux-gnu/libnss_dns-2.15.so
+7fce03694000-7fce03893000 ---p 00007000 08:01 2077                       /lib/x86_64-linux-gnu/libnss_dns-2.15.so
+7fce03893000-7fce03894000 r--p 00006000 08:01 2077                       /lib/x86_64-linux-gnu/libnss_dns-2.15.so
+7fce03894000-7fce03895000 rw-p 00007000 08:01 2077                       /lib/x86_64-linux-gnu/libnss_dns-2.15.so
+7fce03895000-7fce038a1000 r-xp 00000000 08:01 2097                       /lib/x86_64-linux-gnu/libnss_files-2.15.so
+7fce038a1000-7fce03aa0000 ---p 0000c000 08:01 2097                       /lib/x86_64-linux-gnu/libnss_files-2.15.so
+7fce03aa0000-7fce03aa1000 r--p 0000b000 08:01 2097                       /lib/x86_64-linux-gnu/libnss_files-2.15.so
+7fce03aa1000-7fce03aa2000 rw-p 0000c000 08:01 2097                       /lib/x86_64-linux-gnu/libnss_files-2.15.so
+7fce03aa2000-7fce03aec000 r-xp 00000000 08:01 270723                     /root/.python-eggs/Pillow-2.2.2-py3.3-linux-x86_64.egg-tmp/PIL/_imaging.cpython-33m.so
+7fce03aec000-7fce03ceb000 ---p 0004a000 08:01 270723                     /root/.python-eggs/Pillow-2.2.2-py3.3-linux-x86_64.egg-tmp/PIL/_imaging.cpython-33m.so
+7fce03ceb000-7fce03cee000 r--p 00049000 08:01 270723                     /root/.python-eggs/Pillow-2.2.2-py3.3-linux-x86_64.egg-tmp/PIL/_imaging.cpython-33m.so
+7fce03cee000-7fce03cf1000 rw-p 0004c000 08:01 270723                     /root/.python-eggs/Pillow-2.2.2-py3.3-linux-x86_64.egg-tmp/PIL/_imaging.cpython-33m.so
+7fce03cf1000-7fce03cff000 r-xp 00000000 08:01 268969                     /usr/local/lib/python3.3/lib-dynload/parser.cpython-33m.so
+7fce03cff000-7fce03efe000 ---p 0000e000 08:01 268969                     /usr/local/lib/python3.3/lib-dynload/parser.cpython-33m.so
+7fce03efe000-7fce03eff000 r--p 0000d000 08:01 268969                     /usr/local/lib/python3.3/lib-dynload/parser.cpython-33m.so
+7fce03eff000-7fce03f00000 rw-p 0000e000 08:01 268969                     /usr/local/lib/python3.3/lib-dynload/parser.cpython-33m.so
+7fce03f00000-7fce03f80000 rw-p 00000000 00:00 0 
+7fce04000000-7fce042ab000 rw-p 00000000 00:00 0 
+7fce042ab000-7fce08000000 ---p 00000000 00:00 0 
+7fce08081000-7fce080c1000 rw-p 00000000 00:00 0 
+7fce08181000-7fce08301000 rw-p 00000000 00:00 0 
+7fce08301000-7fce08302000 ---p 00000000 00:00 0 
+7fce08302000-7fce08b82000 rw-p 00000000 00:00 0 
+7fce08b82000-7fce08b8b000 r-xp 00000000 08:01 2116                       /lib/x86_64-linux-gnu/libcrypt-2.15.so
+7fce08b8b000-7fce08d8b000 ---p 00009000 08:01 2116                       /lib/x86_64-linux-gnu/libcrypt-2.15.so
+7fce08d8b000-7fce08d8c000 r--p 00009000 08:01 2116                       /lib/x86_64-linux-gnu/libcrypt-2.15.so
+7fce08d8c000-7fce08d8d000 rw-p 0000a000 08:01 2116                       /lib/x86_64-linux-gnu/libcrypt-2.15.so
+7fce08d8d000-7fce08dbb000 rw-p 00000000 00:00 0 
+7fce08dbb000-7fce08e59000 r-xp 00000000 08:01 5057                       /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6
+7fce08e59000-7fce09059000 ---p 0009e000 08:01 5057                       /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6
+7fce09059000-7fce0905b000 r--p 0009e000 08:01 5057                       /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6
+7fce0905b000-7fce0905d000 rw-p 000a0000 08:01 5057                       /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6
+7fce0905d000-7fce0905e000 rw-p 00000000 00:00 0 
+7fce0905e000-7fce090a3000 r-xp 00000000 08:01 5090                       /usr/lib/x86_64-linux-gnu/libhx509.so.5.0.0
+7fce090a3000-7fce092a3000 ---p 00045000 08:01 5090                       /usr/lib/x86_64-linux-gnu/libhx509.so.5.0.0
+7fce092a3000-7fce092a5000 r--p 00045000 08:01 5090                       /usr/lib/x86_64-linux-gnu/libhx509.so.5.0.0
+7fce092a5000-7fce092a7000 rw-p 00047000 08:01 5090                       /usr/lib/x86_64-linux-gnu/libhx509.so.5.0.0
+7fce092a7000-7fce092a8000 rw-p 00000000 00:00 0 
+7fce092a8000-7fce092b6000 r-xp 00000000 08:01 5059                       /usr/lib/x86_64-linux-gnu/libheimbase.so.1.0.0
+7fce092b6000-7fce094b5000 ---p 0000e000 08:01 5059                       /usr/lib/x86_64-linux-gnu/libheimbase.so.1.0.0
+7fce094b5000-7fce094b6000 r--p 0000d000 08:01 5059                       /usr/lib/x86_64-linux-gnu/libheimbase.so.1.0.0
+7fce094b6000-7fce094b7000 rw-p 0000e000 08:01 5059                       /usr/lib/x86_64-linux-gnu/libheimbase.so.1.0.0
+7fce094b7000-7fce094df000 r-xp 00000000 08:01 5098                       /usr/lib/x86_64-linux-gnu/libwind.so.0.0.0
+7fce094df000-7fce096de000 ---p 00028000 08:01 5098                       /usr/lib/x86_64-linux-gnu/libwind.so.0.0.0
+7fce096de000-7fce096df000 r--p 00027000 08:01 5098                       /usr/lib/x86_64-linux-gnu/libwind.so.0.0.0
+7fce096df000-7fce096e0000 rw-p 00028000 08:01 5098                       /usr/lib/x86_64-linux-gnu/libwind.so.0.0.0
+7fce096e0000-7fce096e3000 r-xp 00000000 08:01 2079                       /lib/x86_64-linux-gnu/libgpg-error.so.0.8.0
+7fce096e3000-7fce098e2000 ---p 00003000 08:01 2079                       /lib/x86_64-linux-gnu/libgpg-error.so.0.8.0
+7fce098e2000-7fce098e3000 r--p 00002000 08:01 2079                       /lib/x86_64-linux-gnu/libgpg-error.so.0.8.0
+7fce098e3000-7fce098e4000 rw-p 00003000 08:01 2079                       /lib/x86_64-linux-gnu/libgpg-error.so.0.8.0
+7fce098e4000-7fce098f5000 r-xp 00000000 08:01 4755                       /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.0.0
+7fce098f5000-7fce09af4000 ---p 00011000 08:01 4755                       /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.0.0
+7fce09af4000-7fce09af5000 r--p 00010000 08:01 4755                       /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.0.0
+7fce09af5000-7fce09af6000 rw-p 00011000 08:01 4755                       /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.0.0
+7fce09af6000-7fce09b06000 r-xp 00000000 08:01 4736                       /usr/lib/x86_64-linux-gnu/libtasn1.so.3.1.12
+7fce09b06000-7fce09d05000 ---p 00010000 08:01 4736                       /usr/lib/x86_64-linux-gnu/libtasn1.so.3.1.12
+7fce09d05000-7fce09d06000 r--p 0000f000 08:01 4736                       /usr/lib/x86_64-linux-gnu/libtasn1.so.3.1.12
+7fce09d06000-7fce09d07000 rw-p 00010000 08:01 4736                       /usr/lib/x86_64-linux-gnu/libtasn1.so.3.1.12
+7fce09d07000-7fce09d1b000 r-xp 00000000 08:01 5027                       /usr/lib/x86_64-linux-gnu/libroken.so.18.1.0
+7fce09d1b000-7fce09f1a000 ---p 00014000 08:01 5027                       /usr/lib/x86_64-linux-gnu/libroken.so.18.1.0
+7fce09f1a000-7fce09f1b000 r--p 00013000 08:01 5027                       /usr/lib/x86_64-linux-gnu/libroken.so.18.1.0
+7fce09f1b000-7fce09f1c000 rw-p 00014000 08:01 5027                       /usr/lib/x86_64-linux-gnu/libroken.so.18.1.0
+7fce09f1c000-7fce09f4d000 r-xp 00000000 08:01 4769                       /usr/lib/x86_64-linux-gnu/libhcrypto.so.4.1.0
+7fce09f4d000-7fce0a14d000 ---p 00031000 08:01 4769                       /usr/lib/x86_64-linux-gnu/libhcrypto.so.4.1.0
+7fce0a14d000-7fce0a14e000 r--p 00031000 08:01 4769                       /usr/lib/x86_64-linux-gnu/libhcrypto.so.4.1.0
+7fce0a14e000-7fce0a14f000 rw-p 00032000 08:01 4769                       /usr/lib/x86_64-linux-gnu/libhcrypto.so.4.1.0
+7fce0a14f000-7fce0a150000 rw-p 00000000 00:00 0 
+7fce0a150000-7fce0a1eb000 r-xp 00000000 08:01 4768                       /usr/lib/x86_64-linux-gnu/libasn1.so.8.0.0
+7fce0a1eb000-7fce0a3ea000 ---p 0009b000 08:01 4768                       /usr/lib/x86_64-linux-gnu/libasn1.so.8.0.0
+7fce0a3ea000-7fce0a3ec000 r--p 0009a000 08:01 4768                       /usr/lib/x86_64-linux-gnu/libasn1.so.8.0.0
+7fce0a3ec000-7fce0a3f0000 rw-p 0009c000 08:01 4768                       /usr/lib/x86_64-linux-gnu/libasn1.so.8.0.0
+7fce0a3f0000-7fce0a470000 r-xp 00000000 08:01 4734                       /usr/lib/x86_64-linux-gnu/libkrb5.so.26.0.0
+7fce0a470000-7fce0a670000 ---p 00080000 08:01 4734                       /usr/lib/x86_64-linux-gnu/libkrb5.so.26.0.0
+7fce0a670000-7fce0a672000 r--p 00080000 08:01 4734                       /usr/lib/x86_64-linux-gnu/libkrb5.so.26.0.0
+7fce0a672000-7fce0a676000 rw-p 00082000 08:01 4734                       /usr/lib/x86_64-linux-gnu/libkrb5.so.26.0.0
+7fce0a676000-7fce0a67c000 r-xp 00000000 08:01 5036                       /usr/lib/x86_64-linux-gnu/libheimntlm.so.0.1.0
+7fce0a67c000-7fce0a87b000 ---p 00006000 08:01 5036                       /usr/lib/x86_64-linux-gnu/libheimntlm.so.0.1.0
+7fce0a87b000-7fce0a87c000 r--p 00005000 08:01 5036                       /usr/lib/x86_64-linux-gnu/libheimntlm.so.0.1.0
+7fce0a87c000-7fce0a87d000 rw-p 00006000 08:01 5036                       /usr/lib/x86_64-linux-gnu/libheimntlm.so.0.1.0
+7fce0a87d000-7fce0a8f7000 r-xp 00000000 08:01 2113                       /lib/x86_64-linux-gnu/libgcrypt.so.11.7.0
+7fce0a8f7000-7fce0aaf7000 ---p 0007a000 08:01 2113                       /lib/x86_64-linux-gnu/libgcrypt.so.11.7.0
+7fce0aaf7000-7fce0aaf8000 r--p 0007a000 08:01 2113                       /lib/x86_64-linux-gnu/libgcrypt.so.11.7.0
+7fce0aaf8000-7fce0aafb000 rw-p 0007b000 08:01 2113                       /lib/x86_64-linux-gnu/libgcrypt.so.11.7.0
+7fce0aafb000-7fce0abaf000 r-xp 00000000 08:01 57337                      /usr/lib/x86_64-linux-gnu/libgnutls.so.26.21.8
+7fce0abaf000-7fce0adaf000 ---p 000b4000 08:01 57337                      /usr/lib/x86_64-linux-gnu/libgnutls.so.26.21.8
+7fce0adaf000-7fce0adb5000 r--p 000b4000 08:01 57337                      /usr/lib/x86_64-linux-gnu/libgnutls.so.26.21.8
+7fce0adb5000-7fce0adb6000 rw-p 000ba000 08:01 57337                      /usr/lib/x86_64-linux-gnu/libgnutls.so.26.21.8
+7fce0adb6000-7fce0adb7000 rw-p 00000000 00:00 0 
+7fce0adb7000-7fce0adf1000 r-xp 00000000 08:01 5128                       /usr/lib/x86_64-linux-gnu/libgssapi.so.3.0.0
+7fce0adf1000-7fce0aff1000 ---p 0003a000 08:01 5128                       /usr/lib/x86_64-linux-gnu/libgssapi.so.3.0.0
+7fce0aff1000-7fce0aff2000 r--p 0003a000 08:01 5128                       /usr/lib/x86_64-linux-gnu/libgssapi.so.3.0.0
+7fce0aff2000-7fce0aff5000 rw-p 0003b000 08:01 5128                       /usr/lib/x86_64-linux-gnu/libgssapi.so.3.0.0
+7fce0aff5000-7fce0b00f000 r-xp 00000000 08:01 5052                       /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+7fce0b00f000-7fce0b20e000 ---p 0001a000 08:01 5052                       /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+7fce0b20e000-7fce0b20f000 r--p 00019000 08:01 5052                       /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+7fce0b20f000-7fce0b210000 rw-p 0001a000 08:01 5052                       /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+7fce0b210000-7fce0b21d000 r-xp 00000000 08:01 4746                       /usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.8.1
+7fce0b21d000-7fce0b41c000 ---p 0000d000 08:01 4746                       /usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.8.1
+7fce0b41c000-7fce0b41d000 r--p 0000c000 08:01 4746                       /usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.8.1
+7fce0b41d000-7fce0b41e000 rw-p 0000d000 08:01 4746                       /usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.8.1
+7fce0b41e000-7fce0b436000 r-xp 00000000 08:01 2209                       /lib/x86_64-linux-gnu/libresolv-2.15.so
+7fce0b436000-7fce0b636000 ---p 00018000 08:01 2209                       /lib/x86_64-linux-gnu/libresolv-2.15.so
+7fce0b636000-7fce0b637000 r--p 00018000 08:01 2209                       /lib/x86_64-linux-gnu/libresolv-2.15.so
+7fce0b637000-7fce0b638000 rw-p 00019000 08:01 2209                       /lib/x86_64-linux-gnu/libresolv-2.15.so
+7fce0b638000-7fce0b63a000 rw-p 00000000 00:00 0 
+7fce0b63a000-7fce0b63d000 r-xp 00000000 08:01 2095                       /lib/x86_64-linux-gnu/libkeyutils.so.1.4
+7fce0b63d000-7fce0b83c000 ---p 00003000 08:01 2095                       /lib/x86_64-linux-gnu/libkeyutils.so.1.4
+7fce0b83c000-7fce0b83d000 r--p 00002000 08:01 2095                       /lib/x86_64-linux-gnu/libkeyutils.so.1.4
+7fce0b83d000-7fce0b83e000 rw-p 00003000 08:01 2095                       /lib/x86_64-linux-gnu/libkeyutils.so.1.4
+7fce0b83e000-7fce0b845000 r-xp 00000000 08:01 4739                       /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7fce0b845000-7fce0ba44000 ---p 00007000 08:01 4739                       /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7fce0ba44000-7fce0ba45000 r--p 00006000 08:01 4739                       /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7fce0ba45000-7fce0ba46000 rw-p 00007000 08:01 4739                       /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7fce0ba46000-7fce0ba6b000 r-xp 00000000 08:01 4771                       /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7fce0ba6b000-7fce0bc6b000 ---p 00025000 08:01 4771                       /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7fce0bc6b000-7fce0bc6c000 r--p 00025000 08:01 4771                       /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7fce0bc6c000-7fce0bc6d000 rw-p 00026000 08:01 4771                       /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7fce0bc6d000-7fce0bc6e000 rw-p 00000000 00:00 0 
+7fce0bc6e000-7fce0bcb9000 r-xp 00000000 08:01 5126                       /usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.8.1
+7fce0bcb9000-7fce0beb8000 ---p 0004b000 08:01 5126                       /usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.8.1
+7fce0beb8000-7fce0beba000 r--p 0004a000 08:01 5126                       /usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.8.1
+7fce0beba000-7fce0bebb000 rw-p 0004c000 08:01 5126                       /usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.8.1
+7fce0bebb000-7fce0bebd000 rw-p 00000000 00:00 0 
+7fce0bebd000-7fce0bef8000 r-xp 00000000 08:01 5125                       /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7fce0bef8000-7fce0c0f8000 ---p 0003b000 08:01 5125                       /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7fce0c0f8000-7fce0c0f9000 r--p 0003b000 08:01 5125                       /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7fce0c0f9000-7fce0c0fb000 rw-p 0003c000 08:01 5125                       /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7fce0c0fb000-7fce0c0fe000 r-xp 00000000 08:01 2108                       /lib/x86_64-linux-gnu/libcom_err.so.2.1
+7fce0c0fe000-7fce0c2fd000 ---p 00003000 08:01 2108                       /lib/x86_64-linux-gnu/libcom_err.so.2.1
+7fce0c2fd000-7fce0c2fe000 r--p 00002000 08:01 2108                       /lib/x86_64-linux-gnu/libcom_err.so.2.1
+7fce0c2fe000-7fce0c2ff000 rw-p 00003000 08:01 2108                       /lib/x86_64-linux-gnu/libcom_err.so.2.1
+7fce0c2ff000-7fce0c3c3000 r-xp 00000000 08:01 5067                       /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7fce0c3c3000-7fce0c5c2000 ---p 000c4000 08:01 5067                       /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7fce0c5c2000-7fce0c5cc000 r--p 000c3000 08:01 5067                       /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7fce0c5cc000-7fce0c5cd000 rw-p 000cd000 08:01 5067                       /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7fce0c5cd000-7fce0c5f6000 r-xp 00000000 08:01 56541                      /usr/lib/libpq.so.5.4
+7fce0c5f6000-7fce0c7f5000 ---p 00029000 08:01 56541                      /usr/lib/libpq.so.5.4
+7fce0c7f5000-7fce0c7f7000 r--p 00028000 08:01 56541                      /usr/lib/libpq.so.5.4
+7fce0c7f7000-7fce0c7f9000 rw-p 0002a000 08:01 56541                      /usr/lib/libpq.so.5.4
+7fce0c7f9000-7fce0c822000 r-xp 00000000 08:01 143260                     /usr/local/lib/python3.3/site-packages/psycopg2/_psycopg.cpython-33m.so
+7fce0c822000-7fce0ca22000 ---p 00029000 08:01 143260                     /usr/local/lib/python3.3/site-packages/psycopg2/_psycopg.cpython-33m.so
+7fce0ca22000-7fce0ca23000 r--p 00029000 08:01 143260                     /usr/local/lib/python3.3/site-packages/psycopg2/_psycopg.cpython-33m.so
+7fce0ca23000-7fce0ca29000 rw-p 0002a000 08:01 143260                     /usr/local/lib/python3.3/site-packages/psycopg2/_psycopg.cpython-33m.so
+7fce0ca29000-7fce0ce69000 rw-p 00000000 00:00 0 
+7fce0ce69000-7fce0ce6b000 r-xp 00000000 08:01 268968                     /usr/local/lib/python3.3/lib-dynload/_bisect.cpython-33m.so
+7fce0ce6b000-7fce0d06a000 ---p 00002000 08:01 268968                     /usr/local/lib/python3.3/lib-dynload/_bisect.cpython-33m.so
+7fce0d06a000-7fce0d06b000 r--p 00001000 08:01 268968                     /usr/local/lib/python3.3/lib-dynload/_bisect.cpython-33m.so
+7fce0d06b000-7fce0d06c000 rw-p 00002000 08:01 268968                     /usr/local/lib/python3.3/lib-dynload/_bisect.cpython-33m.so
+7fce0d06c000-7fce0d0ac000 rw-p 00000000 00:00 0 
+7fce0d0ac000-7fce0d0b0000 r-xp 00000000 08:01 268937                     /usr/local/lib/python3.3/lib-dynload/termios.cpython-33m.so
+7fce0d0b0000-7fce0d2af000 ---p 00004000 08:01 268937                     /usr/local/lib/python3.3/lib-dynload/termios.cpython-33m.so
+7fce0d2af000-7fce0d2b0000 r--p 00003000 08:01 268937                     /usr/local/lib/python3.3/lib-dynload/termios.cpython-33m.so
+7fce0d2b0000-7fce0d2b2000 rw-p 00004000 08:01 268937                     /usr/local/lib/python3.3/lib-dynload/termios.cpython-33m.so
+7fce0d2b2000-7fce0d372000 rw-p 00000000 00:00 0 
+7fce0d372000-7fce0d374000 r-xp 00000000 08:01 268957                     /usr/local/lib/python3.3/lib-dynload/grp.cpython-33m.so
+7fce0d374000-7fce0d573000 ---p 00002000 08:01 268957                     /usr/local/lib/python3.3/lib-dynload/grp.cpython-33m.so
+7fce0d573000-7fce0d574000 r--p 00001000 08:01 268957                     /usr/local/lib/python3.3/lib-dynload/grp.cpython-33m.so
+7fce0d574000-7fce0d575000 rw-p 00002000 08:01 268957                     /usr/local/lib/python3.3/lib-dynload/grp.cpython-33m.so
+7fce0d575000-7fce0d5b5000 rw-p 00000000 00:00 0 
+7fce0d5b5000-7fce0d609000 r-xp 00000000 08:01 2092                       /lib/x86_64-linux-gnu/libssl.so.1.0.0
+7fce0d609000-7fce0d809000 ---p 00054000 08:01 2092                       /lib/x86_64-linux-gnu/libssl.so.1.0.0
+7fce0d809000-7fce0d80c000 r--p 00054000 08:01 2092                       /lib/x86_64-linux-gnu/libssl.so.1.0.0
+7fce0d80c000-7fce0d812000 rw-p 00057000 08:01 2092                       /lib/x86_64-linux-gnu/libssl.so.1.0.0
+7fce0d812000-7fce0d813000 rw-p 00000000 00:00 0 
+7fce0d813000-7fce0d823000 r-xp 00000000 08:01 269050                     /usr/local/lib/python3.3/lib-dynload/_ssl.cpython-33m.so
+7fce0d823000-7fce0da22000 ---p 00010000 08:01 269050                     /usr/local/lib/python3.3/lib-dynload/_ssl.cpython-33m.so
+7fce0da22000-7fce0da23000 r--p 0000f000 08:01 269050                     /usr/local/lib/python3.3/lib-dynload/_ssl.cpython-33m.so
+7fce0da23000-7fce0da26000 rw-p 00010000 08:01 269050                     /usr/local/lib/python3.3/lib-dynload/_ssl.cpython-33m.so
+7fce0da26000-7fce0da66000 rw-p 00000000 00:00 0 
+7fce0da66000-7fce0da78000 r-xp 00000000 08:01 268952                     /usr/local/lib/python3.3/lib-dynload/_pickle.cpython-33m.so
+7fce0da78000-7fce0dc77000 ---p 00012000 08:01 268952                     /usr/local/lib/python3.3/lib-dynload/_pickle.cpython-33m.so
+7fce0dc77000-7fce0dc78000 r--p 00011000 08:01 268952                     /usr/local/lib/python3.3/lib-dynload/_pickle.cpython-33m.so
+7fce0dc78000-7fce0dc7b000 rw-p 00012000 08:01 268952                     /usr/local/lib/python3.3/lib-dynload/_pickle.cpython-33m.so
+7fce0dc7b000-7fce0debd000 rw-p 00000000 00:00 0 
+7fce0debd000-7fce0df63000 r-xp 00000000 08:01 268930                     /usr/local/lib/python3.3/lib-dynload/unicodedata.cpython-33m.so
+7fce0df63000-7fce0e162000 ---p 000a6000 08:01 268930                     /usr/local/lib/python3.3/lib-dynload/unicodedata.cpython-33m.so
+7fce0e162000-7fce0e163000 r--p 000a5000 08:01 268930                     /usr/local/lib/python3.3/lib-dynload/unicodedata.cpython-33m.so
+7fce0e163000-7fce0e179000 rw-p 000a6000 08:01 268930                     /usr/local/lib/python3.3/lib-dynload/unicodedata.cpython-33m.so
+7fce0e179000-7fce0e1b9000 rw-p 00000000 00:00 0 
+7fce0e1b9000-7fce0e1bd000 r-xp 00000000 08:01 268941                     /usr/local/lib/python3.3/lib-dynload/fcntl.cpython-33m.so
+7fce0e1bd000-7fce0e3bc000 ---p 00004000 08:01 268941                     /usr/local/lib/python3.3/lib-dynload/fcntl.cpython-33m.so
+7fce0e3bc000-7fce0e3bd000 r--p 00003000 08:01 268941                     /usr/local/lib/python3.3/lib-dynload/fcntl.cpython-33m.so
+7fce0e3bd000-7fce0e3be000 rw-p 00004000 08:01 268941                     /usr/local/lib/python3.3/lib-dynload/fcntl.cpython-33m.so
+7fce0e3be000-7fce0e3bf000 rw-p 00000000 00:00 0 
+7fce0e3bf000-7fce0e3c4000 r-xp 00000000 08:01 269048                     /usr/local/lib/python3.3/lib-dynload/zlib.cpython-33m.so
+7fce0e3c4000-7fce0e5c3000 ---p 00005000 08:01 269048                     /usr/local/lib/python3.3/lib-dynload/zlib.cpython-33m.so
+7fce0e5c3000-7fce0e5c4000 r--p 00004000 08:01 269048                     /usr/local/lib/python3.3/lib-dynload/zlib.cpython-33m.so
+7fce0e5c4000-7fce0e5c6000 rw-p 00005000 08:01 269048                     /usr/local/lib/python3.3/lib-dynload/zlib.cpython-33m.so
+7fce0e5c6000-7fce0e606000 rw-p 00000000 00:00 0 
+7fce0e606000-7fce0e60f000 r-xp 00000000 08:01 268956                     /usr/local/lib/python3.3/lib-dynload/_json.cpython-33m.so
+7fce0e60f000-7fce0e80e000 ---p 00009000 08:01 268956                     /usr/local/lib/python3.3/lib-dynload/_json.cpython-33m.so
+7fce0e80e000-7fce0e80f000 r--p 00008000 08:01 268956                     /usr/local/lib/python3.3/lib-dynload/_json.cpython-33m.so
+7fce0e80f000-7fce0e810000 rw-p 00009000 08:01 268956                     /usr/local/lib/python3.3/lib-dynload/_json.cpython-33m.so
+7fce0e810000-7fce0e850000 rw-p 00000000 00:00 0 
+7fce0e850000-7fce0e85b000 r-xp 00000000 08:01 268925                     /usr/local/lib/python3.3/lib-dynload/array.cpython-33m.so
+7fce0e85b000-7fce0ea5a000 ---p 0000b000 08:01 268925                     /usr/local/lib/python3.3/lib-dynload/array.cpython-33m.so
+7fce0ea5a000-7fce0ea5b000 r--p 0000a000 08:01 268925                     /usr/local/lib/python3.3/lib-dynload/array.cpython-33m.so
+7fce0ea5b000-7fce0ea5e000 rw-p 0000b000 08:01 268925                     /usr/local/lib/python3.3/lib-dynload/array.cpython-33m.so
+7fce0ea5e000-7fce0ea9e000 rw-p 00000000 00:00 0 
+7fce0ea9e000-7fce0eaa3000 r-xp 00000000 08:01 268948                     /usr/local/lib/python3.3/lib-dynload/binascii.cpython-33m.so
+7fce0eaa3000-7fce0eca2000 ---p 00005000 08:01 268948                     /usr/local/lib/python3.3/lib-dynload/binascii.cpython-33m.so
+7fce0eca2000-7fce0eca3000 r--p 00004000 08:01 268948                     /usr/local/lib/python3.3/lib-dynload/binascii.cpython-33m.so
+7fce0eca3000-7fce0eca4000 rw-p 00005000 08:01 268948                     /usr/local/lib/python3.3/lib-dynload/binascii.cpython-33m.so
+7fce0eca4000-7fce0eca6000 r-xp 00000000 08:01 268932                     /usr/local/lib/python3.3/lib-dynload/_random.cpython-33m.so
+7fce0eca6000-7fce0eea6000 ---p 00002000 08:01 268932                     /usr/local/lib/python3.3/lib-dynload/_random.cpython-33m.so
+7fce0eea6000-7fce0eea7000 r--p 00002000 08:01 268932                     /usr/local/lib/python3.3/lib-dynload/_random.cpython-33m.so
+7fce0eea7000-7fce0eea8000 rw-p 00003000 08:01 268932                     /usr/local/lib/python3.3/lib-dynload/_random.cpython-33m.so
+7fce0eea8000-7fce0eee8000 rw-p 00000000 00:00 0 
+7fce0eee8000-7fce0eefe000 r-xp 00000000 08:01 2129                       /lib/x86_64-linux-gnu/libz.so.1.2.3.4
+7fce0eefe000-7fce0f0fd000 ---p 00016000 08:01 2129                       /lib/x86_64-linux-gnu/libz.so.1.2.3.4
+7fce0f0fd000-7fce0f0fe000 r--p 00015000 08:01 2129                       /lib/x86_64-linux-gnu/libz.so.1.2.3.4
+7fce0f0fe000-7fce0f0ff000 rw-p 00016000 08:01 2129                       /lib/x86_64-linux-gnu/libz.so.1.2.3.4
+7fce0f0ff000-7fce0f2b0000 r-xp 00000000 08:01 2224                       /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+7fce0f2b0000-7fce0f4b0000 ---p 001b1000 08:01 2224                       /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+7fce0f4b0000-7fce0f4cb000 r--p 001b1000 08:01 2224                       /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+7fce0f4cb000-7fce0f4d6000 rw-p 001cc000 08:01 2224                       /lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+7fce0f4d6000-7fce0f4da000 rw-p 00000000 00:00 0 
+7fce0f4da000-7fce0f4de000 r-xp 00000000 08:01 269049                     /usr/local/lib/python3.3/lib-dynload/_hashlib.cpython-33m.so
+7fce0f4de000-7fce0f6dd000 ---p 00004000 08:01 269049                     /usr/local/lib/python3.3/lib-dynload/_hashlib.cpython-33m.so
+7fce0f6dd000-7fce0f6de000 r--p 00003000 08:01 269049                     /usr/local/lib/python3.3/lib-dynload/_hashlib.cpython-33m.so
+7fce0f6de000-7fce0f6df000 rw-p 00004000 08:01 269049                     /usr/local/lib/python3.3/lib-dynload/_hashlib.cpython-33m.so
+7fce0f6df000-7fce0f6ee000 r-xp 00000000 08:01 268963                     /usr/local/lib/python3.3/lib-dynload/_socket.cpython-33m.so
+7fce0f6ee000-7fce0f8ed000 ---p 0000f000 08:01 268963                     /usr/local/lib/python3.3/lib-dynload/_socket.cpython-33m.so
+7fce0f8ed000-7fce0f8ee000 r--p 0000e000 08:01 268963                     /usr/local/lib/python3.3/lib-dynload/_socket.cpython-33m.so
+7fce0f8ee000-7fce0f8f3000 rw-p 0000f000 08:01 268963                     /usr/local/lib/python3.3/lib-dynload/_socket.cpython-33m.so
+7fce0f8f3000-7fce0f8f5000 r-xp 00000000 08:01 268970                     /usr/local/lib/python3.3/lib-dynload/atexit.cpython-33m.so
+7fce0f8f5000-7fce0faf4000 ---p 00002000 08:01 268970                     /usr/local/lib/python3.3/lib-dynload/atexit.cpython-33m.so
+7fce0faf4000-7fce0faf5000 r--p 00001000 08:01 268970                     /usr/local/lib/python3.3/lib-dynload/atexit.cpython-33m.so
+7fce0faf5000-7fce0faf6000 rw-p 00002000 08:01 268970                     /usr/local/lib/python3.3/lib-dynload/atexit.cpython-33m.so
+7fce0faf6000-7fce0faf9000 r-xp 00000000 08:01 268954                     /usr/local/lib/python3.3/lib-dynload/_posixsubprocess.cpython-33m.so
+7fce0faf9000-7fce0fcf8000 ---p 00003000 08:01 268954                     /usr/local/lib/python3.3/lib-dynload/_posixsubprocess.cpython-33m.so
+7fce0fcf8000-7fce0fcf9000 r--p 00002000 08:01 268954                     /usr/local/lib/python3.3/lib-dynload/_posixsubprocess.cpython-33m.so
+7fce0fcf9000-7fce0fcfa000 rw-p 00003000 08:01 268954                     /usr/local/lib/python3.3/lib-dynload/_posixsubprocess.cpython-33m.so
+7fce0fcfa000-7fce0fcfe000 r-xp 00000000 08:01 268967                     /usr/local/lib/python3.3/lib-dynload/select.cpython-33m.so
+7fce0fcfe000-7fce0fefe000 ---p 00004000 08:01 268967                     /usr/local/lib/python3.3/lib-dynload/select.cpython-33m.so
+7fce0fefe000-7fce0feff000 r--p 00004000 08:01 268967                     /usr/local/lib/python3.3/lib-dynload/select.cpython-33m.so
+7fce0feff000-7fce0ff01000 rw-p 00005000 08:01 268967                     /usr/local/lib/python3.3/lib-dynload/select.cpython-33m.so
+7fce0ff01000-7fce0ff81000 rw-p 00000000 00:00 0 
+7fce0ff81000-7fce0ffcb000 r-xp 00000000 08:01 268960                     /usr/local/lib/python3.3/lib-dynload/_decimal.cpython-33m.so
+7fce0ffcb000-7fce101cb000 ---p 0004a000 08:01 268960                     /usr/local/lib/python3.3/lib-dynload/_decimal.cpython-33m.so
+7fce101cb000-7fce101cc000 r--p 0004a000 08:01 268960                     /usr/local/lib/python3.3/lib-dynload/_decimal.cpython-33m.so
+7fce101cc000-7fce101d4000 rw-p 0004b000 08:01 268960                     /usr/local/lib/python3.3/lib-dynload/_decimal.cpython-33m.so
+7fce101d4000-7fce10254000 rw-p 00000000 00:00 0 
+7fce10288000-7fce1029a000 r-xp 00000000 08:01 268934                     /usr/local/lib/python3.3/lib-dynload/_datetime.cpython-33m.so
+7fce1029a000-7fce10499000 ---p 00012000 08:01 268934                     /usr/local/lib/python3.3/lib-dynload/_datetime.cpython-33m.so
+7fce10499000-7fce1049a000 r--p 00011000 08:01 268934                     /usr/local/lib/python3.3/lib-dynload/_datetime.cpython-33m.so
+7fce1049a000-7fce1049d000 rw-p 00012000 08:01 268934                     /usr/local/lib/python3.3/lib-dynload/_datetime.cpython-33m.so
+7fce1049d000-7fce104a6000 r-xp 00000000 08:01 268946                     /usr/local/lib/python3.3/lib-dynload/math.cpython-33m.so
+7fce104a6000-7fce106a5000 ---p 00009000 08:01 268946                     /usr/local/lib/python3.3/lib-dynload/math.cpython-33m.so
+7fce106a5000-7fce106a6000 r--p 00008000 08:01 268946                     /usr/local/lib/python3.3/lib-dynload/math.cpython-33m.so
+7fce106a6000-7fce106a8000 rw-p 00009000 08:01 268946                     /usr/local/lib/python3.3/lib-dynload/math.cpython-33m.so
+7fce106a8000-7fce106af000 r-xp 00000000 08:01 2145                       /lib/x86_64-linux-gnu/librt-2.15.so
+7fce106af000-7fce108ae000 ---p 00007000 08:01 2145                       /lib/x86_64-linux-gnu/librt-2.15.so
+7fce108ae000-7fce108af000 r--p 00006000 08:01 2145                       /lib/x86_64-linux-gnu/librt-2.15.so
+7fce108af000-7fce108b0000 rw-p 00007000 08:01 2145                       /lib/x86_64-linux-gnu/librt-2.15.so
+7fce108b0000-7fce108b5000 r-xp 00000000 08:01 268964                     /usr/local/lib/python3.3/lib-dynload/time.cpython-33m.so
+7fce108b5000-7fce10ab4000 ---p 00005000 08:01 268964                     /usr/local/lib/python3.3/lib-dynload/time.cpython-33m.so
+7fce10ab4000-7fce10ab5000 r--p 00004000 08:01 268964                     /usr/local/lib/python3.3/lib-dynload/time.cpython-33m.so
+7fce10ab5000-7fce10ab7000 rw-p 00005000 08:01 268964                     /usr/local/lib/python3.3/lib-dynload/time.cpython-33m.so
+7fce10ad8000-7fce10b58000 rw-p 00000000 00:00 0 
+7fce10b58000-7fce10b5f000 r-xp 00000000 08:01 268928                     /usr/local/lib/python3.3/lib-dynload/_struct.cpython-33m.so
+7fce10b5f000-7fce10d5f000 ---p 00007000 08:01 268928                     /usr/local/lib/python3.3/lib-dynload/_struct.cpython-33m.so
+7fce10d5f000-7fce10d60000 r--p 00007000 08:01 268928                     /usr/local/lib/python3.3/lib-dynload/_struct.cpython-33m.so
+7fce10d60000-7fce10d62000 rw-p 00008000 08:01 268928                     /usr/local/lib/python3.3/lib-dynload/_struct.cpython-33m.so
+7fce10d62000-7fce10e62000 rw-p 00000000 00:00 0 
+7fce10e62000-7fce10e65000 r-xp 00000000 08:01 269043                     /usr/local/lib/python3.3/lib-dynload/_heapq.cpython-33m.so
+7fce10e65000-7fce11064000 ---p 00003000 08:01 269043                     /usr/local/lib/python3.3/lib-dynload/_heapq.cpython-33m.so
+7fce11064000-7fce11065000 r--p 00002000 08:01 269043                     /usr/local/lib/python3.3/lib-dynload/_heapq.cpython-33m.so
+7fce11065000-7fce11067000 rw-p 00003000 08:01 269043                     /usr/local/lib/python3.3/lib-dynload/_heapq.cpython-33m.so
+7fce11067000-7fce110e7000 rw-p 00000000 00:00 0 
+7fce11118000-7fce111d8000 rw-p 00000000 00:00 0 
+7fce111d8000-7fce1138d000 r-xp 00000000 08:01 2112                       /lib/x86_64-linux-gnu/libc-2.15.so
+7fce1138d000-7fce1158d000 ---p 001b5000 08:01 2112                       /lib/x86_64-linux-gnu/libc-2.15.so
+7fce1158d000-7fce11591000 r--p 001b5000 08:01 2112                       /lib/x86_64-linux-gnu/libc-2.15.so
+7fce11591000-7fce11593000 rw-p 001b9000 08:01 2112                       /lib/x86_64-linux-gnu/libc-2.15.so
+7fce11593000-7fce11598000 rw-p 00000000 00:00 0 
+7fce11598000-7fce11693000 r-xp 00000000 08:01 2099                       /lib/x86_64-linux-gnu/libm-2.15.so
+7fce11693000-7fce11892000 ---p 000fb000 08:01 2099                       /lib/x86_64-linux-gnu/libm-2.15.so
+7fce11892000-7fce11893000 r--p 000fa000 08:01 2099                       /lib/x86_64-linux-gnu/libm-2.15.so
+7fce11893000-7fce11894000 rw-p 000fb000 08:01 2099                       /lib/x86_64-linux-gnu/libm-2.15.so
+7fce11894000-7fce11896000 r-xp 00000000 08:01 2214                       /lib/x86_64-linux-gnu/libutil-2.15.so
+7fce11896000-7fce11a95000 ---p 00002000 08:01 2214                       /lib/x86_64-linux-gnu/libutil-2.15.so
+7fce11a95000-7fce11a96000 r--p 00001000 08:01 2214                       /lib/x86_64-linux-gnu/libutil-2.15.so
+7fce11a96000-7fce11a97000 rw-p 00002000 08:01 2214                       /lib/x86_64-linux-gnu/libutil-2.15.so
+7fce11a97000-7fce11a99000 r-xp 00000000 08:01 2189                       /lib/x86_64-linux-gnu/libdl-2.15.so
+7fce11a99000-7fce11c99000 ---p 00002000 08:01 2189                       /lib/x86_64-linux-gnu/libdl-2.15.so
+7fce11c99000-7fce11c9a000 r--p 00002000 08:01 2189                       /lib/x86_64-linux-gnu/libdl-2.15.so
+7fce11c9a000-7fce11c9b000 rw-p 00003000 08:01 2189                       /lib/x86_64-linux-gnu/libdl-2.15.so
+7fce11c9b000-7fce11cb3000 r-xp 00000000 08:01 2143                       /lib/x86_64-linux-gnu/libpthread-2.15.so
+7fce11cb3000-7fce11eb2000 ---p 00018000 08:01 2143                       /lib/x86_64-linux-gnu/libpthread-2.15.so
+7fce11eb2000-7fce11eb3000 r--p 00017000 08:01 2143                       /lib/x86_64-linux-gnu/libpthread-2.15.so
+7fce11eb3000-7fce11eb4000 rw-p 00018000 08:01 2143                       /lib/x86_64-linux-gnu/libpthread-2.15.so
+7fce11eb4000-7fce11eb8000 rw-p 00000000 00:00 0 
+7fce11eb8000-7fce11eda000 r-xp 00000000 08:01 2198                       /lib/x86_64-linux-gnu/ld-2.15.so
+7fce11efe000-7fce11f3e000 rw-p 00000000 00:00 0 
+7fce11f3e000-7fce11f45000 r--s 00000000 08:01 4967                       /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+7fce11f45000-7fce120ce000 r--p 00000000 08:01 56466                      /usr/lib/locale/locale-archive
+7fce120ce000-7fce120d2000 rw-p 00000000 00:00 0 
+7fce120d7000-7fce120da000 rw-p 00000000 00:00 0 
+7fce120da000-7fce120db000 r--p 00022000 08:01 2198                       /lib/x86_64-linux-gnu/ld-2.15.so
+7fce120db000-7fce120dd000 rw-p 00023000 08:01 2198                       /lib/x86_64-linux-gnu/ld-2.15.so
+7fff06a84000-7fff06aa5000 rw-p 00000000 00:00 0                          [stack]
+7fff06aa6000-7fff06aa7000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+Validating models...
+
+0 errors found
+March 10, 2014 - 14:56:33
+Django version 1.6.1, using settings 'ywbweb.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394463395</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394463397</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[0—3岁宝宝心理常见问题答疑]]></Title> 
+<Description><![CDATA[每个年龄段的孩子，都有各自的心理发展规律和特点。了解他们的特殊性，做到有的放矢，才能轻松又远离纠结！
+
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/18724/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[小心4小事埋没了宝宝的聪明]]></Title> 
+<Description><![CDATA[由于家长缺乏对宝宝学习能力的正确理解和认识，往往用社会上统一的“成才标准”去强制孩子学习，结果衍生出很多不利于宝宝成长发展的错误做法。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/13735/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394463397</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[0—3岁宝宝心理常见问题答疑]]></Title> 
+<Description><![CDATA[每个年龄段的孩子，都有各自的心理发展规律和特点。了解他们的特殊性，做到有的放矢，才能轻松又远离纠结！
+
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/18724/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[小心4小事埋没了宝宝的聪明]]></Title> 
+<Description><![CDATA[由于家长缺乏对宝宝学习能力的正确理解和认识，往往用社会上统一的“成才标准”去强制孩子学习，结果衍生出很多不利于宝宝成长发展的错误做法。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/13735/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394463431</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394463432</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[盛夏如何让宝宝吃得健康？]]></Title> 
+<Description><![CDATA[夏季宝宝饮食宜清淡，爸妈们切勿给孩子吃高油、高糖的精致化加工食品；多吃天然食品，多吃富含维他命和矿物质的蔬菜、水果。此外，不要让孩子因为偏食而导致营养失衡。今天小编就告诉各位父母盛夏到底要给宝宝吃什么才健康？]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/13782/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[三岁小儿无师自通会识字]]></Title> 
+<Description><![CDATA[]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/13091/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394463432</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[盛夏如何让宝宝吃得健康？]]></Title> 
+<Description><![CDATA[夏季宝宝饮食宜清淡，爸妈们切勿给孩子吃高油、高糖的精致化加工食品；多吃天然食品，多吃富含维他命和矿物质的蔬菜、水果。此外，不要让孩子因为偏食而导致营养失衡。今天小编就告诉各位父母盛夏到底要给宝宝吃什么才健康？]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/13782/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[三岁小儿无师自通会识字]]></Title> 
+<Description><![CDATA[]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/13091/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394463460</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.964310</Latitude>
+<Longitude>116.302231</Longitude>
+<Precision>178.000000</Precision>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394463790</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394463791</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[教育孩子的五条戒律]]></Title> 
+<Description><![CDATA[在教育中，更重要的不是宣泄而是克制。当孩子让我们很生气时，一定要忍一忍，先不急着发火，因为我们无论做什么事，首先冒出来的“第一念头”往往是有问题的。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15452/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[四种食物能有效抗过敏]]></Title> 
+<Description><![CDATA[春天，万物盛开的季节，空气中漂浮着各种各样的花粉，一些过敏性体质的人吸入后就会引起皮肤过敏。因此，营养专家提出，春季对于有皮肤过敏的人一定要吃4种抗过敏食物。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14953/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394463791</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[教育孩子的五条戒律]]></Title> 
+<Description><![CDATA[在教育中，更重要的不是宣泄而是克制。当孩子让我们很生气时，一定要忍一忍，先不急着发火，因为我们无论做什么事，首先冒出来的“第一念头”往往是有问题的。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15452/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[四种食物能有效抗过敏]]></Title> 
+<Description><![CDATA[春天，万物盛开的季节，空气中漂浮着各种各样的花粉，一些过敏性体质的人吸入后就会引起皮肤过敏。因此，营养专家提出，春季对于有皮肤过敏的人一定要吃4种抗过敏食物。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14953/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394464776</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.965153</Latitude>
+<Longitude>116.301521</Longitude>
+<Precision>45.000000</Precision>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394464819</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.965206</Latitude>
+<Longitude>116.301903</Longitude>
+<Precision>52.000000</Precision>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394465632</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394465634</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[让孩子长高应注意的几个问题]]></Title> 
+<Description><![CDATA[儿童的生长速度在四季并不相同，生长最快的是五月份，均匀达7.3 毫米，十月份长得最慢，均匀只有3.3 毫米。 因此，每年五至十月是孩子长高的最佳时间。孩子长高应注意以下几点：]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14828/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[教会BB遇见坏人该怎么办]]></Title> 
+<Description><![CDATA[当家长的最担心孩子遇到坏人了，如果孩子遇到坏人该怎么办呢？家长务必看看本文，让孩子学会自我保护是非常必要的。
+
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15094/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394465634</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[让孩子长高应注意的几个问题]]></Title> 
+<Description><![CDATA[儿童的生长速度在四季并不相同，生长最快的是五月份，均匀达7.3 毫米，十月份长得最慢，均匀只有3.3 毫米。 因此，每年五至十月是孩子长高的最佳时间。孩子长高应注意以下几点：]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14828/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[教会BB遇见坏人该怎么办]]></Title> 
+<Description><![CDATA[当家长的最担心孩子遇到坏人了，如果孩子遇到坏人该怎么办呢？家长务必看看本文，让孩子学会自我保护是非常必要的。
+
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15094/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394465661</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394502428</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394502431</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[聪明宝宝多吃8种食物少吃5种食物]]></Title> 
+<Description><![CDATA[想要提高宝宝的智商不仅要通过早教方式，日常饮食也是重点哦。因为，有些食物可以帮学龄前儿童提高智商，而有些食物会影响宝宝的智力。具体都有哪些呢？一起来看看吧。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/13950/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[给宝宝补充营养的五大常见误区]]></Title> 
+<Description><![CDATA[优质宝宝，谁都想拥有。因此，许多妈妈们拼命给宝宝补充各种营养，想要宝宝身体好、头脑好、脾胃好、皮肤好。然而，就在给宝宝补充营养的过程中，容易忽视一些常见的营养误区。营养不当，得不偿失。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/13651/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394502431</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[聪明宝宝多吃8种食物少吃5种食物]]></Title> 
+<Description><![CDATA[想要提高宝宝的智商不仅要通过早教方式，日常饮食也是重点哦。因为，有些食物可以帮学龄前儿童提高智商，而有些食物会影响宝宝的智力。具体都有哪些呢？一起来看看吧。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/13950/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[给宝宝补充营养的五大常见误区]]></Title> 
+<Description><![CDATA[优质宝宝，谁都想拥有。因此，许多妈妈们拼命给宝宝补充各种营养，想要宝宝身体好、头脑好、脾胃好、皮肤好。然而，就在给宝宝补充营养的过程中，容易忽视一些常见的营养误区。营养不当，得不偿失。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/13651/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394535858</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394535859</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[莫用“杀伤性”方式叫孩子起床]]></Title> 
+<Description><![CDATA[叫孩子起床，是需要花心思的小事，当你用爱心来做这件事时，相信你也会感到幸福。帮助孩子安全优雅的醒来，也会带给他幸福的一天。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15304/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[园内小朋友患病，防止交叉感染]]></Title> 
+<Description><![CDATA[家长通过对传染病的了解，认为孩子被传染的几率较大，或者不认可幼儿园的防治方式，可酌情让孩子停止上课。在孩子不去幼儿园的这段时间，要加强与老师的沟通。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15051/]]></Url>
+</item>
+
+</Articles>
+</xml>
