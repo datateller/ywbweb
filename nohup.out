@@ -1260,3 +1260,1714 @@ msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
 
 </Articles>
 </xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394535859</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[莫用“杀伤性”方式叫孩子起床]]></Title> 
+<Description><![CDATA[叫孩子起床，是需要花心思的小事，当你用爱心来做这件事时，相信你也会感到幸福。帮助孩子安全优雅的醒来，也会带给他幸福的一天。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15304/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[园内小朋友患病，防止交叉感染]]></Title> 
+<Description><![CDATA[家长通过对传染病的了解，认为孩子被传染的几率较大，或者不认可幼儿园的防治方式，可酌情让孩子停止上课。在孩子不去幼儿园的这段时间，要加强与老师的沟通。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15051/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394535865</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394535950</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394535951</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[取消兴趣班，到哪培养孩子特长？]]></Title> 
+<Description><![CDATA[今年1月，国家发改委、教育部、财政部联合印发《幼儿园收费管理暂行办法》，严禁以开办实验班、兴趣班、课后培训班为名向家长另行收取费用。取消兴趣班后，到哪里培养孩子特长？部分家长纠结了。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14948/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[&quot;幼小衔接&quot;准备季 家长如何扮演引路人角色?]]></Title> 
+<Description><![CDATA[现在距离9月份小学正式开学还有半年时间，这是孩子成长过程中一个重要的转折点，家长们需要扮演一个引路人的角色。早早为您的孩子入学做好准备吧，让他们带着希望，带着快乐顺利起航吧！]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14810/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394535951</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[取消兴趣班，到哪培养孩子特长？]]></Title> 
+<Description><![CDATA[今年1月，国家发改委、教育部、财政部联合印发《幼儿园收费管理暂行办法》，严禁以开办实验班、兴趣班、课后培训班为名向家长另行收取费用。取消兴趣班后，到哪里培养孩子特长？部分家长纠结了。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14948/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[&quot;幼小衔接&quot;准备季 家长如何扮演引路人角色?]]></Title> 
+<Description><![CDATA[现在距离9月份小学正式开学还有半年时间，这是孩子成长过程中一个重要的转折点，家长们需要扮演一个引路人的角色。早早为您的孩子入学做好准备吧，让他们带着希望，带着快乐顺利起航吧！]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14810/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394535956</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394535957</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[听22位班长讲“雷锋班”的故事]]></Title> 
+<Description><![CDATA[今年是雷锋同志牺牲50周年。雷锋所在的沈阳军区工兵某团运输连二排四班自1963年1月7日被国防部命名为雷锋班以来，已有24人担任过雷锋班班长，此次有22位雷锋班班长受邀来到北京。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15279/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[逃生训练从小做起]]></Title> 
+<Description><![CDATA[我们都盼望孩子今生平安顺利，但我们美好的愿望并不能阻挡灾害的发生——灾害并不以我们的意志为转移，所以让孩子拥有临灾智慧，拥有顺利逃生的技能是很迫切的家教任务。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14799/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394535957</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[听22位班长讲“雷锋班”的故事]]></Title> 
+<Description><![CDATA[今年是雷锋同志牺牲50周年。雷锋所在的沈阳军区工兵某团运输连二排四班自1963年1月7日被国防部命名为雷锋班以来，已有24人担任过雷锋班班长，此次有22位雷锋班班长受邀来到北京。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15279/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[逃生训练从小做起]]></Title> 
+<Description><![CDATA[我们都盼望孩子今生平安顺利，但我们美好的愿望并不能阻挡灾害的发生——灾害并不以我们的意志为转移，所以让孩子拥有临灾智慧，拥有顺利逃生的技能是很迫切的家教任务。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14799/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394536017</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: 
+dev_view start
+msg: 
+no element found: line 1, column 0
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394580644</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml><ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1394580646</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[您的位置是 ： 北京市海淀区长春桥路29号，更多功能稍后即来~]]></Content><FuncFlag>0</FuncFlag></xml>[10/Mar/2014 14:56:37] "POST /weixin/dev/?signature=624a772196efe6dd3a7ee2d862060add4778c23a&timestamp=1394463395&nonce=229650273 HTTP/1.0" 200 1145
+[10/Mar/2014 14:57:12] "POST /weixin/dev/?signature=a07e791373cefd2be06800b8958dad4e0e1f80a6&timestamp=1394463431&nonce=857131039 HTTP/1.0" 200 1096
+[10/Mar/2014 14:57:30] "GET /weixin/knowledge/13782/ HTTP/1.1" 200 4142
+[10/Mar/2014 14:57:40] "POST /weixin/dev/?signature=53fa7117b92a17f90598f8fcfe0c98c2fe3246b0&timestamp=1394463460&nonce=1755439510 HTTP/1.0" 200 0
+[10/Mar/2014 15:03:11] "POST /weixin/dev/?signature=461dc37caf12a3e0afc2ac134824a227fed39e8a&timestamp=1394463790&nonce=1614508878 HTTP/1.0" 200 1231
+[10/Mar/2014 15:03:34] "GET /weixin/knowledge/14953/ HTTP/1.1" 200 1225
+[10/Mar/2014 15:19:36] "POST /weixin/dev/?signature=a67eef4a3e09f79e359d5b48e74396595d5d8157&timestamp=1394464776&nonce=2050786977 HTTP/1.0" 200 0
+[10/Mar/2014 15:20:20] "POST /weixin/dev/?signature=1e54c5ee4d0bf1cad98fdbc32fd67534986f2e6b&timestamp=1394464819&nonce=67249713 HTTP/1.0" 200 0
+[10/Mar/2014 15:33:54] "POST /weixin/dev/?signature=f2afeb160aadba549c818a23a561e4b77fcab19a&timestamp=1394465633&nonce=541459297 HTTP/1.0" 200 1195
+[10/Mar/2014 15:34:01] "GET /weixin/knowledge/15094/ HTTP/1.1" 200 6021
+[10/Mar/2014 15:34:22] "POST /weixin/dev/?signature=c0c8b55bd0ed34b28c333d29a0dbe4dab416d744&timestamp=1394465661&nonce=195409771 HTTP/1.0" 200 0
+[10/Mar/2014 15:34:42] "GET /?from=message&isappinstalled=0 HTTP/1.1" 200 8168
+[10/Mar/2014 15:34:42] "GET /static/apphome/files/base.css HTTP/1.1" 200 2772
+[10/Mar/2014 15:34:42] "GET /static/apphome/files/index.css HTTP/1.1" 200 6307
+[10/Mar/2014 15:34:42] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 200 581
+[10/Mar/2014 15:34:42] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 200 324
+[10/Mar/2014 15:34:42] "GET /static/apphome/files/sea.js HTTP/1.1" 200 11483
+[10/Mar/2014 15:34:42] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 200 11534
+[10/Mar/2014 15:34:42] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 200 10748
+[10/Mar/2014 15:34:42] "GET /static/apphome/files/vdisk.png HTTP/1.1" 200 15060
+[10/Mar/2014 15:34:42] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 200 13904
+[10/Mar/2014 15:34:42] "GET /static/apphome/files/vablum.png HTTP/1.1" 200 14484
+[10/Mar/2014 15:34:42] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 200 108476
+[10/Mar/2014 15:34:42] "GET /static/img/home-slider-download.png HTTP/1.1" 404 1691
+[10/Mar/2014 15:34:42] "GET /static/img/home-page.jpg HTTP/1.1" 200 30499
+[10/Mar/2014 15:34:42] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 200 135349
+[10/Mar/2014 15:34:42] "GET /static/apphome/files/logo.jpg HTTP/1.1" 200 128645
+[10/Mar/2014 15:37:28] "GET /?from=message&isappinstalled=0 HTTP/1.1" 200 8168
+[10/Mar/2014 21:09:55] "HEAD / HTTP/1.0" 200 0
+[10/Mar/2014 21:15:11] "HEAD / HTTP/1.0" 200 0
+[10/Mar/2014 23:47:26] "HEAD / HTTP/1.0" 200 0
+[11/Mar/2014 00:56:30] "GET /merchant HTTP/1.1" 301 0
+[11/Mar/2014 00:56:30] "GET /merchant/ HTTP/1.1" 200 4208
+[11/Mar/2014 00:56:30] "GET /static/css/offcanvas.css HTTP/1.1" 200 917
+[11/Mar/2014 00:56:31] "GET /static/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 200 99548
+[11/Mar/2014 00:56:33] "GET /static/js/offcanvas.js HTTP/1.1" 200 138
+[11/Mar/2014 00:56:34] "GET /static/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 27822
+[11/Mar/2014 00:56:45] "POST /merchant/login/ HTTP/1.1" 200 4305
+[11/Mar/2014 00:56:50] "GET /merchant/accounts/register/ HTTP/1.1" 200 10685
+[11/Mar/2014 01:47:11] "POST /weixin/dev/?signature=b9cb5d2ada5260d9e4d13d2cc65bd7c2530498b8&timestamp=1394502429&nonce=68522895 HTTP/1.0" 200 1311
+[11/Mar/2014 01:47:17] "GET /weixin/knowledge/13651/ HTTP/1.1" 200 3865
+[11/Mar/2014 01:47:21] "GET /weixin/knowledge/13950/ HTTP/1.1" 200 4145
+[11/Mar/2014 01:48:10] "GET /merchant/ HTTP/1.1" 200 4208
+[11/Mar/2014 04:44:00] "GET /CFIDE/administrator/enter.cfm HTTP/1.1" 404 2529
+[11/Mar/2014 05:29:58] "HEAD / HTTP/1.0" 200 0
+[11/Mar/2014 06:02:33] "HEAD / HTTP/1.0" 200 0
+[11/Mar/2014 08:41:50] "POST http://best-proxies.ru/azenv.php?rand=f6971895ab804d7e95522b6547ab9ce4 HTTP/1.1" 404 1724
+[11/Mar/2014 09:22:14] "HEAD / HTTP/1.0" 200 0
+[11/Mar/2014 10:37:04] "HEAD / HTTP/1.0" 200 0
+[11/Mar/2014 11:04:19] "POST /weixin/dev/?signature=d82205e1f0660ecb05706d2c32653acf753c793b&timestamp=1394535858&nonce=1355006109 HTTP/1.0" 200 1204
+[11/Mar/2014 11:04:26] "POST /weixin/dev/?signature=799b72de8a21f3cdfb604b6ed2c6b229f59263f7&timestamp=1394535865&nonce=701105018 HTTP/1.0" 200 0
+[11/Mar/2014 11:05:12] "GET /weixin/knowledge/14828/ HTTP/1.1" 200 3650
+[11/Mar/2014 11:05:24] "GET /weixin/knowledge/15304/ HTTP/1.1" 200 9843
+[11/Mar/2014 11:05:48] "GET /weixin/knowledge/15304/ HTTP/1.1" 200 9843
+[11/Mar/2014 11:05:51] "POST /weixin/dev/?signature=8aa85b65dc6cba61a11d1d72e95c2c5414d52c49&timestamp=1394535950&nonce=1888408444 HTTP/1.0" 200 1358
+[11/Mar/2014 11:05:57] "POST /weixin/dev/?signature=df70dfcf985b21decabcb8747e35a2c6cb561abb&timestamp=1394535956&nonce=751166168 HTTP/1.0" 200 1260
+[11/Mar/2014 11:06:04] "GET /weixin/knowledge/14799/ HTTP/1.1" 200 4263
+[11/Mar/2014 11:06:55] "GET /weixin/knowledge/15279/ HTTP/1.1" 200 7607
+[11/Mar/2014 11:06:58] "POST /weixin/dev/?signature=2deca36ef175fd9380be4b64bd6599d2cf09c71e&timestamp=1394536017&nonce=372804055 HTTP/1.0" 200 0
+[11/Mar/2014 11:35:56] "GET /weixin/dev HTTP/1.1" 301 0
+[11/Mar/2014 11:35:56] "GET /weixin/dev/ HTTP/1.1" 200 34
+[11/Mar/2014 11:45:47] "POST http://best-proxies.ru/azenv.php?rand=28816e3f951f16e388cd1390924cbddb HTTP/1.1" 404 1724
+[11/Mar/2014 13:23:37] "HEAD / HTTP/1.0" 200 0
+[11/Mar/2014 19:59:33] "HEAD / HTTP/1.0" 200 0
+[11/Mar/2014 20:51:06] "GET / HTTP/1.0" 200 8168
+[11/Mar/2014 23:30:46] "POST /weixin/dev/?signature=e31ab45f04fae4a563c6d6cf0510a6436a93a1ea&timestamp=1394580644&nonce=1899896946 HTTP/1.0" 200 338
+[11/Mar/2014 23:32:39] "GET / HTTP/1.0" 200 8168
+[12/Mar/2014 03:13:53] "GET / HTTP/1.0" 200 8168
+[12/Mar/2014 03:53:05] "GET / HTTP/1.0" 200 8168
+[12/Mar/2014 04:53:43] "GET / HTTP/1.1" 200 8168
+[12/Mar/2014 04:53:43] "GET /robots.txt HTTP/1.1" 404 2472
+[12/Mar/2014 05:30:28] "HEAD / HTTP/1.0" 200 0
+[12/Mar/2014 08:07:29] "POST http://best-proxies.ru/azenv.php?rand=b07718fbeaef4a53292aa5c8a6326071 HTTP/1.1" 404 1724
+
+Validating models...
+
+0 errors found
+March 12, 2014 - 08:50:40
+Django version 1.6.1, using settings 'ywbweb.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394614267</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394614269</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>3</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[上班族父母 晚上怎么带宝宝玩]]></Title> 
+<Description><![CDATA[父母大部分和宝宝的亲子时光都安排在周末或节假日，其实不用特意计划安排，每天善用晚上4小时就能够很好地加深亲子感情。晚上你都会怎么和宝宝度过？不妨改变一点点，增加一些趣味，让晚上变得不平凡。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/13796/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[趣味儿歌：兔子舞]]></Title> 
+<Description><![CDATA[趣味儿歌：兔子舞：left,left,right,right,turn aroud ,go,go,go~]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/19093/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[韩国小萝莉撩人萌照走红]]></Title> 
+<Description><![CDATA[近日疯狂流传一张萌妹的写真照，照片中，一名年纪看似只有幼稚园的小妹妹，竟以时下少女最能表现性感的大旁分发型入镜，另有数张照片是她对著镜头卖萌却飘出成熟味，让网友陷入疯狂，高喊想等她长大后把她娶回家。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/18339/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394614269</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>3</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[上班族父母 晚上怎么带宝宝玩]]></Title> 
+<Description><![CDATA[父母大部分和宝宝的亲子时光都安排在周末或节假日，其实不用特意计划安排，每天善用晚上4小时就能够很好地加深亲子感情。晚上你都会怎么和宝宝度过？不妨改变一点点，增加一些趣味，让晚上变得不平凡。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/13796/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[趣味儿歌：兔子舞]]></Title> 
+<Description><![CDATA[趣味儿歌：兔子舞：left,left,right,right,turn aroud ,go,go,go~]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/19093/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[韩国小萝莉撩人萌照走红]]></Title> 
+<Description><![CDATA[近日疯狂流传一张萌妹的写真照，照片中，一名年纪看似只有幼稚园的小妹妹，竟以时下少女最能表现性感的大旁分发型入镜，另有数张照片是她对著镜头卖萌却飘出成熟味，让网友陷入疯狂，高喊想等她长大后把她娶回家。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/18339/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394620001</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml><ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1394620002</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[您的位置是 ： 北京市海淀区长春桥路29号，更多功能稍后即来~]]></Content><FuncFlag>0</FuncFlag></xml>
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394625509</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394625510</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>3</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[退热贴更适用于学龄前儿童]]></Title> 
+<Description><![CDATA[流行于欧美国家的退热贴，目前在我国已被越来越多的家长所接受。孩子发热时只要在额头或其他大血管走行部位贴一张，即可达到物理降温的效果，成为家中常备的降温品。 ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14861/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[只喝饮料不喝水的孩子易患痛风]]></Title> 
+<Description><![CDATA[在造成女性和儿童痛风患者增加的各种可能因素中，大量饮用碳酸饮料及长期维持高热量、高脂肪的饮食结构尤其值得警惕。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15647/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[教会BB遇见坏人该怎么办]]></Title> 
+<Description><![CDATA[当家长的最担心孩子遇到坏人了，如果孩子遇到坏人该怎么办呢？家长务必看看本文，让孩子学会自我保护是非常必要的。
+
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15094/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394625510</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>3</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[退热贴更适用于学龄前儿童]]></Title> 
+<Description><![CDATA[流行于欧美国家的退热贴，目前在我国已被越来越多的家长所接受。孩子发热时只要在额头或其他大血管走行部位贴一张，即可达到物理降温的效果，成为家中常备的降温品。 ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14861/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[只喝饮料不喝水的孩子易患痛风]]></Title> 
+<Description><![CDATA[在造成女性和儿童痛风患者增加的各种可能因素中，大量饮用碳酸饮料及长期维持高热量、高脂肪的饮食结构尤其值得警惕。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15647/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[教会BB遇见坏人该怎么办]]></Title> 
+<Description><![CDATA[当家长的最担心孩子遇到坏人了，如果孩子遇到坏人该怎么办呢？家长务必看看本文，让孩子学会自我保护是非常必要的。
+
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15094/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394625511</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+event output: 为了获得更精确的知识推送，请去聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394625517</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394625523</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>3</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[让孩子学会倾听]]></Title> 
+<Description><![CDATA[培养孩子的倾听能力，使孩子养成良好的倾听习惯，对于他的语言能力和沟通能力的发展会起到很大的推动作用。父母对孩子的教育，其中之一就要培养他们耐心倾听的良好习惯。如果您希望自己的孩子成为一个善于谈话的人，就要先培养他做一个能耐心倾听他人说话的人。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14843/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[儿童不吃早餐易发胖]]></Title> 
+<Description><![CDATA[儿童营养学专家指出，导致儿童肥胖的主要原因，跟孩子每天吃不吃早餐、吃什么样的早餐密切相关。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15349/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[4个小锦囊 让你的宝宝健康长高]]></Title> 
+<Description><![CDATA[除了药物治疗，营养、运动和睡眠和良好环境的是宝宝长高的四大处方。另外，可以经常带宝宝晒晒太阳，促进体内维生素D的产生，从而帮助钙质吸收，对宝宝的骨骼发育是有利的。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15455/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394625523</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>3</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[让孩子学会倾听]]></Title> 
+<Description><![CDATA[培养孩子的倾听能力，使孩子养成良好的倾听习惯，对于他的语言能力和沟通能力的发展会起到很大的推动作用。父母对孩子的教育，其中之一就要培养他们耐心倾听的良好习惯。如果您希望自己的孩子成为一个善于谈话的人，就要先培养他做一个能耐心倾听他人说话的人。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14843/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[儿童不吃早餐易发胖]]></Title> 
+<Description><![CDATA[儿童营养学专家指出，导致儿童肥胖的主要原因，跟孩子每天吃不吃早餐、吃什么样的早餐密切相关。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15349/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[4个小锦囊 让你的宝宝健康长高]]></Title> 
+<Description><![CDATA[除了药物治疗，营养、运动和睡眠和良好环境的是宝宝长高的四大处方。另外，可以经常带宝宝晒晒太阳，促进体内维生素D的产生，从而帮助钙质吸收，对宝宝的骨骼发育是有利的。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15455/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394625538</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+event output: 为了获得更精确的知识推送，请去聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394625545</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml><ToUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1394625546</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[您的位置是 ： 北京市海淀区双榆树一街，更多功能稍后即来~]]></Content><FuncFlag>0</FuncFlag></xml>
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394625569</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+event output: 为了获得更精确的知识推送，请去聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1394625574</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+WeixinUser matching query does not exist.
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394625578</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wjbb.cloudapp.net/]]></EventKey>
+</xml>
+event output: VIEW
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1394625583</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+WeixinUser matching query does not exist.
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394625587</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wjbb.cloudapp.net/]]></EventKey>
+</xml>
+event output: VIEW
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1394625595</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+WeixinUser matching query does not exist.
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1394625598</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.soso.com/]]></EventKey>
+</xml>
+event output: VIEW
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394625599</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.soso.com/]]></EventKey>
+</xml>
+event output: VIEW
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394625604</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+event output: 为了获得更精确的知识推送，请去聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1394625604</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>40.051701</Latitude>
+<Longitude>116.296669</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+WeixinUser matching query does not exist.
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1394625606</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+WeixinUser matching query does not exist.
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1394625610</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+WeixinUser matching query does not exist.
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394625625</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394625627</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>3</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[美国有趣的青春期教育课程]]></Title> 
+<Description><![CDATA[高一年级的健康课规定每个学生去超市购买一袋10磅重的面粉当作自己的婴儿，在一周的时间里24小时贴身照顾自己的宝宝，目的是让这些青春期孩子知道做父母是一件很不简单的事情，提醒他们交男（女）朋友要谨慎，三思而后行。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15538/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[如何缓解孩子的心理压力]]></Title> 
+<Description><![CDATA[当孩子面临压力时，行为方面常表现为爱说假话、爱打人，故意损坏东西；情绪上常表现为爱哭闹、不讲理……作为家长，如果能细心观察孩子的言行，就能觉察孩子是否面临压力以及压力的程度如何。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15088/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[中国婆媳关系难相处的心理根源]]></Title> 
+<Description><![CDATA[在各种家庭关系当中，婆媳之间的关系大概是最不容易相处的了。为什么婆媳关系不大容易相处和谐呢？当我们尝试用社会心理学的视角去分析时，又会得到什么结论呢？ ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15346/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394625627</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>3</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[美国有趣的青春期教育课程]]></Title> 
+<Description><![CDATA[高一年级的健康课规定每个学生去超市购买一袋10磅重的面粉当作自己的婴儿，在一周的时间里24小时贴身照顾自己的宝宝，目的是让这些青春期孩子知道做父母是一件很不简单的事情，提醒他们交男（女）朋友要谨慎，三思而后行。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15538/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[如何缓解孩子的心理压力]]></Title> 
+<Description><![CDATA[当孩子面临压力时，行为方面常表现为爱说假话、爱打人，故意损坏东西；情绪上常表现为爱哭闹、不讲理……作为家长，如果能细心观察孩子的言行，就能觉察孩子是否面临压力以及压力的程度如何。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15088/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[中国婆媳关系难相处的心理根源]]></Title> 
+<Description><![CDATA[在各种家庭关系当中，婆媳之间的关系大概是最不容易相处的了。为什么婆媳关系不大容易相处和谐呢？当我们尝试用社会心理学的视角去分析时，又会得到什么结论呢？ ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15346/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394625632</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+event output: 为了获得更精确的知识推送，请去聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394625639</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+event output: 为了获得更精确的知识推送，请去聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394625714</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+event output: 为了获得更精确的知识推送，请去聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394626508</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+event output: 为了获得更精确的知识推送，请去聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394626671</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+event output: unsubscribe
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394626677</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+event output: <xml><ToUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1394626678</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[欢迎来养娃宝瞅一瞅~ 为了获得更精确的知识推送，请在聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~]]></Content><FuncFlag>0</FuncFlag></xml>
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394626687</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394626703</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394626712</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[20140101]]></Content>
+<MsgId>5989876118368077731</MsgId>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394626726</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394626741</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394626886</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394626930</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394627521</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>40.051430</Latitude>
+<Longitude>116.298492</Longitude>
+<Precision>849.000000</Precision>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394627522</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml><ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1394627524</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[您的位置是 ： 北京市海淀区东北旺路，更多功能稍后即来~]]></Content><FuncFlag>0</FuncFlag></xml>
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394627533</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml><ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1394627535</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[您的位置是 ： 北京市海淀区东北旺路，更多功能稍后即来~]]></Content><FuncFlag>0</FuncFlag></xml>
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394627550</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394627555</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394627572</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394627573</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>3</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[增强孩子记忆力的小游戏]]></Title> 
+<Description><![CDATA[记忆力的好坏不是天生的，是需要父母后天精心培养的，看看下面的小游戏，有助于增强孩子记忆力。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15310/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[儿童牙膏含氟量的极限标准]]></Title> 
+<Description><![CDATA[]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15661/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝触电了该如何做急救？]]></Title> 
+<Description><![CDATA[触电是日常生活中比较常见的意外伤害，儿童因触电而死亡的人数占儿童意外死亡总人数的10.6%。而在孩子的头脑中对于电的认识还很模糊，他们不知道触电是一种怎样的危险。为了使孩子远离危险，爸爸妈妈有必要了解与电有关的安全知识以及常见的急救措施。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15572/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394627573</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>3</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[增强孩子记忆力的小游戏]]></Title> 
+<Description><![CDATA[记忆力的好坏不是天生的，是需要父母后天精心培养的，看看下面的小游戏，有助于增强孩子记忆力。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15310/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[儿童牙膏含氟量的极限标准]]></Title> 
+<Description><![CDATA[]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15661/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝触电了该如何做急救？]]></Title> 
+<Description><![CDATA[触电是日常生活中比较常见的意外伤害，儿童因触电而死亡的人数占儿童意外死亡总人数的10.6%。而在孩子的头脑中对于电的认识还很模糊，他们不知道触电是一种怎样的危险。为了使孩子远离危险，爸爸妈妈有必要了解与电有关的安全知识以及常见的急救措施。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15572/]]></Url>
+</item>
+
+</Articles>
+</xml>
+[12/Mar/2014 08:51:09] "POST /weixin/dev/?signature=2468b45c72c16f321d35f65c4571df40407f3eed&timestamp=1394614267&nonce=268309733 HTTP/1.0" 200 1687
+[12/Mar/2014 08:51:17] "GET /weixin/knowledge/19093/ HTTP/1.1" 200 320
+[12/Mar/2014 08:51:25] "GET /weixin/knowledge/18339/ HTTP/1.1" 200 979
+[12/Mar/2014 08:51:52] "GET /weixin/knowledge/18339/ HTTP/1.1" 200 979
+[12/Mar/2014 08:53:19] "GET /weixin/knowledge/19093/ HTTP/1.1" 200 333
+[12/Mar/2014 08:53:23] "GET /weixin/knowledge/18339/ HTTP/1.1" 200 992
+[12/Mar/2014 08:53:32] "GET /weixin/knowledge/13796/ HTTP/1.1" 200 4370
+[12/Mar/2014 09:23:22] "GET /weixin/knowledge/18339 HTTP/1.1" 301 0
+[12/Mar/2014 09:23:23] "GET /weixin/knowledge/18339/ HTTP/1.1" 200 992
+[12/Mar/2014 10:26:42] "POST /weixin/dev/?signature=8520088151968f7cc91016f370d17e1e3d9cfbf1&timestamp=1394620001&nonce=1814358136 HTTP/1.0" 200 338
+[12/Mar/2014 11:50:25] "HEAD / HTTP/1.0" 200 0
+[12/Mar/2014 11:57:30] "GET /weixin/knowledge/9137/ HTTP/1.1" 200 2373
+[12/Mar/2014 11:58:30] "POST /weixin/dev/?signature=18e9769df65457a1d6be79807f1dfd6f701a6a19&timestamp=1394625509&nonce=1457061414 HTTP/1.0" 200 1616
+[12/Mar/2014 11:58:32] "POST /weixin/dev/?signature=10ca680018abe2fa826264da8b7a95166665b879&timestamp=1394625511&nonce=384842152 HTTP/1.0" 200 138
+[12/Mar/2014 11:58:43] "POST /weixin/dev/?signature=ee033bcaccbf65ffbdc2c7a837155171c92b700e&timestamp=1394625522&nonce=1158024345 HTTP/1.0" 200 1771
+[12/Mar/2014 11:58:59] "POST /weixin/dev/?signature=16a505404b340b2982d2f871504967e0355a1f40&timestamp=1394625537&nonce=1814012924 HTTP/1.0" 200 138
+[12/Mar/2014 11:59:06] "POST /weixin/dev/?signature=e8f79115b1ae4b82058045e34c06b62963422a0a&timestamp=1394625545&nonce=311151029 HTTP/1.0" 200 336
+[12/Mar/2014 11:59:30] "POST /weixin/dev/?signature=8f2bdde2571549b1caa2d59c8d701308431a7a71&timestamp=1394625569&nonce=402025086 HTTP/1.0" 200 138
+[12/Mar/2014 11:59:37] "POST /weixin/dev/?signature=aab800fc69465a75713c59f42c7d69be44ce3ada&timestamp=1394625575&nonce=2013506551 HTTP/1.0" 200 41
+[12/Mar/2014 11:59:39] "POST /weixin/dev/?signature=0ecf734499970facffde8577f3d92d19c966ad35&timestamp=1394625578&nonce=754832814 HTTP/1.0" 200 4
+[12/Mar/2014 11:59:41] "GET / HTTP/1.1" 200 8168
+[12/Mar/2014 11:59:41] "GET /static/apphome/files/base.css HTTP/1.1" 200 2772
+[12/Mar/2014 11:59:41] "GET /static/apphome/files/index.css HTTP/1.1" 200 6307
+[12/Mar/2014 11:59:41] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 200 324
+[12/Mar/2014 11:59:41] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 200 581
+[12/Mar/2014 11:59:41] "GET /static/apphome/files/sea.js HTTP/1.1" 200 11483
+[12/Mar/2014 11:59:42] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 200 10748
+[12/Mar/2014 11:59:42] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 200 11534
+[12/Mar/2014 11:59:42] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 200 108476
+[12/Mar/2014 11:59:42] "GET /static/img/home-slider-download.png HTTP/1.1" 404 1691
+[12/Mar/2014 11:59:42] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 200 135349
+[12/Mar/2014 11:59:43] "GET /static/apphome/files/vdisk.png HTTP/1.1" 200 15060
+[12/Mar/2014 11:59:43] "GET /static/img/home-page.jpg HTTP/1.1" 200 30499
+[12/Mar/2014 11:59:43] "GET /static/apphome/files/logo.jpg HTTP/1.1" 200 128645
+[12/Mar/2014 11:59:43] "GET /static/apphome/files/vablum.png HTTP/1.1" 200 14484
+[12/Mar/2014 11:59:43] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 200 13904
+[12/Mar/2014 11:59:45] "POST /weixin/dev/?signature=87af0eb38c52a587188550c1cca9051132cf1f04&timestamp=1394625583&nonce=2104377856 HTTP/1.0" 200 41
+[12/Mar/2014 11:59:47] "POST /weixin/dev/?signature=0506f42f818fdc917b2258c7aa423c2e5a217643&timestamp=1394625586&nonce=1349445065 HTTP/1.0" 200 4
+[12/Mar/2014 11:59:49] "GET / HTTP/1.1" 200 8168
+[12/Mar/2014 11:59:49] "GET /static/img/home-slider-download.png HTTP/1.1" 404 1691
+[12/Mar/2014 11:59:56] "POST /weixin/dev/?signature=dffe12f2105b154cac48a7cb865a35e29950b615&timestamp=1394625596&nonce=72821251 HTTP/1.0" 200 41
+[12/Mar/2014 11:59:59] "POST /weixin/dev/?signature=37e6446166353d8cfee3c1c31612a0aff750393a&timestamp=1394625599&nonce=1983960833 HTTP/1.0" 200 4
+[12/Mar/2014 12:00:00] "POST /weixin/dev/?signature=95d3a65b14e7a28d10f3c3a798d6da98b215e3ff&timestamp=1394625599&nonce=1121879593 HTTP/1.0" 200 4
+[12/Mar/2014 12:00:05] "POST /weixin/dev/?signature=8d95ab92750eb5ce71969cd9930862d09dd1601f&timestamp=1394625604&nonce=1909727591 HTTP/1.0" 200 138
+[12/Mar/2014 12:00:06] "POST /weixin/dev/?signature=a7bfb9ca87297bcaff8041c0a1dd46a072918593&timestamp=1394625605&nonce=138968261 HTTP/1.0" 200 41
+[12/Mar/2014 12:00:07] "POST /weixin/dev/?signature=6539043c405079aa04a46db8ed84e69c4091d22e&timestamp=1394625606&nonce=130891159 HTTP/1.0" 200 41
+[12/Mar/2014 12:00:11] "POST /weixin/dev/?signature=9fda4d57d095d3a41cee2a33d143cbf0765e2f3d&timestamp=1394625610&nonce=1410296688 HTTP/1.0" 200 41
+[12/Mar/2014 12:00:27] "POST /weixin/dev/?signature=03f7f1995c4aa8a971d2a3e6fbcd2c216a0754c9&timestamp=1394625625&nonce=508467273 HTTP/1.0" 200 1854
+[12/Mar/2014 12:00:33] "POST /weixin/dev/?signature=5e9a253b819bf48a42d8ead4ea5b35d5838dee5c&timestamp=1394625632&nonce=823040037 HTTP/1.0" 200 138
+[12/Mar/2014 12:00:40] "POST /weixin/dev/?signature=041a1f7405f375281b1dda8f6bddef3673477400&timestamp=1394625638&nonce=342599208 HTTP/1.0" 200 138
+[12/Mar/2014 12:00:40] "GET /weixin/knowledge/15538/ HTTP/1.1" 200 4181
+[12/Mar/2014 12:00:52] "GET /weixin/knowledge/15538/ HTTP/1.1" 200 4181
+[12/Mar/2014 12:01:08] "GET /weixin/knowledge/15088/ HTTP/1.1" 200 3117
+[12/Mar/2014 12:01:55] "POST /weixin/dev/?signature=896a229d6fec164a3b409dcd258ee734beabf172&timestamp=1394625714&nonce=391169278 HTTP/1.0" 200 138
+[12/Mar/2014 12:15:09] "POST /weixin/dev/?signature=ba859e7568b0a874874e595ef7498d04638be9bd&timestamp=1394626508&nonce=1004022881 HTTP/1.0" 200 138
+[12/Mar/2014 12:17:21] "GET /weixin/knowledge/15538/ HTTP/1.1" 200 4181
+[12/Mar/2014 12:17:53] "POST /weixin/dev/?signature=71b677a499ddce1bc8835b52585fb94ddb05cd43&timestamp=1394626671&nonce=572957346 HTTP/1.0" 200 11
+[12/Mar/2014 12:17:58] "POST /weixin/dev/?signature=fb04829dba52f75b35342162bbf2de0e0a670b3f&timestamp=1394626677&nonce=1053278870 HTTP/1.0" 200 422
+[12/Mar/2014 12:18:08] "POST /weixin/dev/?signature=3f2f0abad5cac368585bfc6ad68153b141ae174f&timestamp=1394626687&nonce=1017433600 HTTP/1.0" 200 57
+[12/Mar/2014 12:18:24] "POST /weixin/dev/?signature=821422e61bdbd5a40fbb707f86592c91d07c6112&timestamp=1394626703&nonce=1239866099 HTTP/1.0" 200 57
+[12/Mar/2014 12:18:34] "POST /weixin/dev/?signature=54c92065379e962118f5be6ee712fefc2fc1dcf7&timestamp=1394626712&nonce=1674750648 HTTP/1.0" 200 57
+[12/Mar/2014 12:18:48] "POST /weixin/dev/?signature=f0dd2e0c327a6d1b09134b838ab90732465708eb&timestamp=1394626726&nonce=1490503056 HTTP/1.0" 200 57
+[12/Mar/2014 12:19:03] "POST /weixin/dev/?signature=ba0880a7d1dd7d0f2f82790addad8d7aa0664341&timestamp=1394626741&nonce=560356895 HTTP/1.0" 200 57
+[12/Mar/2014 12:19:18] "GET /weixin/knowledge/15088/ HTTP/1.1" 200 3117
+[12/Mar/2014 12:21:27] "POST /weixin/dev/?signature=12a38fa2e8a39076e66c758c89e2017741501289&timestamp=1394626886&nonce=1424703180 HTTP/1.0" 200 57
+[12/Mar/2014 12:22:14] "POST /weixin/dev/?signature=ed63f3c30fc7e3322eaba8f162058c57c51b9c8f&timestamp=1394626930&nonce=1970751084 HTTP/1.0" 200 57
+[12/Mar/2014 12:32:02] "POST /weixin/dev/?signature=a075419fc4b723257d748fd68aca22557f8c1721&timestamp=1394627521&nonce=904366118 HTTP/1.0" 200 0
+[12/Mar/2014 12:32:04] "POST /weixin/dev/?signature=d03ca972254676c3544bc3ad7176061399ffc9da&timestamp=1394627522&nonce=1121377295 HTTP/1.0" 200 333
+[12/Mar/2014 12:32:15] "POST /weixin/dev/?signature=18b6c117a9999893a9a6f31d666a6dacc8a0301f&timestamp=1394627533&nonce=585509728 HTTP/1.0" 200 333
+[12/Mar/2014 12:32:31] "POST /weixin/dev/?signature=23f297df63d3bd4176e1bf84adeb96778b1b38f9&timestamp=1394627550&nonce=1567681155 HTTP/1.0" 200 0
+[12/Mar/2014 12:32:37] "POST /weixin/dev/?signature=83dc65883a564cb2b9a6b1ae71e5ec8c4d7bb347&timestamp=1394627555&nonce=1955892404 HTTP/1.0" 200 57
+[12/Mar/2014 12:32:53] "POST /weixin/dev/?signature=43780927bd27f79d401093a4f04ca46592e2f33f&timestamp=1394627571&nonce=1346930173 HTTP/1.0" 200 1530
+[12/Mar/2014 12:32:55] "POST /weixin/dev/?signature=164bd8b30b63af16fab504e78e9f1a731b875def&timestamp=1394627573&nonce=67178822 HTTP/1.0" 200 57
+[12/Mar/2014 12:33:02] "POST /weixin/dev/?signature=bb9005558638185a83afb63c949cdfc19e2f98ba&timestamp=1394627581&nonce=379425553 HTTP/1.0" 200 57
+[12/Mar/2014 12:33:09] "POST /weixin/dev/?signature=1097cb36c756f6536de4e10bfc2186dfc9b9a8d5&timestamp=1394627588&nonce=625915356 HTTP/1.0" 200 41
+[12/Mar/2014 12:33:10] "POST /weixin/dev/?signature=e36f6444ea73327fbd6d4b459f1f8799f15ef0c0&timestamp=1394627589&nonce=267449075 HTTP/1.0" 200 41
+[12/Mar/2014 12:33:15] "POST /weixin/dev/?signature=0149e1168afdf62f3b26e75cce9ca0d370595317&timestamp=1394627594&nonce=1807658204 HTTP/1.0" 200 0
+[12/Mar/2014 12:33:28] "POST /weixin/dev/?signature=4900d7d60d833a24cb90d072f6fee3e14df4a65e&timestamp=1394627607&nonce=312632182 HTTP/1.0" 200 57
+[12/Mar/2014 12:34:05] "POST /weixin/dev/?signature=d8f3b71bd0f9e3fae49015848d59176fbff07171&timestamp=1394627643&nonce=895768985 HTTP/1.0" 200 57
+[12/Mar/2014 12:34:14] "POST /weixin/dev/?signature=4db120777b7095fff5cf41d80f3baef43525a4be&timestamp=1394627653&nonce=2109139003 HTTP/1.0" 200 57
+[12/Mar/2014 12:35:13] "POST /weixin/dev/?signature=5984a0d466ffb51da55dcfdbdf51dcb708becb25&timestamp=1394627711&nonce=1087254654 HTTP/1.0" 200 57
+[12/Mar/2014 12:35:31] "POST /weixin/dev/?signature=ea4f1cfb7b3fd2f03c0f4dc37ecfe9def4d7b800&timestamp=1394627727&nonce=1161337345 HTTP/1.0" 200 0
+[12/Mar/2014 12:36:09] "POST /weixin/dev/?signature=184e88ea9fbb04b852121c1ee21d643bd8e601d9&timestamp=1394627767&nonce=153758048 HTTP/1.0" 200 57
+[12/Mar/2014 12:47:18] "GET /weixin/knowledge/15538 HTTP/1.1" 301 0
+[12/Mar/2014 12:47:19] "GET /weixin/knowledge/15538/ HTTP/1.1" 200 4181
+[12/Mar/2014 13:16:44] "POST /weixin/dev/?signature=87fbda0535b04c99e01f53baaee4f294a2fa7da2&timestamp=1394630203&nonce=623805098 HTTP/1.0" 200 57
+[12/Mar/2014 13:16:51] "POST /weixin/dev/?signature=547cf6435d38a46f5d7aaf8854e211b09e9a52cb&timestamp=1394630210&nonce=1400370573 HTTP/1.0" 200 57
+[12/Mar/2014 13:18:33] "POST /weixin/dev/?signature=844eea7d72773b3c01cf83785b9dcf33b428ec1e&timestamp=1394630311&nonce=836290604 HTTP/1.0" 200 57
+[12/Mar/2014 13:18:41] "POST /weixin/dev/?signature=4aca77ce8d033b8354ccbe93fbd2aa97a399b1f3&timestamp=1394630320&nonce=1756360902 HTTP/1.0" 200 57
+[12/Mar/2014 13:18:48] "POST /weixin/dev/?signature=44407de46f228f469396d9889a8e1c545b1408b2&timestamp=1394630327&nonce=1007530606 HTTP/1.0" 200 57
+[12/Mar/2014 13:25:30] "POST /weixin/dev/?signature=8ebab49e46adc0f5d0d5bf39b29e636de47737f7&timestamp=1394630728&nonce=349704936 HTTP/1.0" 200 57
+[12/Mar/2014 13:30:38] "POST /weixin/dev/?signature=707c370e1f199c03c2f26e3f309ac9c40e7afed3&timestamp=1394631037&nonce=1164401930 HTTP/1.0" 200 422
+[12/Mar/2014 14:06:28] "POST /weixin/dev/?signature=a82da180d5065a6c28cbcd0b1e96244769c8dd6c&timestamp=1394633187&nonce=1653345517 HTTP/1.0" 200 138
+[12/Mar/2014 14:06:28] "POST /weixin/dev/?signature=eb4ae44f1468eaffdd7a1686b9ca48d162c87fe4&timestamp=1394633186&nonce=894392331 HTTP/1.0" 200 0
+/usr/local/lib/python3.3/site-packages/django/db/models/fields/__init__.py:903: RuntimeWarning: DateTimeField WeixinUser.baby_birthday received a naive datetime (2014-01-10 00:00:00) while time zone support is active.
+  RuntimeWarning)
+
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394627573</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394627581</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1394627587</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>40.051693</Latitude>
+<Longitude>116.296638</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+WeixinUser matching query does not exist.
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1394627589</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+WeixinUser matching query does not exist.
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394627594</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394627607</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394627643</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394627653</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394627712</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394627728</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394627768</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394630203</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394630210</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394630311</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[20120101]]></Content>
+<MsgId>5989891575955376228</MsgId>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394630320</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394630327</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394630728</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></FromUserName>
+<CreateTime>1394631037</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+event output: <xml><ToUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1394631038</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[欢迎来养娃宝瞅一瞅~ 为了获得更精确的知识推送，请在聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~]]></Content><FuncFlag>0</FuncFlag></xml>
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></FromUserName>
+<CreateTime>1394633187</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+event output: 为了获得更精确的知识推送，请去聊天界面告诉我们您家宝宝的生日吧~
+例如：20140101
+请注意格式，谢谢~
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></FromUserName>
+<CreateTime>1394633186</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>40.043941</Latitude>
+<Longitude>116.402214</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></FromUserName>
+<CreateTime>1394633202</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[20140110]]></Content>
+<MsgId>5989903992705829137</MsgId>
+</xml>
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></FromUserName>
+<CreateTime>1394633207</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394633208</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>0</ArticleCount>
+<Articles>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394633208</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>0</ArticleCount>
+<Articles>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></FromUserName>
+<CreateTime>1394633212</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml><ToUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1394633214</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[您的位置是 ： 北京市昌平区清河路，更多功能稍后即来~]]></Content><FuncFlag>0</FuncFlag></xml>
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></FromUserName>
+<CreateTime>1394633225</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394633226</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>0</ArticleCount>
+<Articles>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394633226</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>0</ArticleCount>
+<Articles>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></FromUserName>
+<CreateTime>1394633231</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394633233</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>0</ArticleCount>
+<Articles>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394633233</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>0</ArticleCount>
+<Articles>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></FromUserName>
+<CreateTime>1394633236</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wjbb.cloudapp.net/]]></EventKey>
+</xml>
+event output: VIEW
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></FromUserName>
+<CreateTime>1394633243</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394633244</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>0</ArticleCount>
+<Articles>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394633244</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>0</ArticleCount>
+<Articles>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></FromUserName>
+<CreateTime>1394633247</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml><ToUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1394633249</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[您的位置是 ： 北京市昌平区清河路，更多功能稍后即来~]]></Content><FuncFlag>0</FuncFlag></xml>
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></FromUserName>
+<CreateTime>1394633251</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394633252</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>0</ArticleCount>
+<Articles>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuCWyVnSWaw10kz9V57OR_Fk]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394633252</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>0</ArticleCount>
+<Articles>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1394672232</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml><ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1394672234</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[您的位置是 ： 北京市海淀区东北旺路，更多功能稍后即来~]]></Content><FuncFlag>0</FuncFlag></xml>
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1394687408</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.977188</Latitude>
+<Longitude>116.330399</Longitude>
+<Precision>62.000000</Precision>
+</xml>
+get() returned more than one WeixinUser -- it returned 2!
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394714318</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394714319</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>3</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[国庆出游史上最强99个免费景点攻略]]></Title> 
+<Description><![CDATA[9月19日，由上海市旅游局官方微博发布的一条名为“史上最强99个免费景点攻略”的微博引发网友热议。该攻略详细刊载了上海、长三角乃至江西的99个免费景点。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15101/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[想让孩子成绩好的八个习惯]]></Title> 
+<Description><![CDATA[想让孩子学习成绩好，需要让孩子从小养成八个好习惯。习惯的养成不是一朝一夕的事。需要家长的耐心培养，订要求订计划，勤检查严督促，直到孩子的良好习惯渐渐养成。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15135/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[三类儿童易患高血压]]></Title> 
+<Description><![CDATA[小孩子血管柔软，管壁弹性好，发生高血压，看看是否有三种特定病因，对症治疗，高血压就能够治愈。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14977/]]></Url>
+</item>
+
+</Articles>
+</xml>
+[12/Mar/2014 14:06:44] "POST /weixin/dev/?signature=81218dbee4c6c5e2ce3301faa153c5d8839b4936&timestamp=1394633203&nonce=139140288 HTTP/1.0" 200 398
+[12/Mar/2014 14:06:48] "POST /weixin/dev/?signature=26f27190705cd809c730b0683bba84129cc453cf&timestamp=1394633207&nonce=1959649497 HTTP/1.0" 200 263
+[12/Mar/2014 14:06:54] "POST /weixin/dev/?signature=5ffcaee57b1e4eb3d0c8611136dfaa1ee86ea341&timestamp=1394633212&nonce=241742655 HTTP/1.0" 200 330
+[12/Mar/2014 14:07:06] "POST /weixin/dev/?signature=e2d04291da1ac9b87e9b4ddd5cbbb69579fa4fd5&timestamp=1394633225&nonce=1593113394 HTTP/1.0" 200 263
+[12/Mar/2014 14:07:13] "POST /weixin/dev/?signature=f63e68767c42a9616c7265723abe54652d49a4a9&timestamp=1394633231&nonce=1984503680 HTTP/1.0" 200 263
+[12/Mar/2014 14:07:18] "GET /?from=message&isappinstalled=0 HTTP/1.1" 200 8168
+[12/Mar/2014 14:07:18] "GET /static/apphome/files/index.css HTTP/1.1" 200 6307
+[12/Mar/2014 14:07:18] "GET /static/apphome/files/base.css HTTP/1.1" 200 2772
+[12/Mar/2014 14:07:18] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 200 581
+[12/Mar/2014 14:07:18] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 200 324
+[12/Mar/2014 14:07:18] "GET /static/apphome/files/sea.js HTTP/1.1" 200 11483
+[12/Mar/2014 14:07:18] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 200 10748
+[12/Mar/2014 14:07:18] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 200 11534
+[12/Mar/2014 14:07:18] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 200 13904
+[12/Mar/2014 14:07:18] "GET /static/apphome/files/vablum.png HTTP/1.1" 200 14484
+[12/Mar/2014 14:07:18] "GET /static/apphome/files/vdisk.png HTTP/1.1" 200 15060
+[12/Mar/2014 14:07:18] "GET /static/img/home-page.jpg HTTP/1.1" 200 30499
+[12/Mar/2014 14:07:18] "GET /static/img/home-slider-download.png HTTP/1.1" 404 1691
+[12/Mar/2014 14:07:18] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 200 135349
+[12/Mar/2014 14:07:19] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 200 108476
+[12/Mar/2014 14:07:19] "POST /weixin/dev/?signature=b402c5b7a33ab61421a674bf5a5c6e2602cc6e7c&timestamp=1394633237&nonce=1079450358 HTTP/1.0" 200 4
+[12/Mar/2014 14:07:19] "GET /static/apphome/files/logo.jpg HTTP/1.1" 200 128645
+[12/Mar/2014 14:07:24] "POST /weixin/dev/?signature=e765a137979b5b1eb1802bfaadbe2f1ccd89feda&timestamp=1394633243&nonce=1599833546 HTTP/1.0" 200 263
+[12/Mar/2014 14:07:29] "POST /weixin/dev/?signature=c9fe678720d50ea8e28997587af4e3524915aef7&timestamp=1394633247&nonce=669745104 HTTP/1.0" 200 330
+[12/Mar/2014 14:07:32] "POST /weixin/dev/?signature=0ad617f25197de40ba81a1f84eff8471ed980ae0&timestamp=1394633251&nonce=1637883524 HTTP/1.0" 200 263
+[12/Mar/2014 16:14:14] "GET / HTTP/1.1" 200 8168
+[12/Mar/2014 18:16:43] "GET / HTTP/1.1" 200 8168
+[12/Mar/2014 18:20:55] "HEAD / HTTP/1.0" 200 0
+[12/Mar/2014 20:14:26] "HEAD / HTTP/1.0" 200 0
+[13/Mar/2014 00:57:14] "POST /weixin/dev/?signature=780e16e5c1a2d40bee5ff5797bc170950c0ef814&timestamp=1394672232&nonce=1165523451 HTTP/1.0" 200 333
+[13/Mar/2014 01:13:09] "GET /CFIDE/administrator/enter.cfm HTTP/1.1" 404 2529
+[13/Mar/2014 01:46:15] "GET / HTTP/1.1" 200 8168
+[13/Mar/2014 01:46:15] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 200 324
+[13/Mar/2014 01:46:15] "GET /static/apphome/files/base.css HTTP/1.1" 200 2772
+[13/Mar/2014 01:46:15] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 200 581
+[13/Mar/2014 01:46:15] "GET /static/apphome/files/index.css HTTP/1.1" 200 6307
+[13/Mar/2014 01:46:15] "GET /static/apphome/files/sea.js HTTP/1.1" 200 11483
+[13/Mar/2014 01:46:15] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 200 10748
+[13/Mar/2014 01:46:15] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 200 11534
+[13/Mar/2014 01:46:16] "GET /static/img/home-slider-download.png HTTP/1.1" 404 1691
+[13/Mar/2014 01:46:16] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 200 135349
+[13/Mar/2014 01:46:16] "GET /static/apphome/files/vdisk.png HTTP/1.1" 200 15060
+[13/Mar/2014 01:46:16] "GET /static/img/home-page.jpg HTTP/1.1" 200 30499
+[13/Mar/2014 01:46:16] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 200 108476
+[13/Mar/2014 01:46:16] "GET /static/apphome/files/logo.jpg HTTP/1.1" 200 128645
+[13/Mar/2014 01:46:16] "GET /static/apphome/files/vablum.png HTTP/1.1" 200 14484
+[13/Mar/2014 01:46:16] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 200 13904
+[13/Mar/2014 01:46:20] "GET / HTTP/1.1" 200 8168
+[13/Mar/2014 01:46:20] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 304 0
+[13/Mar/2014 01:46:20] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 304 0
+[13/Mar/2014 01:46:20] "GET /static/apphome/files/base.css HTTP/1.1" 304 0
+[13/Mar/2014 01:46:20] "GET /static/apphome/files/index.css HTTP/1.1" 304 0
+[13/Mar/2014 01:46:20] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 304 0
+[13/Mar/2014 01:46:20] "GET /static/apphome/files/sea.js HTTP/1.1" 304 0
+[13/Mar/2014 01:46:20] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 304 0
+[13/Mar/2014 01:46:20] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 304 0
+[13/Mar/2014 01:46:20] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 304 0
+[13/Mar/2014 01:46:21] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 304 0
+[13/Mar/2014 01:46:21] "GET /static/img/home-page.jpg HTTP/1.1" 304 0
+[13/Mar/2014 01:46:21] "GET /static/apphome/files/vablum.png HTTP/1.1" 304 0
+[13/Mar/2014 01:46:21] "GET /static/apphome/files/vdisk.png HTTP/1.1" 304 0
+[13/Mar/2014 01:46:23] "GET / HTTP/1.1" 200 8168
+[13/Mar/2014 01:50:25] "GET / HTTP/1.1" 200 8168
+[13/Mar/2014 01:50:25] "GET /static/img/home-slider-download.png HTTP/1.1" 404 1691
+[13/Mar/2014 04:55:05] "GET / HTTP/1.0" 200 8168
+[13/Mar/2014 05:03:39] "GET /manager/html HTTP/1.1" 404 2478
+[13/Mar/2014 05:10:09] "POST /weixin/dev/?signature=f4a2aad0804fc4549fa68c701dd54f9d29ddc833&timestamp=1394687408&nonce=1849167375 HTTP/1.0" 200 57
+[13/Mar/2014 06:12:25] "HEAD / HTTP/1.0" 200 0
+[13/Mar/2014 12:28:26] "HEAD / HTTP/1.0" 200 0
+[13/Mar/2014 12:38:39] "POST /weixin/dev/?signature=506e5d0897b35c16772923a613d8511f6290cb22&timestamp=1394714318&nonce=482506416 HTTP/1.0" 200 1636
+[13/Mar/2014 12:38:55] "GET /weixin/knowledge/15135/ HTTP/1.1" 200 3662
+[13/Mar/2014 12:39:12] "POST /weixin/dev/?signature=45ab335e2024d1937967945b15e013eb5e5715d2&timestamp=1394714350&nonce=1199689234 HTTP/1.0" 200 0
+[13/Mar/2014 12:39:26] "POST /weixin/dev/?signature=c365057c463b56a176b11bd21e99b855a10bbd96&timestamp=1394714364&nonce=1690088438 HTTP/1.0" 200 4
+[13/Mar/2014 12:39:36] "POST /weixin/dev/?signature=a22cccafdcc5b47129ce84c6f08c0f64cc5086de&timestamp=1394714374&nonce=1521387195 HTTP/1.0" 200 4
+[13/Mar/2014 12:39:36] "GET / HTTP/1.1" 200 8168
+[13/Mar/2014 12:39:36] "GET /static/apphome/files/base.css HTTP/1.1" 200 2772
+[13/Mar/2014 12:39:36] "GET /static/apphome/files/index.css HTTP/1.1" 200 6307
+[13/Mar/2014 12:39:36] "GET /static/apphome/files/cdn_djl.js HTTP/1.1" 200 324
+[13/Mar/2014 12:39:37] "GET /static/apphome/files/wy_nav.js HTTP/1.1" 200 581
+[13/Mar/2014 12:39:37] "GET /static/apphome/files/sea.js HTTP/1.1" 200 11483
+[13/Mar/2014 12:39:37] "GET /static/apphome/files/qqdisk_web_common_wy.js HTTP/1.1" 200 10748
+[13/Mar/2014 12:39:37] "GET /static/apphome/files/tcss.ping.js HTTP/1.1" 200 11534
+[13/Mar/2014 12:39:37] "GET /static/apphome/files/vdisk.png HTTP/1.1" 200 15060
+[13/Mar/2014 12:39:38] "GET /static/apphome/files/jquery-1.6.4.js HTTP/1.1" 200 135349
+[13/Mar/2014 12:39:38] "GET /static/apphome/files/qqviplib_2.0.0.js HTTP/1.1" 200 108476
+[13/Mar/2014 12:39:38] "GET /static/apphome/files/vablum.png HTTP/1.1" 200 14484
+[13/Mar/2014 12:39:38] "GET /static/img/home-slider-download.png HTTP/1.1" 404 1691
+[13/Mar/2014 12:39:38] "GET /static/img/home-page.jpg HTTP/1.1" 200 30499
+[13/Mar/2014 12:39:38] "GET /static/apphome/files/vtransfer.png HTTP/1.1" 200 13904
+[13/Mar/2014 12:39:38] "GET /static/apphome/files/logo.jpg HTTP/1.1" 200 128645
+[13/Mar/2014 12:40:02] "POST /weixin/dev/?signature=c4a2d0003d89279d50efc8d7eb6e0825a0567511&timestamp=1394714400&nonce=1054319475 HTTP/1.0" 200 1636
+[13/Mar/2014 12:40:10] "GET /weixin/knowledge/14819/ HTTP/1.1" 200 2042
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394714319</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>3</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[国庆出游史上最强99个免费景点攻略]]></Title> 
+<Description><![CDATA[9月19日，由上海市旅游局官方微博发布的一条名为“史上最强99个免费景点攻略”的微博引发网友热议。该攻略详细刊载了上海、长三角乃至江西的99个免费景点。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15101/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[想让孩子成绩好的八个习惯]]></Title> 
+<Description><![CDATA[想让孩子学习成绩好，需要让孩子从小养成八个好习惯。习惯的养成不是一朝一夕的事。需要家长的耐心培养，订要求订计划，勤检查严督促，直到孩子的良好习惯渐渐养成。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15135/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[三类儿童易患高血压]]></Title> 
+<Description><![CDATA[小孩子血管柔软，管壁弹性好，发生高血压，看看是否有三种特定病因，对症治疗，高血压就能够治愈。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14977/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394714351</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: 
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394714364</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.soso.com/]]></EventKey>
+</xml>
+event output: VIEW
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394714374</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://wjbb.cloudapp.net/]]></EventKey>
+</xml>
+event output: VIEW
+dev_view start
+msg: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1394714400</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+<xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394714402</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>3</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[孩子多动查查血铅]]></Title> 
+<Description><![CDATA[对于铅中毒的小患者，要及时带孩子到专业门诊检查，平时家长可给孩子进行多种维生素均衡的营养补充，鼓励孩子膳食营养均衡，利于孩子排铅。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14819/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[逃生训练从小做起]]></Title> 
+<Description><![CDATA[我们都盼望孩子今生平安顺利，但我们美好的愿望并不能阻挡灾害的发生——灾害并不以我们的意志为转移，所以让孩子拥有临灾智慧，拥有顺利逃生的技能是很迫切的家教任务。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14799/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[给独生子女的爱的教育]]></Title> 
+<Description><![CDATA[教育孩子从小学会感恩，学会去爱他人，培养一个富有爱心的孩子是一门学问，没有专门的老师来教，只有家长才能胜任言传身教的角色。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15577/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1394714402</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>3</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[孩子多动查查血铅]]></Title> 
+<Description><![CDATA[对于铅中毒的小患者，要及时带孩子到专业门诊检查，平时家长可给孩子进行多种维生素均衡的营养补充，鼓励孩子膳食营养均衡，利于孩子排铅。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14819/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[逃生训练从小做起]]></Title> 
+<Description><![CDATA[我们都盼望孩子今生平安顺利，但我们美好的愿望并不能阻挡灾害的发生——灾害并不以我们的意志为转移，所以让孩子拥有临灾智慧，拥有顺利逃生的技能是很迫切的家教任务。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/14799/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[给独生子女的爱的教育]]></Title> 
+<Description><![CDATA[教育孩子从小学会感恩，学会去爱他人，培养一个富有爱心的孩子是一门学问，没有专门的老师来教，只有家长才能胜任言传身教的角色。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/15577/]]></Url>
+</item>
+
+</Articles>
+</xml>
+

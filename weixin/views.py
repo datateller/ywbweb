@@ -15,7 +15,12 @@ from datetime import datetime
 
 from knowledge.models import Knowledge
 from .models import WeixinUser
+from .baidumap import *
 
+reply_null = ''
+reply_address_null = '''
+对不起，没有获取到您当前的位置
+'''
 reply0 = '''欢迎来养娃宝瞅一瞅~ 为了获得更精确的知识推送，请在聊天界面告诉我们您家宝宝的生日吧~
 例如：20140101
 请注意格式，谢谢~'''
@@ -29,9 +34,7 @@ reply3 = '''不好意思哦，我们暂时只能支持0-6岁的宝贝~
 reply_location = '''您的位置是 ： %s，更多功能稍后即来~'''
 
 def weixin_check_view(request):
-    print('start devreg')
     echostr = request.GET.get('echostr')
-    print(echostr)
     response = 'weixincheck failed'
     if weixincheck(request):
         print(echostr)
@@ -94,21 +97,7 @@ def konwledges_reply(age_by_day, number, msg):
     context['number'] = str(number)
     context['create_time'] = str(int(time.time()))
     t = get_template('weixin/knowledges_msg.xml')
-    print(t.render(Context(context)))
     return t.render(Context(context))
-
-def get_baidu_address(latitude, longitude):
-    import pycurl, json
-    from io import BytesIO
-    token_req = pycurl.Curl()
-    token_resp = BytesIO()
-    token_req.setopt(pycurl.WRITEFUNCTION, token_resp.write)
-    ak = 'GLbmnUGjCe4B62dqW6l695fL'
-    url = 'http://api.map.baidu.com/geocoder/v2/?ak=%s&callback=renderReverse&location=%s,%s&output=json&pois=1'%(ak, latitude, longitude)
-    token_req.setopt(token_req.URL, url)
-    token_req.perform()
-    token = json.loads((token_resp.getvalue().decode()[29:-1]))
-    return token['result']['formatted_address']
 
 def weixin_event_handle(msg):
     if msg['Event'] == 'subscribe':
@@ -116,17 +105,26 @@ def weixin_event_handle(msg):
         new_user = WeixinUser(openid = new_openid)
         new_user.save()
         return weixin_reply_msg(msg, reply0)
+    if msg['Event'] == 'unsubscribe':
+        del_openid = msg['FromUserName']
+        del_user = WeixinUser.objects.get(openid = del_openid)
+        if del_user:
+            del_user.delete()
+            print('weixin user %s unsubscribe' % del_openid)
+        return weixin_reply_msg(msg, reply_null)
     if msg['Event'] == 'LOCATION':
         latitude = msg['Latitude']
         longitude = msg['Longitude']
         precision = msg['Precision']
+        print('user %s location is %s,%s' % (msg['FromUserName'], latitude, longitude))
         weixin_user = WeixinUser.objects.get(openid=msg['FromUserName'])
-        weixin_user.latitude = (float)(msg['Latitude'])
-        weixin_user.longitude = (float)(msg['Longitude'])
-        weixin_user.precision = (float)(msg['Precision'])
+        weixin_user.latitude = (float)(latitude)
+        weixin_user.longitude = (float)(longitude)
+        weixin_user.precision = (float)(precision)
         weixin_user.save()
         #return (reply_location%(latitude, longitude, precision))
-        return ''
+        print('user  %s location is %s,%s saved in db' % (weixin_user.openid, weixin_user.latitude, weixin_user.longitude))
+        return weixin_reply_msg(msg, reply_null)
     if msg['Event'] == 'CLICK':
         event_key = msg['EventKey']
         if event_key == 'TODAY_KNOWLEDGE':
@@ -135,25 +133,27 @@ def weixin_event_handle(msg):
             if not baby_birthday:
                 return reply1
             else:
-                return konwledges_reply(birthday_to_age(baby_birthday.strftime('%Y%m%d')),2,msg)
+                return konwledges_reply(birthday_to_age(baby_birthday.strftime('%Y%m%d')),3,msg)
         if event_key == 'AROUD_BABY':
             weixin_user = WeixinUser.objects.get(openid=msg['FromUserName'])
             latitude = weixin_user.latitude
             longitude = weixin_user.longitude
             precision = weixin_user.precision
             if latitude and longitude and precision:
-                return weixin_reply_msg(msg, reply_location%(get_baidu_address(latitude, longitude)))
+                baidu_location = convert_baidu_location(latitude, longitude)
+                if baidu_location and len(baidu_location) == 2:
+                    return weixin_reply_msg(msg, reply_location%(get_baidu_address(baidu_location[0], baidu_location[1])))
+                else:
+                    return weixin_reply_msg(msg, reply_address_null)
             else:
-                return ''
+                return weixin_reply_msg(msg, reply_address_null)
     return msg['Event']
 
 #处理微信请求的view函数
 @csrf_exempt
 def weixin_dev_view(request):
     try:
-        print('dev_view start')
         rawstr = smart_str(request.body)
-        print('msg: %s'%(rawstr))
         msg = weixinmsg_to_map(rawstr)
         reply = ''
         msg_type = msg['MsgType']
