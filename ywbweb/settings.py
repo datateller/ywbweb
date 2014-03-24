@@ -50,6 +50,8 @@ INSTALLED_APPS = (
     'merchant',
     'registration',
     'weixin',
+    'django.contrib.gis',
+    'surrounding',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -71,7 +73,7 @@ WSGI_APPLICATION = 'ywbweb.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE':'django.db.backends.postgresql_psycopg2',
+        'ENGINE':'django.contrib.gis.db.backends.postgis',
         'NAME': 'ywbwebdb',
         'USER': 'wjbb',
         'PASSWORD': 'wjbb111',
@@ -86,14 +88,22 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '5432',
     },
-    'weixindb': {
-        'ENGINE':'django.db.backends.postgresql_psycopg2',
-        'NAME': 'weixindb',
-        'USER': 'wjbb',
-        'PASSWORD': 'wjbb111',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    },
+#     'geodb': {
+#         'ENGINE': 'django.contrib.gis.db.backends.postgis',
+#         'NAME': 'geodb',
+#         'USER': 'wjbb',
+#         'PASSWORD': 'wjbb111',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     },
+#     'weixindb': {
+#         'ENGINE':'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'weixindb',
+#         'USER': 'wjbb',
+#         'PASSWORD': 'wjbb111',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     },
 }
 
 # Internationalization
@@ -133,4 +143,4 @@ EMAIL_HOST_USER = 'datateller@126.com'
 EMAIL_HOST_PASSWORD = 'wjbb111'
 EMAIL_USE_TLS = True
 
-DATABASE_ROUTERS = ['ywbweb.dbrouter.DBRouter',]
+#DATABASE_ROUTERS = ['ywbweb.dbrouter.DBRouter',]

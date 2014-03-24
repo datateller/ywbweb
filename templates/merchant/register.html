@@ -16,11 +16,58 @@
     <script type="text/javascript">
 var map = new BMap.Map("allmap");
 var point = new BMap.Point(116.404, 39.915);
-map.centerAndZoom(point, 15);
+map.centerAndZoom(point, 14);
 var marker = new BMap.Marker();
-//map.addOverlay(marker);              
-//marker.setAnimation(BMAP_ANIMATION_BOUNCE);
-//marker.enableDragging();
+distance = 2000
+
+function GetXmlHttpObject() {  
+var xmlHttp=null;  
+try {  
+// Firefox, Opera 8.0+, Safari  
+xmlHttp=new XMLHttpRequest();  
+} catch (e) {  
+// Internet Explorer  
+try {  
+xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");  
+} catch (e) {  
+xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");  
+}  
+}  
+if (xmlHttp==null) {  
+alert ("Your browser does not support AJAX!");  
+return;  
+}  
+return xmlHttp;  
+}
+
+function addMarker(point){
+  var marker = new BMap.Marker(point);
+  map.addOverlay(marker);
+  marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+}
+
+function getsurr(longitude, latitude){
+var xmlHttp=GetXmlHttpObject();  
+responseText="";
+xmlHttp.onreadystatechange= function() {  
+if (xmlHttp.readyState==4) {  
+if (xmlHttp.status==200) {  
+// Here we process the response  
+    responseText=xmlHttp.responseText;
+    userpoints = eval(responseText);
+    for (var p in userpoints) {
+      var point = new BMap.Point(userpoints[p].x, userpoints[p].y);
+      addMarker(point);
+    }//add points on map
+} else {  
+alert("An error has occurred");  
+}  
+}  
+}
+RequestURL="http://localhost:8000/surrounding/getsurr/?longitude="+longitude+"&latitude="+latitude+"&distance="+distance;
+xmlHttp.open("GET",RequestURL,true); //submit the URL request  
+xmlHttp.send(null);
+}
 
 function fillform(){
   var p = marker.getPosition();
@@ -49,9 +96,12 @@ var city = register_form.city.value
 var address = register_form.address.value
 myGeo.getPoint(address, function(point){
   if (point) {
-    map.centerAndZoom(point, 16);
-    marker = new BMap.Marker(point)
+    map.centerAndZoom(point, 15);
+    marker = new BMap.Marker(point);
     map.addOverlay(marker);
+    getsurr(point.lng, point.lat, distance);
+    var circle = new BMap.Circle(point,distance);
+    map.addOverlay(circle);
     marker.enableDragging();
  }
 },city);

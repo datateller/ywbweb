@@ -13,5 +13,6 @@ urlpatterns = patterns('',
     url(r'^merchant/', include('merchant.urls')),
     url(r'^merchant/accounts/', include('registration.backends.default.urls')),
     url(r'^weixin/', include('weixin.urls')),
+    url(r'^surrounding/', include('surrounding.urls')),
 )
 

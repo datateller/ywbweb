@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <h1>add user</h1>
+    {% if form.errors %}
+        <p style="color: red;">
+            Please correct the error{{ form.errors|pluralize }} below.
+        </p>
+    {% endif %}
+    <form name="userform" action="" method="post" >
+    {% csrf_token %}
+        <div class="field">
+            {{ form.longitude.errors }}
+            <label for="id_longitude">Longitude:</label>
+            {{ form.longitude }}
+        </div>
+        <div class="field">
+            {{ form.latitude.errors }}
+            <label for="id_latitude">Latitude:</label>
+            {{ form.latitude }}
+        </div>
+        <div class="field">
+            {{ form.name.errors }}
+            <label for="id_name">Name:</label>
+            {{ form.name }}
+        </div>
+        <input type="submit" value="Add User"/>
+    </form>
+</body>
+
+</html>

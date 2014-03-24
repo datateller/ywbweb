@@ -1,0 +1,95 @@
+<html>
+<head>
+    <title>Contact us</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+    body, html,#allmap {width: 75%;height: 75%;overflow: hidden;margin:0;}
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=GLbmnUGjCe4B62dqW6l695fL"></script>
+</head>
+<body>
+    <h1>Contact us</h1>
+
+    {% if form.errors %}
+        <p style="color: red;">
+            Please correct the error{{ form.errors|pluralize }} below.
+        </p>
+    {% endif %}
+
+    <form name="myform" action="" method="post" >
+    {% csrf_token %}
+        <div class="field">
+            {{ form.longitude.errors }}
+            <label for="id_longitude">Longitude:</label>
+            {{ form.longitude }}
+        </div>
+        <div class="field">
+            {{ form.latitude.errors }}
+            <label for="id_latitude">Latitude:</label>
+            {{ form.latitude }}
+        </div>
+        <div class="field">
+            <label for="id_city">map:</label>
+            <input type="text" name="city" id="city" />
+            <input type="text" name="street" id="street"/>
+            <input type="button" name="button" value="查地图"  onclick="locatemap()" />
+        </div>
+        <div class="field">
+            {{ form.message.errors }}
+            <label for="id_message">Address:</label>
+            {{ form.message }}
+        </div>
+        <input type="submit" value="Submit" onclick="fillform()" />
+    </form>
+    
+    			<div id="allmap"></div>
+</body>
+
+</html>
+
+<script type="text/javascript">
+var map = new BMap.Map("allmap");
+//var point = new BMap.Point(116.404, 39.915);
+//map.centerAndZoom(point, 15);
+var marker = new BMap.Marker();
+//map.addOverlay(marker);              
+//marker.setAnimation(BMAP_ANIMATION_BOUNCE);
+//marker.enableDragging();
+
+function fillform(){
+  var p = marker.getPosition();
+  //alert(p.lng + "," +p.lat);
+  if(p.lng) {
+    myform.longitude.value = p.lng;
+    myform.latitude.value = p.lat;
+  } else {
+  var myGeo = new BMap.Geocoder();
+	// 将地址解析结果显示在地图上,并调整地图视野
+	var city = myform.city.value;
+	var street = myform.street.value;
+	myGeo.getPoint(street, function(point){
+  if (point) {
+    myform.longitude.value = point.lng;
+    myform.latitude.value = point.lat;
+ }
+},city);
+      }
+}
+
+function locatemap(){
+var myGeo = new BMap.Geocoder();
+// 将地址解析结果显示在地图上,并调整地图视野
+var city = myform.city.value
+var street = myform.street.value
+myGeo.getPoint(street, function(point){
+  if (point) {
+    map.centerAndZoom(point, 16);
+    marker = new BMap.Marker(point)
+    map.addOverlay(marker);
+    marker.enableDragging();
+ }
+},city);
+}
+
+</script>
