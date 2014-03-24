@@ -69,6 +69,7 @@ def birthday_to_age(birthday_str):
     try:
         d = datetime.strptime(birthday_str, "%Y%m%d")
         days = (today - d).days
+        print('baby age by day is %d' % days)
         if days//365 not in (0,1,2,3,4,5,6):
             return 'age_error'
         else:
@@ -76,7 +77,7 @@ def birthday_to_age(birthday_str):
     except Exception as e:
         return e
 
-def konwledges_reply(age_by_day, number, msg):
+def weixin_konwledges_reply(age_by_day, number, msg):
     age = int(age_by_day)
     knowls_all = Knowledge.objects.using('wjbbserverdb').filter(max__gte = age, min__lte = age)
     knowls = None
@@ -116,7 +117,6 @@ def weixin_event_handle(msg):
         latitude = msg['Latitude']
         longitude = msg['Longitude']
         precision = msg['Precision']
-        print('user %s location is %s,%s' % (msg['FromUserName'], latitude, longitude))
         weixin_user = WeixinUser.objects.get(openid=msg['FromUserName'])
         weixin_user.latitude = (float)(latitude)
         weixin_user.longitude = (float)(longitude)
@@ -131,9 +131,9 @@ def weixin_event_handle(msg):
             weixin_user = WeixinUser.objects.get(openid=msg['FromUserName'])
             baby_birthday = weixin_user.baby_birthday
             if not baby_birthday:
-                return reply1
+                return weixin_reply_msg(msg, reply1)
             else:
-                return konwledges_reply(birthday_to_age(baby_birthday.strftime('%Y%m%d')),3,msg)
+                return weixin_konwledges_reply(birthday_to_age(baby_birthday.strftime('%Y%m%d')),3,msg)
         if event_key == 'AROUD_BABY':
             weixin_user = WeixinUser.objects.get(openid=msg['FromUserName'])
             latitude = weixin_user.latitude
