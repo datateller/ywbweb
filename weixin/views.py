@@ -157,11 +157,12 @@ def weixin_event_handle(msg):
             longitude = weixin_user.longitude
             precision = weixin_user.precision
             if latitude and longitude and precision:
-                baidu_location = convert_baidu_location(latitude, longitude)
-                if baidu_location and len(baidu_location) == 2:
-                    return weixin_reply_msg(msg, reply_location%(get_baidu_address(baidu_location[0], baidu_location[1])))
-                else:
-                    return weixin_reply_msg(msg, reply_address_null)
+                return weixin_reply_msg(msg,weixin_offline_reply(latitude, longitude, 1, msg))
+#                 baidu_location = convert_baidu_location(latitude, longitude)
+#                 if baidu_location and len(baidu_location) == 2:
+#                     return weixin_reply_msg(msg, reply_location%(get_baidu_address(baidu_location[0], baidu_location[1])))
+#                 else:
+#                     return weixin_reply_msg(msg, reply_address_null)
             else:
                 return weixin_reply_msg(msg, reply_address_null)
     return msg['Event']
