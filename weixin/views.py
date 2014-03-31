@@ -14,6 +14,7 @@ import base64, json, random, math
 from datetime import datetime
 
 from knowledge.models import Knowledge
+from .weather import *
 from .models import WeixinUser
 from .baidumap import *
 
@@ -77,7 +78,7 @@ def birthday_to_age(birthday_str):
     except Exception as e:
         return e
 
-def weixin_konwledges_reply(age_by_day, number, msg):
+def weixin_konwledges_reply(age_by_day, number, msg, weatherinfo):
     age = int(age_by_day)
     knowls_all = Knowledge.objects.using('wjbbserverdb').filter(max__gte = age, min__lte = age)
     knowls = None
@@ -95,8 +96,15 @@ def weixin_konwledges_reply(age_by_day, number, msg):
     context['knowls'] = knowls
     context['fromUser'] = msg['ToUserName']
     context['toUser'] = msg['FromUserName']
-    context['number'] = str(number)
+    context['number'] = str(number+1)
     context['create_time'] = str(int(time.time()))
+    context["weather_info"] = weatherinfo
+    context['temperature'] = weatherinfo['temperature']
+    context['detailinfo'] = weatherinfo['detailinfo']
+    context['info'] = weatherinfo['info']
+    context['weather_picurl'] = 'http://wjbb.cloudapp.net:8001/pic/'+str(picindexes[0])+'.jpg'
+    context['weather_url'] = 'http://wjbb.cloudapp.net/weixin/knowledge/%d/'%(knowls[0].id)
+    print("weather info", weatherinfo)
     t = get_template('weixin/knowledges_msg.xml')
     return t.render(Context(context))
 
@@ -128,12 +136,24 @@ def weixin_event_handle(msg):
     if msg['Event'] == 'CLICK':
         event_key = msg['EventKey']
         if event_key == 'TODAY_KNOWLEDGE':
+            print("come here")
             weixin_user = WeixinUser.objects.get(openid=msg['FromUserName'])
             baby_birthday = weixin_user.baby_birthday
+            latitude = weixin_user.latitude
+            longitude = weixin_user.longitude
+            weatherinfo = ""
+            print("in know:long:lat", latitude, longitude)
+            if latitude and longitude:
+                addr = get_baidu_address(latitude, longitude, False)
+                weatherinfo = getweatherinfoconv(addr)
+                print("weatherinfo:", weatherinfo)
+            else:
+                weatherinfo = getweatherinfoconv()
+                print("default weather")
             if not baby_birthday:
                 return weixin_reply_msg(msg, reply1)
             else:
-                return weixin_konwledges_reply(birthday_to_age(baby_birthday.strftime('%Y%m%d')),3,msg)
+                return weixin_konwledges_reply(birthday_to_age(baby_birthday.strftime('%Y%m%d')),3,msg, weatherinfo)
         if event_key == 'AROUD_BABY':
             weixin_user = WeixinUser.objects.get(openid=msg['FromUserName'])
             latitude = weixin_user.latitude
@@ -154,6 +174,7 @@ def weixin_event_handle(msg):
 def weixin_dev_view(request):
     try:
         rawstr = smart_str(request.body)
+        print("rawstr:", rawstr)
         msg = weixinmsg_to_map(rawstr)
         reply = ''
         msg_type = msg['MsgType']

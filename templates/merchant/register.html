@@ -64,7 +64,7 @@ alert("An error has occurred");
 }  
 }  
 }
-RequestURL="http://localhost:8000/surrounding/getsurr/?longitude="+longitude+"&latitude="+latitude+"&distance="+distance;
+RequestURL="http://wjbb.cloudapp.net:80/surrounding/getsurr/?longitude="+longitude+"&latitude="+latitude+"&distance=2000";
 xmlHttp.open("GET",RequestURL,true); //submit the URL request  
 xmlHttp.send(null);
 }

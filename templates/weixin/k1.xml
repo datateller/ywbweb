@@ -8,8 +8,8 @@
 <item>
 <Title><![CDATA[{{temperature}} {{detailinfo}}]]></Title>
 <Description><![CDATA[{{detailinfo}}]]></Description>
-<PicUrl><![CDATA[{{weather_picurl}}]]></PicUrl>
-<Url><![CDATA[{{weather_url}}]]></Url>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/22160]]></Url>
 </item>
 {% for knowl in knowls %}
 <item>
