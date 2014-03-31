@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <h1>add shop</h1>
+    {% if form.errors %}
+        <p style="color: red;">
+            Please correct the error{{ form.errors|pluralize }} below.
+        </p>
+    {% endif %}
+    <form name="shopform" action="" method="post" >
+    {% csrf_token %}
+        <div class="field">
+            {{ form.name.errors }}
+            <label for="id_name">name:</label>
+            {{ form.name }}
+        </div>
+       <div class="field">
+            {{ form.city.errors }}
+            <label for="id_city">city:</label>
+            {{ form.city }}
+        </div>
+        <div class="field">
+            {{ form.address.errors }}
+            <label for="id_address">address:</label>
+            {{ form.address }}
+        </div>
+        <div class="field">
+            {{ form.url.errors }}
+            <label for="id_url">url:</label>
+            {{ form.url }}
+        </div>
+        <div class="field">
+            {{ form.description.errors }}
+            <label for="id_description">description:</label>
+            {{ form.description }}
+        </div>
+        <input type="submit" value="Add Shop"/>
+    </form>
+</body>
+
+</html>

@@ -52,6 +52,7 @@ INSTALLED_APPS = (
     'weixin',
     'django.contrib.gis',
     'surrounding',
+    'offline',
 )
 
 MIDDLEWARE_CLASSES = (
