@@ -6,7 +6,7 @@
 <ArticleCount>{{number}}</ArticleCount>
 <Articles>
 <item>
-<Title><![CDATA[{{temperature}} {{detailinfo}}]]></Title>
+<Title><![CDATA[{{temperature}}度 {{wind}}{{windstrong}} {{detailinfo}}]]></Title>
 <Description><![CDATA[{{detailinfo}}]]></Description>
 <PicUrl><![CDATA[{{weather_picurl}}]]></PicUrl>
 <Url><![CDATA[{{weather_url}}]]></Url>

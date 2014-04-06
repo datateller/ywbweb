@@ -3,33 +3,49 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1" />
 </head>
 <body>
 <div align="center">
-<img src={{pic}}>
+<img src={{pic}}  style="width: 300px; height: 241px, display:inline">
 </div>
 <span align="center">
-<h1>
+<h2>
 {{offline_title}}<br/>
-</h1>
-</span>
-
-<span>
-<h2>
-<a>{{offline_link}}</a>
 </h2>
 </span>
 
 <span>
-<h2>
-{{offline_address}}
-</h2>
+<h3>
+商家地址：{{offline_address}}
+</h3>
 </span>
 
 <span>
-<h2>
-{{offline_content}}
-</h2>
+<h3>
+商家简介：{{offline_content}}
+</h3>
 <br/></span>
+
+<span>
+<h3>
+<a href="{{offline_url}}">商家链接</a>
+</h3>
+</span>
+<br></br>
+<label>写评论</label>
+
+<form action="{% url 'offline.views.addshopcomment' offline_shopid %}" method="post">
+<textarea name="shopcomment" cols="40" rows="3"></textarea>
+<input type="submit" value="发布" />
+<br></br>
+<label>评论</label>
+<ul>
+{% for comment in comments %}
+<li>{{comment.comment}}</li>
+{% endfor %}
+</ul>
+</form>
+
 </body>
 </html>

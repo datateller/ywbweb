@@ -13,3 +13,7 @@ class Shop(models.Model):
     latitude = models.FloatField(null=True)
     point = models.PointField()
     objects = models.GeoManager()
+
+class ShopComment(models.Model):
+    shopid = models.ForeignKey(Shop)
+    comment = models.CharField(max_length=500)

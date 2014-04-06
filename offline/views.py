@@ -22,15 +22,25 @@ def offline_web_view(request, oid):
         o = Shop.objects.get(id = oid)
         t = get_template('offline/offline.html')
         c = {}
+        c['offline_shopid'] = o.id
         c['offline_title'] = o.name
         c['offline_content'] = o.description
         c['offline_address'] = o.address
+        c['offline_url'] = o.url
         picindex = random.randint(0,9)
         c['pic'] = 'http://wjbb.cloudapp.net:8001/pic/'+str(picindex)+'.jpg'
+        c['comments'] = ShopComment.objects.filter(shopid=o)
         html = t.render(Context(c))
         return HttpResponse(html)
     except ValueError:
         raise Http404()
+
+@csrf_exempt
+def addshopcomment(request, shopid):
+    shop = Shop.objects.get(id=int(shopid))
+    shopcomment = ShopComment(shopid=shop, comment=request.POST['shopcomment'])
+    shopcomment.save()
+    return offline_web_view(request, shopid)
     
 class ShopFormView(FormView):
     template_name = 'offline/shopform.html'

@@ -5649,3 +5649,3198 @@ event output: <xml><ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserN
 7fff72455000-7fff72476000 rw-p 00000000 00:00 0                          [stack]
 7fff724b1000-7fff724b2000 r-xp 00000000 00:00 0                          [vdso]
 ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+Validating models...
+
+0 errors found
+April 01, 2014 - 15:57:52
+Django version 1.6.1, using settings 'ywbweb.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396368053</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.964321</Latitude>
+<Longitude>116.302322</Longitude>
+<Precision>37.000000</Precision>
+</xml>
+user  o7G8DuHWzAw0InNPcTQEAI5PFDV4 location is 39.964321,116.302322 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396368058</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396390434</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 39.796055 116.360085
+weixin curpath: /root/ywbweb
+weatherinfo: {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+baby age by day is 3
+weather info {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396390441</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[8℃~-3℃ 天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Title>
+<Description><![CDATA[天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/22784/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[新生婴儿呛奶要怎么急救]]></Title> 
+<Description><![CDATA[婴儿吐奶时，由于会厌活塞盖运动失灵，没有把气管口盖严，奶汁误入了气管，叫做“呛奶”，呛奶窒息的婴儿可出现颜面青紫、全身抽动、呼吸不规则，吐出奶液或泡沫、鲜血、黑水等。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/22784/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[混合喂养常见的7大问题]]></Title> 
+<Description><![CDATA[混合喂养分几种方式？混合喂养时如何保持母乳分泌？如果宝宝不喜欢奶嘴怎么办呢？在混合喂养中，你可能会遇到下列常见问题，不用急，让我们在这里一起来寻找答案！]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/22202/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[抱婴儿时的原则与抱姿]]></Title> 
+<Description><![CDATA[刚出生不久的婴儿全身软绵绵的，看上去是那么的软弱，头抬不起来，颈部、腰部都支撑无力，这主要是因为他的颈部和背部肌肉发育还不完善。因此，抱小婴儿时要记住一个原则，认真学好几个姿势。避免不当的抱姿给宝宝带来伤害。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/22152/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396390445</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.797035</Latitude>
+<Longitude>116.361755</Longitude>
+<Precision>41.000000</Precision>
+</xml>
+user  o7G8DuAY7_0pkrIsmkpSZcsQr9CU location is 39.797035,116.361755 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396390453</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396390524</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+weixin user o7G8DuAY7_0pkrIsmkpSZcsQr9CU unsubscribe
+event output: <xml><ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396390533</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396390534</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+event output: <xml><ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396390547</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[欢迎来养娃宝瞅一瞅~ 为了获得更精确的知识推送，请在聊天界面告诉我们您家宝宝的生日吧~
+回复：
+生日 20140101
+住址 北京市海淀区XXX街XX号
+请注意格式，谢谢~]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396390561</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.801666</Latitude>
+<Longitude>116.360817</Longitude>
+<Precision>24.000000</Precision>
+</xml>
+user  o7G8DuAY7_0pkrIsmkpSZcsQr9CU location is 39.801666,116.360817 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396390568</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396390844</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.964432</Latitude>
+<Longitude>116.302338</Longitude>
+<Precision>45.000000</Precision>
+</xml>
+user  o7G8DuHWzAw0InNPcTQEAI5PFDV4 location is 39.964432,116.302338 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396390855</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396390844</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396390856</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[紫金庄园幼儿园]]></Title> 
+<Description><![CDATA[北京市海淀区万泉河路68号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/8.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/1/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[时尚宝贝]]></Title> 
+<Description><![CDATA[北京市万柳东路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/2/]]></Url>
+</item>
+
+</Articles>
+</xml>
+[01/Apr/2014 15:58:04] "GET /offline/addshop/ HTTP/1.1" 200 1150
+[01/Apr/2014 16:00:58] "POST /weixin/dev/?signature=2ea6301ee0cf3d0c2b39248a682d94e5937bc3ef&timestamp=1396368053&nonce=1413666934 HTTP/1.0" 200 255
+[01/Apr/2014 16:02:25] "POST /offline/addshop/ HTTP/1.1" 302 0
+[01/Apr/2014 16:02:25] "GET /offline/addshop/ HTTP/1.1" 200 1150
+[01/Apr/2014 16:04:33] "POST /offline/addshop/ HTTP/1.1" 302 0
+[01/Apr/2014 16:04:33] "GET /offline/addshop/ HTTP/1.1" 200 1150
+[01/Apr/2014 17:10:30] "HEAD / HTTP/1.0" 200 0
+[01/Apr/2014 22:03:04] "HEAD / HTTP/1.0" 200 0
+[01/Apr/2014 22:14:01] "POST /weixin/dev/?signature=1e91015168eb79874df3f46aac546b15ff4796df&timestamp=1396390434&nonce=1753640080 HTTP/1.0" 200 2311
+[01/Apr/2014 22:14:13] "POST /weixin/dev/?signature=d5ba8437bd8651d3e6872d1c24b71acf1c2c2aec&timestamp=1396390445&nonce=1387430458 HTTP/1.0" 200 255
+[01/Apr/2014 22:15:33] "POST /weixin/dev/?signature=c13db5cad5eee777cec52aebb45dda5f405b9749&timestamp=1396390524&nonce=243899507 HTTP/1.0" 200 255
+[01/Apr/2014 22:15:47] "POST /weixin/dev/?signature=36f3b184783b85ec3c73b3328028c11a41f07d49&timestamp=1396390540&nonce=734763656 HTTP/1.0" 200 467
+[01/Apr/2014 22:16:08] "POST /weixin/dev/?signature=c603c70b369cff2bf730c6c0c8a00a2acfc81f9d&timestamp=1396390561&nonce=1624636217 HTTP/1.0" 200 255
+[01/Apr/2014 22:20:55] "POST /weixin/dev/?signature=1bdeb1601c7583300d5f6048ef9a1bbc896d906d&timestamp=1396390844&nonce=310939208 HTTP/1.0" 200 255
+[01/Apr/2014 22:20:56] "POST /weixin/dev/?signature=d36435519d15b93bc0b5a99f6c43c6d8b00c01ae&timestamp=1396390850&nonce=2063320329 HTTP/1.0" 200 800
+[01/Apr/2014 22:21:03] "POST /weixin/dev/?signature=eb9539bce5b836193810b79655dde841f7e5be1f&timestamp=1396390857&nonce=450035929 HTTP/1.0" 200 2253
+[01/Apr/2014 22:21:07] "GET /weixin/knowledge/24195/ HTTP/1.1" 200 7540
+[01/Apr/2014 22:21:07] "POST /weixin/dev/?signature=b19a836b2aea90ef3034721019326925137bd5af&timestamp=1396390859&nonce=818450413 HTTP/1.0" 200 2183
+[01/Apr/2014 22:25:07] "POST /weixin/dev/?signature=153362c44830fea6749056c7c82a34f3d7eecb58&timestamp=1396391101&nonce=149113002 HTTP/1.0" 200 255
+/usr/local/lib/python3.3/site-packages/django/db/models/fields/__init__.py:903: RuntimeWarning: DateTimeField WeixinUser.baby_birthday received a naive datetime (2014-04-01 00:00:00) while time zone support is active.
+  RuntimeWarning)
+
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396390857</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 39.964432 116.302338
+weixin curpath: /root/ywbweb
+weatherinfo: {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+baby age by day is 601
+weather info {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396390863</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[8℃~-3℃ 天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Title>
+<Description><![CDATA[天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24079/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[如何选择适合宝宝的奶嘴型号?]]></Title> 
+<Description><![CDATA[奶嘴的开孔花样很多，有圆孔、十字孔、一字孔等，这让许多急于购买奶嘴的妈妈们感到疑惑，儿童保健专家表示：不同孔形的奶嘴，作用也不同，应根据自己宝宝实际月龄进行购买。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24079/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[母奶喂养的BB不需要补钙吗？]]></Title> 
+<Description><![CDATA[母乳中营养丰富，但是母乳喂养的宝宝就不需要补钙了吗？]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/8.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23846/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝9种错误的睡眠方式]]></Title> 
+<Description><![CDATA[对小宝宝来说，睡眠直接影响着身体健康和生长发育。在睡眠中，体内分泌出一定的生长激素，能够促使宝宝长高。如果睡眠不好，生长激素分泌就会减少，影响宝宝发育，因此爸爸妈妈都希望宝宝每天都能拥有好睡眠。不过，这里需要提醒的是，有9种睡眠方式是不可取的，也是必须给予纠正的。 ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24195/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396390859</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 39.964432 116.302338
+weixin curpath: /root/ywbweb
+weatherinfo: {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+baby age by day is 601
+weather info {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396390867</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[8℃~-3℃ 天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Title>
+<Description><![CDATA[天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23775/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[婴儿护肤品成分大解析]]></Title> 
+<Description><![CDATA[宝宝皮肤容易干燥，是皮脂分泌量少，而皮脂覆盖在皮肤表面，有保护皮肤和抗菌的作用，宝宝的单位面积汗腺数比成人高，容易出汗，且调节能力较差。所以宝宝应该注意清洁和适当使用护肤品，以保证皮肤的洁净与滋润。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23775/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[史上最牛24孝妈妈]]></Title> 
+<Description><![CDATA[超级奶妈护理宝宝怎么能够缺少高科技产品的帮助呢，下面就让我们来看看借助最新科技育儿的史上最牛24孝妈妈！]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23956/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[婴儿下飞机后竟停止了呼吸？]]></Title> 
+<Description><![CDATA[四川人小雷在杭州工作一年多了，前段时间小雷的妻子刚刚给他生了一个大胖儿子。妻子带着儿子来看爸爸，可没想到刚下飞机，悲剧就降临在了这个三口之家。 ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24026/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396391095</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.831474</Latitude>
+<Longitude>116.364311</Longitude>
+<Precision>24.000000</Precision>
+</xml>
+user  o7G8DuAY7_0pkrIsmkpSZcsQr9CU location is 39.831474,116.364311 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396391107</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396391107</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[生日 20140401]]></Content>
+<MsgId>5997454137190329495</MsgId>
+</xml>
+baby age by day is 0
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396391117</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 39.831474 116.364311
+weixin curpath: /root/ywbweb
+weatherinfo: {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+baby age by day is 0
+weather info {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396391132</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[8℃~-3℃ 天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Title>
+<Description><![CDATA[天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/22285/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝的第一餐奶，最好用勺子喂]]></Title> 
+<Description><![CDATA[母亲生下宝宝后，需要一段时间才会有乳汁分泌。为了避免宝宝拒绝乳头，建议最好能在宝宝的第一餐，用勺子喂奶，同时也不要一口灌下去让宝宝“不劳而获”，可以把小勺放在宝宝的嘴边，让他们自己一点点地吸进去。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/22285/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[全面解读早产儿专用的配方奶粉]]></Title> 
+<Description><![CDATA[美国儿科专家最近发现，奶粉中如果含有脂肪酸，尤其是DHA(二十二碳六烯酸)和ARA(花生四烯酸)，有助于早产儿的发育。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/21848/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝剖腹产 健康隐患多]]></Title> 
+<Description><![CDATA[与自然分娩相比，剖腹产新生儿的免疫力及抗感染能力相对较差。所以，剖腹产的新生儿更易感染疾病。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/22205/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396392016</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 39.964432 116.302338
+weixin curpath: /root/ywbweb
+weatherinfo: {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+baby age by day is 601
+weather info {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396392027</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[8℃~-3℃ 天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Title>
+<Description><![CDATA[天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23722/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝什么时候开始补钙？]]></Title> 
+<Description><![CDATA[宝宝什么时候开始补钙是没有具体说法的，因为每个宝宝的具体情况都不同，所以不能一概而论。那么究竟宝宝什么时候开始补钙呢，本文将为你进行详细介绍。 ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23722/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[1-2个月宝宝饮食禁忌]]></Title> 
+<Description><![CDATA[说到1-2个月宝宝饮食禁忌，可能一些爸妈会奇怪，这一时期的宝宝只能吃母乳或配方奶粉，能有什么饮食禁忌呢？虽然这是大家都知道的事情，但有些糊涂爸妈却犯了错，给1-2个月宝宝吃了不该吃的食物，造成了影响。 ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23729/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[秋季宝宝换尿布9大注意事项]]></Title> 
+<Description><![CDATA[要知道给宝宝换尿布可没有你想象的那么容易！作为新手妈咪，你知道给宝宝换尿布有哪些注意事项呢？怎样正确为宝宝换尿布呢？下面就让我们一起来了解下基本的宝宝换尿布常识吧~]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24163/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396392015</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.964321</Latitude>
+<Longitude>116.302322</Longitude>
+<Precision>36.000000</Precision>
+</xml>
+user  o7G8DuHWzAw0InNPcTQEAI5PFDV4 location is 39.964321,116.302322 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396392034</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396392039</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.965286</Latitude>
+<Longitude>116.301880</Longitude>
+<Precision>172.000000</Precision>
+</xml>
+user  o7G8DuHWzAw0InNPcTQEAI5PFDV4 location is 39.965286,116.30188 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396392046</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396392039</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396392047</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[紫金庄园幼儿园]]></Title> 
+<Description><![CDATA[北京市海淀区万泉河路68号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/1/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[时尚宝贝]]></Title> 
+<Description><![CDATA[北京市万柳东路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/2/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396392240</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.964321</Latitude>
+<Longitude>116.302330</Longitude>
+<Precision>40.000000</Precision>
+</xml>
+user  o7G8DuHWzAw0InNPcTQEAI5PFDV4 location is 39.964321,116.30233 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396392247</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396392300</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[住址 西二旗城铁]]></Content>
+<MsgId>5997459261086313629</MsgId>
+</xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396392267</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[地址 西二旗地铁站]]></Content>
+<MsgId>5997459119352392860</MsgId>
+</xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396392310</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396392325</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[百度职工幼儿园]]></Title> 
+<Description><![CDATA[西二旗百度大厦]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/3/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[北京外国语附小小卖部]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗大街19号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/4/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396404012</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat None None
+weixin curpath: /root/ywbweb
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396404008</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat None None
+weixin curpath: /root/ywbweb
+default weather
+baby age by day is 602
+weather info {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396404019</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[8℃~-3℃ 天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Title>
+<Description><![CDATA[天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24125/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[喂奶前给宝宝吮吸奶嘴更健康]]></Title> 
+<Description><![CDATA[父母喂奶前给宝宝吮吸奶嘴，宝宝会更健康？很多爸爸妈妈都不相信。因为成人的口水中有很多的细菌，如果盲目地为宝宝吮吸奶嘴会把细菌通过口水传染给宝宝。那究竟这是怎样的结论呢？现在小编为你揭晓。一起来看看吧！]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24125/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[今天，你和宝宝聊天了吗]]></Title> 
+<Description><![CDATA[别看婴儿们尚不会说话，当他们听到父母在对他们说话时，婴儿大脑的思维正在不断变幻，他们所听到的任何一种语言都对他们的大脑皮层产生有效的刺激，促使他们的思维变得更加活跃，更加新鲜。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23883/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[乳头混淆会影响母乳喂养吗]]></Title> 
+<Description><![CDATA[宝宝天生就知道怎么吮吸，但是他们吃母乳和用奶瓶吃奶的方式是不同的。有些健康专家认为，如果在头几周让母乳喂养的宝宝吃奶瓶，可能会导致乳头混淆。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24249/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396404008</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat None None
+weixin curpath: /root/ywbweb
+default weather
+baby age by day is 602
+weather info {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396404021</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[8℃~-3℃ 天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Title>
+<Description><![CDATA[天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/8.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23858/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝怕鞭炮声怎么办？]]></Title> 
+<Description><![CDATA[眼下“宝宝怕鞭炮声怎么办”已成了各大母婴论坛讨论的热门话题。一位网友甚至担忧地表示，过年天天放鞭炮，“万一到时候闹得宝宝不睡，白天拼命睡，以后就日夜颠倒了，就麻烦了……”下面一起来看看宝宝怕鞭炮声怎么办。　]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/8.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23858/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[如何应对婴儿奶粉过敏]]></Title> 
+<Description><![CDATA[奶粉是婴儿营养必需食物之一，但是往往有的宝宝却因为喝了奶粉会出现湿疹，腹泻，呕吐等症状，这究竟是怎么回事？其实这是一种婴幼儿期比较常见的奶粉过敏症状。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23788/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[夏日如何让宝宝远离红屁股]]></Title> 
+<Description><![CDATA[婴幼儿尿布疹，老百姓俗称“红屁股”，是小宝宝夏季常见的一种皮肤病。宝宝因局部红肿，瘙痒疼痛，常哭闹不安，影响睡眠。那么在这样炎热的天气如何让宝宝远离红屁股呢？]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23889/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+default weather
+baby age by day is 602
+weather info {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396404024</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[8℃~-3℃ 天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Title>
+<Description><![CDATA[天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24463/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝的关节为什么会有声音？]]></Title> 
+<Description><![CDATA[宝宝刚满1个月，有时给他换衣服时，会听到宝宝关节发出的声音，因此很担心。听人说，1个月的宝宝即便没有用力拽，关节也会发出声音的，这是真的吗？女儿在关节发出声音后也没有什么特别的变化，两只手脚还是能灵活的摆动。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24463/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[纸尿裤会影响男BB生育能力？]]></Title> 
+<Description><![CDATA[有报道称：男宝宝长期使用纸尿裤，会令生殖器官长时间处于高温状态，影响精子发育，最终导致将来不育。纸尿裤到底会不会造成宝宝不育，这是众多父母所关心的问题。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23831/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[母乳成分需要一月一测？]]></Title> 
+<Description><![CDATA[虽然对于母乳营养成分检测是否必要，各有各的观点。但是一致的看法是，无论配方奶粉如何进步，都无法取代母乳。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24055/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396404032</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml><ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396404038</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[
+对不起，没有获取到您当前的位置，请您回复您宝贝的住址，我们会为您提供更精准的信息～
+回复：
+生日 20140101
+住址 北京市海淀区XXX街XX号
+]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396404071</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[西二旗]]></Content>
+<MsgId>5997509817146355004</MsgId>
+</xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396404200</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[生日 20080808
+住址 北京市海淀区西二旗领秀新硅谷]]></Content>
+<MsgId>5997510371197136195</MsgId>
+</xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396404228</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml><ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396404235</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[
+对不起，没有获取到您当前的位置，请您回复您宝贝的住址，我们会为您提供更精准的信息～
+回复：
+生日 20140101
+住址 北京市海淀区XXX街XX号
+]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396404587</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat None None
+weixin curpath: /root/ywbweb
+default weather
+baby age by day is 602
+weather info {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396404593</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[8℃~-3℃ 天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Title>
+<Description><![CDATA[天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24475/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[先睹为快 绚丽多彩的婴儿房 ]]></Title> 
+<Description><![CDATA[不同于以往介绍的婴儿房，这位妈妈并没有选择粉色系温柔的色调，而是选择了五彩斑斓的装饰，她的灵感来自于调色盘。彩色也更加能够吸引宝宝的目光，帮助视力和智力发育。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24475/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[家庭预防婴儿湿疹]]></Title> 
+<Description><![CDATA[婴儿湿疹是婴儿1-2月期间较为多发的皮肤病，因此家长如何在日常生活中预防宝宝湿疹尤为重要。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24432/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[教你如何取悦三个月的宝宝]]></Title> 
+<Description><![CDATA[三个月大的宝宝喜欢看的风吹的树，看植物，甚至想了解户外！他/她对他们周围的一切都感到很好奇。去取悦每个年龄段的婴幼儿都是具有挑战性的，尤其是对第一次为人父母的人来说。所以下面的一些活动可以教你如何取悦三个月大的宝宝，你可以参考一下。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23936/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396404601</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat None None
+weixin curpath: /root/ywbweb
+default weather
+baby age by day is 602
+weather info {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396404607</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[8℃~-3℃ 天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Title>
+<Description><![CDATA[天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24491/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[奶爸必学的两大婴儿护理技能]]></Title> 
+<Description><![CDATA[当了爸爸就多了一份责任，多了一份重担，多了一份寄托，更多了一份喜悦。可是，“爸爸”可不是那么想当就能当好的，做好一个称职的父亲养育好子女是爸爸的责任和义务。当小宝贝来到这个家庭的时候，作为爸爸是不是应该多学一些护理婴儿的技能呢，那么以下两大婴儿护理技能爸爸就来学一学吧。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24491/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[专家支招：BB鹅口疮一扫光]]></Title> 
+<Description><![CDATA[宝宝患了鹅口疮，小嘴巴里布满了白点点，这可急坏了爸爸妈妈。这么小的宝宝，用药有什么忌讳吗？平时该怎么护理？鹅口疮会引发其他病症吗？别心急，儿科主治医师将一一回答你的问题。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24078/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[乳头混淆会影响母乳喂养吗]]></Title> 
+<Description><![CDATA[宝宝天生就知道怎么吮吸，但是他们吃母乳和用奶瓶吃奶的方式是不同的。有些健康专家认为，如果在头几周让母乳喂养的宝宝吃奶瓶，可能会导致乳头混淆。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/8.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24249/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396406140</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.058091472573 116.31978682061
+weixin curpath: /root/ywbweb
+weatherinfo: {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+baby age by day is 602
+weather info {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396406146</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[8℃~-3℃ 天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Title>
+<Description><![CDATA[天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24141/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[0到1岁的秘密你了解吗？]]></Title> 
+<Description><![CDATA[0到1岁是人一生中最重要的阶段，不会表达的孩子像把所有生物进化的过程又重演了一番一般，用自己身体发展的姿势悄悄诉说着成长的秘密和每个阶段的需要。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24141/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[母乳喂养的八大谣言不可信]]></Title> 
+<Description><![CDATA[对于母乳喂养存在很多不可相信的谣言，很多妈妈听了之后就对母乳喂养避而远之，牺牲了小宝宝的营养和健康成长，什么乳房变形、过分补充营养等等，都是妈妈经常会误解的小错误。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/8.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23830/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[糖丸不宜带回家给宝宝服用]]></Title> 
+<Description><![CDATA[我国普遍使用的口服糖丸，是一种非常安全、有效的疫苗。在我国，口服糖丸的接种程序是在儿童2、3、4月龄各服1次，4岁再服一次。 ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23781/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396406335</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml><ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396406340</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[
+对不起，没有获取到您当前的位置，请您回复您宝贝的住址，我们会为您提供更精准的信息～
+回复：
+生日 20140101
+住址 北京市海淀区XXX街XX号
+]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396406391</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml><ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396406397</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[
+对不起，没有获取到您当前的位置，请您回复您宝贝的住址，我们会为您提供更精准的信息～
+回复：
+生日 20140101
+住址 北京市海淀区XXX街XX号
+]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396406448</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[住址 北京市海淀区西二旗领秀新硅谷]]></Content>
+<MsgId>5997520026283617676</MsgId>
+</xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396406483</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396406490</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[有间教室]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗中路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/8.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/5/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[百度职工幼儿园]]></Title> 
+<Description><![CDATA[西二旗百度大厦]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/3/]]></Url>
+</item>
+
+</Articles>
+</xml>
+[01/Apr/2014 22:25:13] "POST /weixin/dev/?signature=da19dfb80f3af70b0b52e598016288a020bd698d&timestamp=1396391107&nonce=1095762211 HTTP/1.0" 200 398
+[01/Apr/2014 22:25:32] "POST /weixin/dev/?signature=b84f5fd7ff9306e9ea23bce1c9e8bcc1c36f4c53&timestamp=1396391125&nonce=1256575929 HTTP/1.0" 200 2132
+[01/Apr/2014 22:40:27] "POST /weixin/dev/?signature=70aea35376ceafdde371ad9e22cdccd93737a813&timestamp=1396392016&nonce=317991555 HTTP/1.0" 200 2272
+[01/Apr/2014 22:40:34] "POST /weixin/dev/?signature=c7d3d5c9ae95188cbbfc4b7fa8342e446f30e0cb&timestamp=1396392026&nonce=668638704 HTTP/1.0" 200 255
+[01/Apr/2014 22:40:46] "POST /weixin/dev/?signature=39a3f292708a43fb76851cfff3b4c0e64b8ee7d3&timestamp=1396392039&nonce=1732505687 HTTP/1.0" 200 255
+[01/Apr/2014 22:40:47] "POST /weixin/dev/?signature=e4b7f758506e789f5e5813ba40fc43c163aa0194&timestamp=1396392041&nonce=1188599501 HTTP/1.0" 200 800
+[01/Apr/2014 22:44:07] "POST /weixin/dev/?signature=68ad1a65617e74c9c0ac8a8c2d090fcde65d0e1a&timestamp=1396392240&nonce=1338816916 HTTP/1.0" 200 255
+[01/Apr/2014 22:45:07] "POST /weixin/dev/?signature=95c4ef46152c463e6a0a25cfd274e4dcd65e4136&timestamp=1396392301&nonce=1733723974 HTTP/1.0" 200 298
+[01/Apr/2014 22:45:11] "POST /weixin/dev/?signature=1a27ddac9ccf2c9d3b83f58d236078a3c4512cea&timestamp=1396392305&nonce=948491064 HTTP/1.0" 200 449
+[01/Apr/2014 22:45:25] "POST /weixin/dev/?signature=8cf5667fcbaf48cb9dafb54bab78774f1d09212a&timestamp=1396392316&nonce=1263192703 HTTP/1.0" 200 821
+[01/Apr/2014 23:25:05] "GET / HTTP/1.0" 200 8168
+[01/Apr/2014 23:56:29] "GET /offline/getoffline/3/ HTTP/1.1" 200 522
+[02/Apr/2014 00:37:58] "GET /offline/addshop HTTP/1.1" 301 0
+[02/Apr/2014 00:37:58] "GET /offline/addshop/ HTTP/1.1" 200 1150
+[02/Apr/2014 00:39:12] "GET http://www.google.com/ HTTP/1.0" 404 1654
+[02/Apr/2014 02:00:19] "POST /weixin/dev/?signature=70b41fc47be65342289a0e240fd8146b113ef400&timestamp=1396404012&nonce=2038973301 HTTP/1.0" 200 2310
+[02/Apr/2014 02:00:21] "POST /weixin/dev/?signature=eca7c6730044ff66fc27f5bb25bbcf0282080b57&timestamp=1396404014&nonce=1548395117 HTTP/1.0" 200 2295
+[02/Apr/2014 02:00:24] "POST /weixin/dev/?signature=606ce06027c69c69b5c977a66683982139c31cb8&timestamp=1396404013&nonce=371671577 HTTP/1.0" 200 2230
+[02/Apr/2014 02:00:38] "POST /weixin/dev/?signature=911d584cca449ffbbd0b901559ea2af62d7945ba&timestamp=1396404032&nonce=1503698030 HTTP/1.0" 200 443
+[02/Apr/2014 02:01:17] "POST /weixin/dev/?signature=1cb693ad2e86ac636377c44660facc9cab8b3904&timestamp=1396404071&nonce=1308587859 HTTP/1.0" 200 449
+[02/Apr/2014 02:03:26] "POST /weixin/dev/?signature=9c668cd11e0c59552f4771d682145ef43a519d94&timestamp=1396404200&nonce=2019983010 HTTP/1.0" 200 449
+[02/Apr/2014 02:03:55] "POST /weixin/dev/?signature=fd2a1fabe258fdf1324f2081d45f21ea62563898&timestamp=1396404228&nonce=1614491623 HTTP/1.0" 200 443
+[02/Apr/2014 02:09:53] "POST /weixin/dev/?signature=3b4cfec55cf13185398ba34f8eb4ab41c2ef251c&timestamp=1396404587&nonce=2026729390 HTTP/1.0" 200 2238
+[02/Apr/2014 02:10:07] "POST /weixin/dev/?signature=7d024a9163f817894f2be830eace2035de933027&timestamp=1396404601&nonce=337969188 HTTP/1.0" 200 2408
+[02/Apr/2014 02:17:39] "GET / HTTP/1.0" 200 8168
+[02/Apr/2014 02:35:14] "GET /offline/addshop/ HTTP/1.1" 200 1150
+[02/Apr/2014 02:35:46] "POST /weixin/dev/?signature=6acf9d2d2798e5741c496ce0a6d05b16dfa0698e&timestamp=1396406141&nonce=894112362 HTTP/1.0" 200 2167
+[02/Apr/2014 02:36:24] "POST /offline/addshop/ HTTP/1.1" 200 1421
+[02/Apr/2014 02:36:48] "POST /offline/addshop/ HTTP/1.1" 302 0
+[02/Apr/2014 02:36:48] "GET /offline/addshop/ HTTP/1.1" 200 1150
+[02/Apr/2014 02:38:49] "GET /weixin/knowledge/24491/ HTTP/1.1" 200 8933
+[02/Apr/2014 02:39:00] "POST /weixin/dev/?signature=b50b0bd94c5d7a99cdad7745f97842dd6822b0a7&timestamp=1396406335&nonce=317532797 HTTP/1.0" 200 443
+[02/Apr/2014 02:39:57] "POST /weixin/dev/?signature=758e0be802f801ab3d9fb0a20abdd826d0c10fb7&timestamp=1396406391&nonce=1501561101 HTTP/1.0" 200 443
+[02/Apr/2014 02:40:55] "POST /weixin/dev/?signature=75b610d38ce89bf51772d99b917ea220c86341ad&timestamp=1396406448&nonce=1583191680 HTTP/1.0" 200 298
+[02/Apr/2014 02:41:30] "POST /weixin/dev/?signature=702d56b8c882eb21ff44a929fab7b6c4440b4b00&timestamp=1396406483&nonce=547673128 HTTP/1.0" 200 798
+[02/Apr/2014 02:42:51] "GET /offline/getoffline/3/ HTTP/1.1" 200 522
+[02/Apr/2014 02:45:23] "GET /offline/getoffline/5/ HTTP/1.1" 200 512
+[02/Apr/2014 02:47:09] "POST /weixin/dev/?signature=64e077e6b2d39200bbd619ba25fe0f7a44addcb1&timestamp=1396406823&nonce=559698288 HTTP/1.0" 200 2346
+[02/Apr/2014 02:47:18] "GET /weixin/knowledge/24126/ HTTP/1.1" 200 6553
+[02/Apr/2014 02:47:26] "GET /weixin/knowledge/24126/ HTTP/1.1" 200 6553
+[02/Apr/2014 02:47:37] "GET /weixin/knowledge/24126/ HTTP/1.1" 200 6553
+[02/Apr/2014 02:52:00] "POST /weixin/dev/?signature=01a8776f2024b4a6cd954d10b911fa962ffa10d0&timestamp=1396407113&nonce=228707577 HTTP/1.0" 200 2244
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396406823</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.062408270463 116.31949693743
+weixin curpath: /root/ywbweb
+weatherinfo: {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+baby age by day is 602
+weather info {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396406829</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[8℃~-3℃ 天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Title>
+<Description><![CDATA[天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24126/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[萌宝睡姿搞怪欢乐无穷]]></Title> 
+<Description><![CDATA[宝宝好似天使降临到这个世界上，是多么美好！尤其是经过摄影师的镜头下，一个个可爱萌宝带给我们更加欢乐无穷的画面，那些销魂的睡姿真是让人心暖暖啊~]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24126/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[了解奇妙的哺喂用品进化史]]></Title> 
+<Description><![CDATA[母乳对于宝宝来说是最天然、最安全、最营养的食物。但是由于各种原因导致宝宝无法食用母乳，这时候奶粉、奶瓶、安抚奶嘴他们的出现，也许能帮到你不少忙。这些物品都是人类智慧的成果，一起来看看他们的进化历史吧! ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24247/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[患乳腺炎的妈咪更要继续哺乳]]></Title> 
+<Description><![CDATA[凡是哺喂母乳的妈妈，几乎都会遭遇乳管阻塞的困扰，严重的就会导致乳腺炎。当然，即便得了乳腺炎，也可以利用很多方法来改善症状。不过，最好的治疗方式就是继续哺乳。那么，究竟应该如何继续哺喂？有没有什么秘诀呢？]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/8.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24019/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396407113</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.062408270463 116.31949693743
+weixin curpath: /root/ywbweb
+weatherinfo: {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+baby age by day is 602
+weather info {'info': '寒冷', 'city': '北京', 'weather': '晴', 'detailinfo': '天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。', 'date': '2014年3月4日', 'temperature': '8℃~-3℃'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396407120</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[8℃~-3℃ 天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Title>
+<Description><![CDATA[天气寒冷，建议着厚羽绒服、毛皮大衣加厚毛衣等隆冬服装。年老体弱者尤其要注意保暖防冻。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24430/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[好孩子婴儿浴椅新品上市]]></Title> 
+<Description><![CDATA[妈妈们还在为给宝宝洗澡而烦恼吗？夏季宝宝洗澡次数增加，一个人是不是忙不过来？一起来看看好孩子新推车的婴儿浴椅，让你轻松解决宝宝的洗澡问题。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24430/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[新妈妈人工喂养宝宝的3个担心]]></Title> 
+<Description><![CDATA[新妈妈迎接宝宝的最好礼物是什么？答案就是两个字：母乳！可有些妈妈却因缺乳或疾病等原因，不得不选择人工喂养方式，用配方奶喂养宝宝。 ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24241/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[婴儿的能力和社交能力训练]]></Title> 
+<Description><![CDATA[2～4个月，学会笑：在宝宝面前走过时，要轻轻抚摩或亲吻宝宝的鼻子或脸蛋并笑着对他说“宝宝笑一个”，也可用语言或带响的玩具引逗宝宝，或轻轻挠他(她)的肚皮.引起他(她)挥手蹬脚，甚至咿咿呀呀发声，或发出“咯咯”笑声。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24129/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+Validating models...
+
+0 errors found
+April 02, 2014 - 03:34:09
+Django version 1.6.1, using settings 'ywbweb.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396409679</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 39.831474 116.364311
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '20', 'windstrong': '3级'}
+baby age by day is 1
+weather info {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '20', 'windstrong': '3级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396409687</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[20度 东北风3级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23110/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝睡婴儿床要注意什么]]></Title> 
+<Description><![CDATA[宝宝睡婴儿床是一项非常重要的过程，为了确保婴儿的安全，那么就要了解睡婴儿床要注意什么。下面小编就来为大家解答。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23110/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[新生儿肺炎症状及治疗]]></Title> 
+<Description><![CDATA[新生儿肺炎是新生儿时期最常见的一种严重呼吸道疾病，新生儿一旦得了肺炎应及时治疗。那么，新生儿肺炎症状是怎样的？新生儿肺炎严重吗？新生儿肺炎怎么治疗？带着这些问题，下面小编就来为大家解答。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/22897/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[电动玩具自检四步走]]></Title> 
+<Description><![CDATA[电动玩具十分常见，但是这些电动玩具对宝宝的健康也存在一定威胁。宝宝误食电池，腐蚀食道，对身体造成损伤，甚至死亡。因此，家中有电动玩具，父母一定要经常进行自检。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/22099/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396410640</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.062408270463 116.31949693743
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '21', 'windstrong': '3级'}
+baby age by day is 602
+weather info {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '21', 'windstrong': '3级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396410646</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[21度 东北风3级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24258/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[7种情况母乳喂宝宝有害健康]]></Title> 
+<Description><![CDATA[相信每个妈妈都知道母乳是宝宝最好的营养品，无论是明星家庭还是普通百姓家，只要身体允许，一般都会坚持母乳喂养；但在某些情况下，虽然身体允许，但进行母乳喂养却仍然对BB不利，哺乳期妈妈尤其要注意！ ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24258/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝营养状况的6个判断方法]]></Title> 
+<Description><![CDATA[随着人们生活水平的提高，人们越来越重视宝宝的营养情况，既要预防营养不良，又要防止肥胖，新妈们看着宝宝，总是心理没底，好像瘦了一点，好像胖了一点？常常将宝宝与其他宝宝做对比，不自觉地增加减少宝宝的饮食分量。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24416/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[母乳不足可添加哪些食物？]]></Title> 
+<Description><![CDATA[每个产后妈妈体质不同，也决定了不同的妈妈母乳量也不同，当妈妈母乳不足时可添加哪些食物?奶粉还是米汤?我们来看看吧。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23991/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396410645</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.062408270463 116.31949693743
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '21', 'windstrong': '3级'}
+baby age by day is 602
+weather info {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '21', 'windstrong': '3级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396410653</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[21度 东北风3级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24098/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[让宝宝更聪明的超实用方法]]></Title> 
+<Description><![CDATA[怎样让自己的宝宝更聪明，下面四件事做好了，您的宝宝会更加聪明的。这四件事分别为：爱、聊天、抚摸和模仿。这四件事是相互呼应，要想让自己的宝宝更聪明，应从这四件事开始。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24098/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[超实用婴儿喂奶作息时间表]]></Title> 
+<Description><![CDATA[无论是母乳喂养还是人工喂养，婴儿喂奶时间都是很重要的，如果过于频繁会引起婴儿不适，而喂奶间隔过长又会导致婴儿营养不良或过度饥饿。下面小编就来教你超实用的婴儿喂奶作息时间表，新手妈妈们赶快来学习一下吧~]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23887/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝排便久并不等于便秘]]></Title> 
+<Description><![CDATA[腹泻尚且会导致可怕的脱水，而宝宝肠道内没有充足的水分，同样也会导致宝宝肠道健康问题，这是与腹泻相反而且同样让妈妈头疼的疾病——便秘。便秘还会导致宝宝肛裂等严重问题，对于便秘的界定也是让很多妈妈困惑的。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24407/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396410707</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396410713</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[北京外国语附小小卖部]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗大街19号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/4/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[有间教室]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗中路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/5/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396410733</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396410738</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[有间教室]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗中路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/5/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[北京外国语附小小卖部]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗大街19号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/4/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396410738</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396410744</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[百度职工幼儿园]]></Title> 
+<Description><![CDATA[西二旗百度大厦]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/3/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[有间教室]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗中路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/5/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396410743</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396410749</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[有间教室]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗中路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/5/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[北京外国语附小小卖部]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗大街19号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/4/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396417485</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 39.831474 116.364311
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '东风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '21', 'windstrong': '3级'}
+baby age by day is 1
+weather info {'wind': '东风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '21', 'windstrong': '3级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396417493</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[21度 东风3级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23121/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[母乳：生命中第一道主题大餐]]></Title> 
+<Description><![CDATA[母乳成为妈妈欢迎宝宝最好的礼物，除了其本身的营养价值外，最重要的其实是它独特的精神价值，以及它提供给宝宝的心理营养。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23121/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[什么是新生儿生理性黄疸]]></Title> 
+<Description><![CDATA[发生了生理性黄疸，年轻的父母不必紧张。如果血胆红素局限在12mg/L以内，不会超出生理性黄疸的范围，不会给小儿造成影响，不用特别处理。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/8.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/21921/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[新生儿肺炎严重的表现]]></Title> 
+<Description><![CDATA[危重症性肺炎期是肺炎比较危险的一种，专家介绍说此种肺炎主要包括金黄色葡萄球菌肺炎、毛细支气管炎、腺病毒肺炎等，主要是在常规的肺炎基础上易发生其他系统并发症，故死亡率相对较高。新生儿肺炎严重的表现如何？新生儿肺炎严重怎么办？下面小编就来告诉你。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/21929/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396438202</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+weixin user o7G8DuNnbOxWmc-THJjwx8sv8-fw unsubscribe
+event output: <xml><ToUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396438210</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396438207</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>[02/Apr/2014 03:34:47] "POST /weixin/dev/?signature=015b9564cff8bcffa20703820cedbf5fb68c29f4&timestamp=1396409680&nonce=2065428987 HTTP/1.0" 200 2028
+[02/Apr/2014 03:50:47] "POST /weixin/dev/?signature=cb6584068fa36acc7ae7e406c10111a93a40af67&timestamp=1396410640&nonce=1751820994 HTTP/1.0" 200 2125
+[02/Apr/2014 03:50:53] "POST /weixin/dev/?signature=e83bf5528208986a298adaefe79aa5e3c8f95913&timestamp=1396410645&nonce=1390660682 HTTP/1.0" 200 2206
+[02/Apr/2014 03:51:15] "GET /weixin/knowledge/24430/ HTTP/1.1" 200 3684
+[02/Apr/2014 03:51:53] "POST /weixin/dev/?signature=7e018773b47589e3c4d831984bb0643cf6db207b&timestamp=1396410707&nonce=852139755 HTTP/1.0" 200 824
+[02/Apr/2014 03:52:10] "GET /offline/getoffline/4/ HTTP/1.1" 200 526
+[02/Apr/2014 03:52:18] "POST /weixin/dev/?signature=a57388e0fc8cb514d21cb2146fde7114087c8da0&timestamp=1396410732&nonce=1858872532 HTTP/1.0" 200 824
+[02/Apr/2014 03:52:24] "POST /weixin/dev/?signature=4150abaed9b6a5791d10120e7dd2896b93cc2347&timestamp=1396410738&nonce=536374224 HTTP/1.0" 200 798
+[02/Apr/2014 03:52:29] "POST /weixin/dev/?signature=1c49c0369570f7cf80649aae772a48e8cb5c54e9&timestamp=1396410743&nonce=1436894105 HTTP/1.0" 200 824
+[02/Apr/2014 05:15:22] "HEAD / HTTP/1.0" 200 0
+[02/Apr/2014 05:25:25] "GET / HTTP/1.0" 200 8168
+[02/Apr/2014 05:44:53] "POST /weixin/dev/?signature=439704cb3644cf584c52b6c9c1df0d63df059a33&timestamp=1396417486&nonce=228638052 HTTP/1.0" 200 2082
+[02/Apr/2014 07:21:47] "GET / HTTP/1.0" 200 8168
+[02/Apr/2014 07:58:53] "GET / HTTP/1.0" 200 8168
+[02/Apr/2014 11:05:43] "GET /offline/addshop/ HTTP/1.1" 200 1150
+[02/Apr/2014 11:06:00] "GET /offline HTTP/1.1" 404 2688
+[02/Apr/2014 11:30:10] "POST /weixin/dev/?signature=35dc3f49cf221fd3b43c54480c5ccc7823ac2200&timestamp=1396438202&nonce=57177623 HTTP/1.0" 200 255
+[02/Apr/2014 11:30:13] "POST /weixin/dev/?signature=1ba0b50b95b50744a1f9678fb30553fe4529c051&timestamp=1396438207&nonce=846954730 HTTP/1.0" 200 467
+[02/Apr/2014 11:30:19] "POST /weixin/dev/?signature=6474ab9b7fd9815045d80ed08c13fb84327ab1d4&timestamp=1396438212&nonce=204137967 HTTP/1.0" 200 255
+[02/Apr/2014 11:30:20] "POST /weixin/dev/?signature=68f52f1dd495e68b294938cc56124d307c2bbd36&timestamp=1396438214&nonce=1137033997 HTTP/1.0" 200 449
+[02/Apr/2014 11:30:34] "POST /weixin/dev/?signature=6214c6483b9d7306d21f5a2e55255b79a6c0337f&timestamp=1396438228&nonce=1038129459 HTTP/1.0" 200 449
+/usr/local/lib/python3.3/site-packages/django/db/models/fields/__init__.py:903: RuntimeWarning: DateTimeField WeixinUser.baby_birthday received a naive datetime (2013-12-06 00:00:00) while time zone support is active.
+  RuntimeWarning)
+
+[02/Apr/2014 11:30:57] "POST /weixin/dev/?signature=c455c6d9ebe9664d9ade9432d33fa58f620fdd6d&timestamp=1396438251&nonce=2018711411 HTTP/1.0" 200 398
+[02/Apr/2014 11:31:01] "POST /weixin/dev/?signature=60a145b5b77b70c5f1214b03cd39d6ecd1e290b8&timestamp=1396438254&nonce=361392982 HTTP/1.0" 200 23
+[02/Apr/2014 11:31:33] "POST /weixin/dev/?signature=72f38462a99e1cb6f6e6870c2c72c07629d99fbe&timestamp=1396438287&nonce=1359563471 HTTP/1.0" 200 23
+/usr/local/lib/python3.3/site-packages/django/db/models/fields/__init__.py:903: RuntimeWarning: DateTimeField WeixinUser.baby_birthday received a naive datetime (2012-08-08 00:00:00) while time zone support is active.
+  RuntimeWarning)
+
+
+event output: <xml><ToUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396438213</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[欢迎来养娃宝瞅一瞅~ 为了获得更精确的知识推送，请在聊天界面告诉我们您家宝宝的生日吧~
+回复：
+生日 20140101
+住址 北京市海淀区XXX街XX号
+请注意格式，谢谢~]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396438212</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>40.051220</Latitude>
+<Longitude>116.295708</Longitude>
+<Precision>76.000000</Precision>
+</xml>
+user  o7G8DuNnbOxWmc-THJjwx8sv8-fw location is 40.05122,116.295708 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396438219</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396438214</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.05122 116.295708
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '东南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '2级'}
+event output: <xml><ToUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396438220</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[为了获得更精确的知识推送，请去聊天界面告诉我们您家宝宝的生日和住址吧~
+回复：
+生日 20140101
+住址 北京市海淀区信息路9号
+请注意格式，谢谢~]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396438228</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[20131006]]></Content>
+<MsgId>5997656520344285082</MsgId>
+</xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396438247</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[生日 20131206]]></Content>
+<MsgId>5997656601948663708</MsgId>
+</xml>
+baby age by day is 117
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396438255</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.05122 116.295708
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '东南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '2级'}
+baby age by day is 117
+list index out of range
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396438287</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.05122 116.295708
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '东南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '2级'}
+baby age by day is 117
+list index out of range
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396438303</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[生日 20120808]]></Content>
+<MsgId>5997656842466832286</MsgId>
+</xml>
+baby age by day is 602
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396438307</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.05122 116.295708
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '东南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '2级'}
+baby age by day is 602
+weather info {'wind': '东南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '2级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396438314</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[15度 东南风2级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/8.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23792/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[父母带宝宝去医院前须知]]></Title> 
+<Description><![CDATA[在带宝宝看病时，身为家长的你是否注意过就诊环境呢？要知道，儿科诊疗室的环境和成人门诊还是有很大的差别，除了温馨、可爱的基本布置外，在硬件设备和医师选择上更要经过精细的设计和规划，一些常见的就医时的错误观念家长也要注意。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/8.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23792/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[喂母乳时间决定宝宝智商？]]></Title> 
+<Description><![CDATA[无论在哪个年龄层，哺喂母乳与运动技能都并无绝对的相互关联，但是那些三个月大后就不再吃母乳的婴儿，到了13个月大和五岁前，分别在心智与整体智商方面的表现比平均低的可能较大。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24030/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[父母要学会看宝宝的“脸色”]]></Title> 
+<Description><![CDATA[一个人的脸色往往能够预示身体的疾病，宝宝也不外如此。宝宝脸色红润，有时面红耳赤的，是不是就是身体健康的呢？现在来一一为你解答。 ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23807/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396438310</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396438316</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>0</ArticleCount>
+<Articles>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396438322</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 39.831474 116.364311
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '东南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '2级'}
+baby age by day is 1
+weather info {'wind': '东南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '2级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396438329</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[15度 东南风2级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/22248/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝夏天可以光脚吗？]]></Title> 
+<Description><![CDATA[夏天有许多父母给宝宝光脚丫，其实，夏天宝宝光脚丫并不好，相反，给宝宝穿上袜子就可预防着凉和减少感染哦。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/22248/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[早产4胞胎体重最轻者仅1斤！]]></Title> 
+<Description><![CDATA[开封杞县农民冷松振不久前当了爸爸，他的妻子吕海杰诞下了四胞胎。体重最轻的仅一斤8两……]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23091/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[新生儿胎记颜色的自我诊断]]></Title> 
+<Description><![CDATA[胎记长在手上脚上可以且当标记，但是长在脸上就让人有些恼了！这些恼人的胎记到底是什么？怎么可以除去呢？]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/22057/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396438327</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>40.051220</Latitude>
+<Longitude>116.295708</Longitude>
+<Precision>76.000000</Precision>
+</xml>
+user  o7G8DuNnbOxWmc-THJjwx8sv8-fw location is 40.05122,116.295708 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396438333</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396438335</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.062408270463 116.31949693743
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '1级'}
+baby age by day is 602
+weather info {'wind': '南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '1级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396438341</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[15度 南风1级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24053/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[美官方称美赞臣奶粉无需召回]]></Title> 
+<Description><![CDATA[路透社31日消息称，美国食品及药物管理局（FDA）发布调查结果，宣称无需对美赞臣Enfamil奶粉实施召回。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24053/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[识别宝宝漾奶和吐奶的区别 ]]></Title> 
+<Description><![CDATA[喂奶后让婴儿平卧，或者过多、过早地翻动婴儿，都容易引起婴儿吐奶，而漾奶是指喂奶后随即有1-2口奶水返流入嘴里从嘴边漾出。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23984/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[用背巾背宝宝的正确用法]]></Title> 
+<Description><![CDATA[被大人背时，每个宝宝都有自己喜好的姿势，每个大人也有自己习惯的姿势。父母可能会觉得宝宝贴在身上不太舒服，因为宝宝似乎蜷缩在背巾底部。记住，在子宫里时，宝宝也是蜷缩着的，他习惯这种安全的感觉。缩着对新生儿来说是自然的姿势。肠痉挛的宝宝把脚缩向肚子，像球一样蜷成一团，就能够安静下来。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24246/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396438349</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.058091472573 116.31978682061
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '1级'}
+baby age by day is 602
+weather info {'wind': '南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '1级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396438355</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[15度 南风1级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24406/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[养儿必知：细菌也是营养素]]></Title> 
+<Description><![CDATA[细菌也是营养素？这是个荒唐的问题吗？其实不是。自然界中的细菌成千上万，有些细菌可以引起人体生病，比如肺炎、肠炎、脑膜炎等，都是由细菌所致。但是，也有很多细菌对人体非常有益。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24406/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝吐奶严重怎么办？]]></Title> 
+<Description><![CDATA[宝宝吐奶是父母常见的宝宝喂养问题之一，很多家长都知道如何应对宝宝吐奶的情况。但是有时宝宝吐奶严重时还是会让很多家长手足无措。本文为你解答宝宝吐奶严重的原因以及如何应对宝宝吐奶严重的情况。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24344/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[鹅口疮症状]]></Title> 
+<Description><![CDATA[鹅口疮又叫急性伪膜型念珠菌病，好发于新生儿、小婴儿，特别是长期使用抗生素或激素的患者。鹅口疮症状是什么呢？]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24093/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396438362</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.062408270463 116.31949693743
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '1级'}
+baby age by day is 602
+weather info {'wind': '南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '1级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396438369</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[15度 南风1级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24337/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[妨碍宝宝发育的十种喂奶情况]]></Title> 
+<Description><![CDATA[母亲体味有助于婴儿吸奶，如果浓妆艳抹，陌生的化妆品气味掩盖了熟悉的母体气味，可使宝宝难以适应而致情绪低落，食量下降而妨碍发育。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24337/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[3招教你鉴定婴儿洗护品质量 ]]></Title> 
+<Description><![CDATA[给宝宝使用的洗护品，究竟质量如何？下面教你三个标准，让你自己也能鉴定婴儿洗护品的质量。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24349/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[有宝宝的家庭如何吹空调？]]></Title> 
+<Description><![CDATA[渐入三伏天，因空调受凉而感冒发烧来玛丽儿科就诊的孩子不少，这些患儿多集中在1—3岁，且发烧患儿有所增加。提醒宝宝家长：家中空调温度最好设定在28℃、控制好时间，切莫久开，关闭空调后应该马上开窗，保持家中通风。另外，夏季也将进入手足口病高发时期，手足口病早期症状之一也是发烧，请家长注意，不要耽误孩子病情。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23968/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396438386</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.062408270463 116.31949693743
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '1级'}
+baby age by day is 602
+weather info {'wind': '南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '1级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396438393</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[15度 南风1级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24424/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[0-1岁宝宝成长的6个台阶]]></Title> 
+<Description><![CDATA[初为人父人母，肯定无法了解0-1岁宝宝成长各阶段的标志。所以许多人都不禁要问：怎样做一个真正合格的父亲母亲呢？该采取一种全新的、独特的抚育方式来给宝宝全面的护理呢？
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24424/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[满月宝宝人工喂养实操技巧]]></Title> 
+<Description><![CDATA[宝宝饮食，满月后就可以喂全奶了。每次喂奶量也开始增加，可从每次50毫升增加到80～120毫升。到底应该吃多少，每个宝宝都有个体差异，不能完全生搬硬套。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24471/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝头围大小测量有标准]]></Title> 
+<Description><![CDATA[宝宝生长发育的速度很快，头围也是一样，不过有些爸妈觉得宝宝的脑袋太大，和身体都不成比例了；有些爸妈则觉得宝宝脑袋太小，总有些担心。的确，宝宝头围太大太小都需要引起重视，有可能是疾病的表现。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23912/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396438418</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.062408270463 116.31949693743
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '1级'}
+baby age by day is 602
+weather info {'wind': '南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '1级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396438424</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[15度 南风1级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24236/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[如何掌握好宝宝的吃奶量]]></Title> 
+<Description><![CDATA[宝宝的出生给全家带来了说不尽的喜悦和乐趣，但同时也给年轻的父母出了不少难题，很多年轻的父母就为喂奶发了愁。
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24236/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[揭秘宝宝眼中的色彩世界]]></Title> 
+<Description><![CDATA[宝宝一出生，迎接他的就是一个色彩斑斓的世界。色彩带给我们美的享受，宝宝也是在成长的过程中，随着视觉发育的成熟，通过认识色彩、感知色彩，来逐渐欣赏并享受色彩描绘的这个美丽的世界。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24273/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[7种情况母乳喂宝宝有害健康]]></Title> 
+<Description><![CDATA[相信每个妈妈都知道母乳是宝宝最好的营养品，无论是明星家庭还是普通百姓家，只要身体允许，一般都会坚持母乳喂养；但在某些情况下，虽然身体允许，但进行母乳喂养却仍然对BB不利，哺乳期妈妈尤其要注意！ ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24258/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396438424</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396438430</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[北京外国语附小小卖部]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗大街19号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/4/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[有间教室]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗中路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/5/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396438463</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.05122 116.295708
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '1级'}
+baby age by day is 602
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396438464</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>40.051220</Latitude>
+<Longitude>116.295708</Longitude>
+<Precision>76.000000</Precision>
+</xml>
+user  o7G8DuNnbOxWmc-THJjwx8sv8-fw location is 40.05122,116.295708 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396438470</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+weather info {'wind': '南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '1级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396438470</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[15度 南风1级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24418/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝三个月最好竖着抱]]></Title> 
+<Description><![CDATA[抱3个月内的婴儿时一定要注意姿势。刚出生的宝宝从医院回到家里，立刻就成为了全家人的焦点--家中的老人爱不释手，恨不得整天把宝贝儿抱在怀里。然而，年轻的妈妈却从育儿书籍中得知，小婴儿要多躺床板，脊梁发育才好。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24418/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[三个月宝宝的疾病手册]]></Title> 
+<Description><![CDATA[一转眼，最初的张皇无措已经是过眼的云烟，不断出现的欣喜与快乐大大抵消了新手妈妈的辛劳和疲惫，进入生命第3个月的宝宝，将给予爸爸妈妈们更多惊喜：他会“咿咿呀呀”的和你打招呼；他可以笑出声了；他还能趴着将头仰起至90°……]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23827/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝添加辅食的5个阶段]]></Title> 
+<Description><![CDATA[人工喂养及混合喂养婴儿满120天后，需要添加辅食。该阶段的人工及混合喂养婴儿虽以奶为主(奶量不能减少)，但仅靠奶的营养已不能满足婴儿热量和营养所需，所以，这时必须要添加辅食。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23960/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396438470</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.05122 116.295708
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '1级'}
+baby age by day is 602
+weather info {'wind': '南风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '15', 'windstrong': '1级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396438476</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[15度 南风1级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24204/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[哺乳期能喝茶吗？]]></Title> 
+<Description><![CDATA[哺乳期的妇女对于自己的饮食、生活都十分注意，哺乳期能不能喝茶也是新妈妈比较关心的问题。本文为你详细解答哺乳期能不能喝茶的问题。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24204/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[新妈该如何选择最实用的育儿书籍]]></Title> 
+<Description><![CDATA[在浩如烟海的育儿书中到底该如何选择最适合自己，同时也最实用护理宝宝的书籍呢？仔细看一下下面的建议，会让你豁然开朗哦~]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24281/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[母乳喂养好处五大新发现]]></Title> 
+<Description><![CDATA[母乳对于婴儿，是其他任何食物不能比拟的。母乳不但包括宝宝生长所需的全部营养，更奇妙的是，还会根据宝宝发育的不同阶段，自动对里面的成分进行调整而满足宝宝的需求变化。这一切都令人感叹自然之奇妙，人工喂养不论怎样调整，都无法与之相提并论。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23764/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396441587</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.062408270463 116.31949693743
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '14', 'windstrong': '1级'}
+baby age by day is 602
+weather info {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '14', 'windstrong': '1级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441594</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[14度 东北风1级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23726/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[教你辨别宝宝便便color]]></Title> 
+<Description><![CDATA[小宝宝生长中最重要的几件大事便是吃、喝、拉、撒。宝宝吃不好，妈妈心焦；宝宝拉不好，妈妈同样急得睡不好觉。现在小编就来教新手妈妈们如何辨别宝宝便便颜色来判断他们是否健康吧~
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23726/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[1-2个月宝宝饮食禁忌]]></Title> 
+<Description><![CDATA[说到1-2个月宝宝饮食禁忌，可能一些爸妈会奇怪，这一时期的宝宝只能吃母乳或配方奶粉，能有什么饮食禁忌呢？虽然这是大家都知道的事情，但有些糊涂爸妈却犯了错，给1-2个月宝宝吃了不该吃的食物，造成了影响。 ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/8.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23729/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[超时尚创意婴儿床大搜罗]]></Title> 
+<Description><![CDATA[辛苦怀胎10个月，小宝宝终于要隆重出场了！为了迎接小生命的到来，爸爸妈妈该怎样为自己的宝贝健康快乐地成长选择一个安全舒适的婴儿床呢？时尚创意又健康环保的婴儿床会让宝宝的童年更加精彩呢~就让小编带领大家领略一下那些创意有可爱的婴儿床吧~]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23847/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396441677</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.062408270463 116.31949693743
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '14', 'windstrong': '1级'}
+baby age by day is 602
+weather info {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '14', 'windstrong': '1级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441683</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[14度 东北风1级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23963/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝不吃奶瓶该怎么办]]></Title> 
+<Description><![CDATA[一些宝宝习惯了母乳喂养，当宝宝大一些的时候，妈妈们会转为奶瓶喂养。可是妈妈们发现，有的宝宝排斥奶瓶，不肯吃奶瓶。这可怎么办啊？]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23963/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[上班族妈妈如何储备母乳？]]></Title> 
+<Description><![CDATA[母乳之珍贵无可取代，当妈妈们跟孩子分开时是有能力供给她的婴孩足够的母乳的，需知道的是如何适当的储存奶水供给婴儿食用，并确认家人或保姆知道怎样处理您预先为婴儿留下来的母乳。那么，该如何为你的宝宝储备母乳呢?]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23926/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[护理小宝宝注意七危险]]></Title> 
+<Description><![CDATA[婴儿时期的宝宝活动能力有限，对危险毫无抵抗之力，因此就需要爸爸妈妈更细心的呵护，避免一些导致意外的因素。下面就跟着小编来一起看看护理小宝宝注意哪七个危险？]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24135/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></FromUserName>
+<CreateTime>1396441685</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPW_fxWcvH4qwJdGvlv9LN8]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441690</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[百度职工幼儿园]]></Title> 
+<Description><![CDATA[西二旗百度大厦]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/3/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[北京外国语附小小卖部]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗大街19号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/4/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396441717</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>40.051220</Latitude>
+<Longitude>116.295708</Longitude>
+<Precision>76.000000</Precision>
+</xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396441716</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+user  o7G8DuNnbOxWmc-THJjwx8sv8-fw location is 40.05122,116.295708 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396441722</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+in know:long:lat 40.05122 116.295708
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '14', 'windstrong': '1级'}
+baby age by day is 602
+weather info {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '14', 'windstrong': '1级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441723</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[14度 东北风1级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24442/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[母乳喂养能防止儿童肥胖吗？]]></Title> 
+<Description><![CDATA[一项最新的研究发现，母乳喂养可能无法避免儿童肥胖，那么它是真的吗？]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24442/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[0-3岁宝宝身高体重发育表]]></Title> 
+<Description><![CDATA[0-3岁宝宝身高体重、头围、胸围标准是什么？看看下面这张宝宝身高体重发育标准表，你家的宝宝合格了吗？]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23811/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝：我不喜欢妈妈这样喂我！]]></Title> 
+<Description><![CDATA[奶瓶喂养可不是件随随便便的事，你在喂奶中的一些细节合不合宝宝的心？一起来听一听宝宝的心声吧！]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23864/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1396441721</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>40.051479</Latitude>
+<Longitude>116.295532</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+user  o7G8DuPZ5LAVvYR4Evdcn15qjZ3M location is 40.051479,116.295532 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396441727</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1396441722</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441728</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[北京外国语附小小卖部]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗大街19号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/8.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/4/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[百度职工幼儿园]]></Title> 
+<Description><![CDATA[西二旗百度大厦]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/3/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396441732</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441738</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[百度职工幼儿园]]></Title> 
+<Description><![CDATA[西二旗百度大厦]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/3/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[有间教室]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗中路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/5/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396441733</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>40.051220</Latitude>
+<Longitude>116.295708</Longitude>
+<Precision>76.000000</Precision>
+</xml>
+user  o7G8DuNnbOxWmc-THJjwx8sv8-fw location is 40.05122,116.295708 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396441738</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396441739</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441745</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>0</ArticleCount>
+<Articles>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1396441739</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.051479 116.295532
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '14', 'windstrong': '1级'}
+baby age by day is 697
+weather info {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '14', 'windstrong': '1级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441746</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[14度 东北风1级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24000/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝头皮脏了怎么洗]]></Title> 
+<Description><![CDATA[宝宝头皮脏要怎么洗？粉粉嫩嫩的小宝宝真招人爱，可头顶上却厚厚堆积着一层由胎脂形成的头皮垢。这些头皮垢如果长期积存在头皮上，就会阻塞头皮上的毛孔，从而使头皮不能正常呼吸，弄不好便会引起脂溢性皮炎。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24000/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[给宝宝做手部按摩好处多]]></Title> 
+<Description><![CDATA[宝宝做按摩有助于宝宝身体的伸展，可以帮助宝宝舒展小手，使宝宝的脚趾变得更加灵活，小腿伸踢更加有力，胳膊舞动更加自如。同时，在按摩过程中培养起来的母子间的融融亲情，可以鼓励宝宝更积极地面对这个世界。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24385/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[危险！宝宝吃苋菜会致死]]></Title> 
+<Description><![CDATA[苋菜含有比较高的硝酸盐，3个月以下的宝宝嘴里有比较多的菌，其中有一种菌会使硝酸盐转变成亚硝酸盐，并且宝宝的胃的酸度比较低，所以就会使宝宝有亚硝酸盐中毒的危险，从而得蓝血病。但是大人不容易产生这种现象，原因是大人的口腔没有这种菌并且胃液的酸性较高。 ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24348/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1396441762</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441768</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[北京外国语附小小卖部]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗大街19号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/4/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[有间教室]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗中路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/5/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></FromUserName>
+<CreateTime>1396441764</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>40.051220</Latitude>
+<Longitude>116.295708</Longitude>
+<Precision>76.000000</Precision>
+</xml>
+user  o7G8DuNnbOxWmc-THJjwx8sv8-fw location is 40.05122,116.295708 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuNnbOxWmc-THJjwx8sv8-fw]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396441770</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396441782</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[住址 海淀区知春路]]></Content>
+<MsgId>5997671784658055166</MsgId>
+</xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396441791</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441798</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[时尚宝贝]]></Title> 
+<Description><![CDATA[北京市万柳东路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/2/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[紫金庄园幼儿园]]></Title> 
+<Description><![CDATA[北京市海淀区万泉河路68号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/1/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1396441799</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441805</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[北京外国语附小小卖部]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗大街19号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/4/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[百度职工幼儿园]]></Title> 
+<Description><![CDATA[西二旗百度大厦]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/3/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1396441801</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441807</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[有间教室]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗中路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/8.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/5/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[北京外国语附小小卖部]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗大街19号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/4/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1396441803</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441809</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[百度职工幼儿园]]></Title> 
+<Description><![CDATA[西二旗百度大厦]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/3/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[北京外国语附小小卖部]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗大街19号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/4/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1396441805</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441811</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[百度职工幼儿园]]></Title> 
+<Description><![CDATA[西二旗百度大厦]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/3/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[北京外国语附小小卖部]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗大街19号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/4/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1396441807</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441813</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[有间教室]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗中路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/5/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[百度职工幼儿园]]></Title> 
+<Description><![CDATA[西二旗百度大厦]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/2.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/3/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1396441809</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441815</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[北京外国语附小小卖部]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗大街19号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/4/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[有间教室]]></Title> 
+<Description><![CDATA[北京市海淀区西二旗中路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/4.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/5/]]></Url>
+</item>
+
+</Articles>
+</xml>
+[02/Apr/2014 11:31:49] "POST /weixin/dev/?signature=482186d5539ffa87d7571236ba3d340bc8de3861&timestamp=1396438303&nonce=1445668961 HTTP/1.0" 200 398
+[02/Apr/2014 11:31:50] "GET /offline/getoffline/5/ HTTP/1.1" 200 512
+[02/Apr/2014 11:31:54] "POST /weixin/dev/?signature=a4cd2c60f54bc5b9c31475767c579c49797de36c&timestamp=1396438307&nonce=1777138934 HTTP/1.0" 200 2133
+[02/Apr/2014 11:31:56] "POST /weixin/dev/?signature=c5b2db150cd42a64fbde6c71e2409917ebf2aba1&timestamp=1396438310&nonce=365877842 HTTP/1.0" 200 263
+[02/Apr/2014 11:32:07] "GET /weixin/knowledge/23792/ HTTP/1.1" 200 7410
+[02/Apr/2014 11:32:08] "GET /offline/getoffline/5 HTTP/1.1" 301 0
+[02/Apr/2014 11:32:08] "GET /offline/getoffline/5/ HTTP/1.1" 200 512
+[02/Apr/2014 11:32:09] "POST /weixin/dev/?signature=d126898d25e556dc2146cd2ad36a49aa65ab8fcf&timestamp=1396438323&nonce=1802985801 HTTP/1.0" 200 1791
+[02/Apr/2014 11:32:13] "POST /weixin/dev/?signature=ae3276523faa0a442979b31831d26696bb61dd54&timestamp=1396438327&nonce=99936741 HTTP/1.0" 200 255
+[02/Apr/2014 11:32:21] "POST /weixin/dev/?signature=0df2f5192070493afffb2e497e32816eb5cae098&timestamp=1396438335&nonce=1445744948 HTTP/1.0" 200 2095
+[02/Apr/2014 11:32:35] "POST /weixin/dev/?signature=8bdfe7e0eec5e42567ab0a9805c28ba824f40ca0&timestamp=1396438349&nonce=175926387 HTTP/1.0" 200 2031
+[02/Apr/2014 11:32:40] "GET /weixin/knowledge/24406/ HTTP/1.1" 200 5389
+[02/Apr/2014 11:32:42] "GET /weixin/knowledge/23792/ HTTP/1.1" 200 7410
+[02/Apr/2014 11:32:49] "POST /weixin/dev/?signature=55cc074d56b5aafbb9a3004f09927bee6143873f&timestamp=1396438362&nonce=712223169 HTTP/1.0" 200 2133
+[02/Apr/2014 11:32:50] "GET /weixin/knowledge/24406/ HTTP/1.1" 200 5389
+[02/Apr/2014 11:32:51] "GET /weixin/knowledge/22248/ HTTP/1.1" 200 6099
+[02/Apr/2014 11:32:53] "GET /weixin/knowledge/24030/ HTTP/1.1" 200 4318
+[02/Apr/2014 11:32:56] "GET /weixin/knowledge/24406 HTTP/1.1" 301 0
+[02/Apr/2014 11:32:56] "GET /weixin/knowledge/24406/ HTTP/1.1" 200 5389
+[02/Apr/2014 11:32:57] "GET /weixin/knowledge/24406/ HTTP/1.1" 200 5389
+[02/Apr/2014 11:33:00] "GET /weixin/knowledge/24406/ HTTP/1.1" 200 5389
+[02/Apr/2014 11:33:02] "GET /weixin/knowledge/23807/ HTTP/1.1" 200 5273
+[02/Apr/2014 11:33:13] "POST /weixin/dev/?signature=c4352755d600ac2f4a10c8681c30ada9ae6870b0&timestamp=1396438386&nonce=947425204 HTTP/1.0" 200 2089
+[02/Apr/2014 11:33:23] "GET /weixin/knowledge/23807/ HTTP/1.1" 200 5273
+[02/Apr/2014 11:33:44] "POST /weixin/dev/?signature=17043b020d9c1c1b8541b4cb940d21a1bf7d02f1&timestamp=1396438417&nonce=2060441791 HTTP/1.0" 200 2067
+[02/Apr/2014 11:33:50] "POST /weixin/dev/?signature=c334ae1b6d818086e7df727e3dedb634094099cb&timestamp=1396438424&nonce=2082165288 HTTP/1.0" 200 824
+[02/Apr/2014 11:34:30] "POST /weixin/dev/?signature=56c716bfe9a242aeb109c9dde7d15692827a10b2&timestamp=1396438464&nonce=1270715517 HTTP/1.0" 200 255
+[02/Apr/2014 11:34:30] "POST /weixin/dev/?signature=be3c502d00661eac2edc551577cda1230ef16e1e&timestamp=1396438463&nonce=1887512788 HTTP/1.0" 200 2219
+[02/Apr/2014 11:34:34] "GET /weixin/knowledge/24337/ HTTP/1.1" 200 7891
+[02/Apr/2014 11:34:36] "POST /weixin/dev/?signature=3df477ad751867f8c0d13bb8f00e44ad92935a4b&timestamp=1396438470&nonce=33823426 HTTP/1.0" 200 2065
+[02/Apr/2014 11:34:43] "GET /weixin/knowledge/24204/ HTTP/1.1" 200 3901
+[02/Apr/2014 11:35:58] "GET /weixin/knowledge/23764/ HTTP/1.1" 200 5634
+[02/Apr/2014 12:03:09] "GET /weixin/knowledge/22248/ HTTP/1.1" 200 6099
+[02/Apr/2014 12:20:14] "GET /weixin/knowledge/22248/ HTTP/1.1" 200 6099
+[02/Apr/2014 12:26:34] "POST /weixin/dev/?signature=27ceea72b3bbacee1aeee5c3be426496af0a8056&timestamp=1396441587&nonce=88028077 HTTP/1.0" 200 2233
+[02/Apr/2014 12:28:03] "POST /weixin/dev/?signature=3059835eec1916b8ae6b1a8c24328c0046fd1db5&timestamp=1396441677&nonce=531717701 HTTP/1.0" 200 2077
+[02/Apr/2014 12:28:10] "POST /weixin/dev/?signature=5935266f9cb9b2998944ad66ed39446e1e71cd66&timestamp=1396441684&nonce=247797853 HTTP/1.0" 200 821
+[02/Apr/2014 12:28:38] "GET /offline/getoffline/4/ HTTP/1.1" 200 526
+[02/Apr/2014 12:28:42] "POST /weixin/dev/?signature=0621e5ed8052144480fbf13d9fc9c1f6c9152e87&timestamp=1396441717&nonce=270635244 HTTP/1.0" 200 255
+[02/Apr/2014 12:28:43] "POST /weixin/dev/?signature=808104330ca7eaec90f3afa84744b610c0ae1f91&timestamp=1396441716&nonce=1064049364 HTTP/1.0" 200 1752
+[02/Apr/2014 12:28:47] "POST /weixin/dev/?signature=2896a4478e54728647fa69985436c634b2dbc997&timestamp=1396441721&nonce=429411482 HTTP/1.0" 200 255
+[02/Apr/2014 12:28:48] "POST /weixin/dev/?signature=9242c57c102bb9c9221e547483bb9dbcbaf13f5e&timestamp=1396441723&nonce=249828886 HTTP/1.0" 200 821
+[02/Apr/2014 12:28:53] "GET /weixin/knowledge/24442/ HTTP/1.1" 200 5166
+[02/Apr/2014 12:28:56] "GET /offline/getoffline/3/ HTTP/1.1" 200 522
+[02/Apr/2014 12:28:58] "POST /weixin/dev/?signature=44184ea345702dc0ec491a42879557d0e3225f92&timestamp=1396441732&nonce=1963084182 HTTP/1.0" 200 798
+[02/Apr/2014 12:28:58] "POST /weixin/dev/?signature=ad8d61cf5cf3638fc8b8f784f8c1660122845fbd&timestamp=1396441732&nonce=450723945 HTTP/1.0" 200 255
+[02/Apr/2014 12:29:02] "GET /offline/getoffline/3/ HTTP/1.1" 200 522
+[02/Apr/2014 12:29:05] "POST /weixin/dev/?signature=c11c54dd575b44dc4696223c1cdeb2d775180bc6&timestamp=1396441739&nonce=1480413870 HTTP/1.0" 200 263
+[02/Apr/2014 12:29:06] "POST /weixin/dev/?signature=6a66d5e2a4addd749a025a264e3dcedfca5f0a87&timestamp=1396441739&nonce=1684665175 HTTP/1.0" 200 2303
+[02/Apr/2014 12:29:09] "GET /offline/getoffline/5/ HTTP/1.1" 200 512
+[02/Apr/2014 12:29:13] "GET /weixin/knowledge/24000/ HTTP/1.1" 200 4316
+[02/Apr/2014 12:29:28] "POST /weixin/dev/?signature=27899b3f1b8d68383d0502f1a085ccf3b8160b34&timestamp=1396441762&nonce=1832616086 HTTP/1.0" 200 824
+[02/Apr/2014 12:29:30] "POST /weixin/dev/?signature=721c06d2a5260e69aa6a91bb73d0e05314744c8e&timestamp=1396441764&nonce=711739799 HTTP/1.0" 200 255
+[02/Apr/2014 12:29:31] "GET /offline/getoffline/5/ HTTP/1.1" 200 512
+[02/Apr/2014 12:29:43] "GET /offline/getoffline/3/ HTTP/1.1" 200 522
+[02/Apr/2014 12:29:48] "POST /weixin/dev/?signature=6dcfe0c22590154844dd8ba26af8268cf4446ae2&timestamp=1396441782&nonce=318877604 HTTP/1.0" 200 298
+[02/Apr/2014 12:29:51] "GET /offline/getoffline/5/ HTTP/1.1" 200 512
+[02/Apr/2014 12:29:58] "POST /weixin/dev/?signature=fb925862322efe7ebc11cc3b33cae1945ef86359&timestamp=1396441792&nonce=1160214290 HTTP/1.0" 200 800
+[02/Apr/2014 12:30:05] "POST /weixin/dev/?signature=c1f274dd2282dd8bb804bbf99432fcfe72185378&timestamp=1396441799&nonce=1692508558 HTTP/1.0" 200 821
+[02/Apr/2014 12:30:07] "POST /weixin/dev/?signature=cc8bdeaf55de5d9373419fe060019a509c7eec8a&timestamp=1396441801&nonce=1432359167 HTTP/1.0" 200 824
+[02/Apr/2014 12:30:09] "POST /weixin/dev/?signature=e23cc759411b2b59f469c38ed52f41b8300072e8&timestamp=1396441804&nonce=1894263331 HTTP/1.0" 200 821
+[02/Apr/2014 12:30:11] "POST /weixin/dev/?signature=3bf640b6baa517ee29a485d8fe74c497cb74d229&timestamp=1396441806&nonce=2133411974 HTTP/1.0" 200 821
+[02/Apr/2014 12:30:13] "POST /weixin/dev/?signature=cec61a4a26e5079b18919ae8bfbbc4d3a586959e&timestamp=1396441808&nonce=2111421527 HTTP/1.0" 200 798
+[02/Apr/2014 12:30:15] "POST /weixin/dev/?signature=842d2ebe9e5b988329469bac4a11b37871c831d7&timestamp=1396441810&nonce=1022185760 HTTP/1.0" 200 824
+[02/Apr/2014 12:30:28] "POST /weixin/dev/?signature=ab700643e96f772e2926708d49b746edbe4243ac&timestamp=1396441822&nonce=1396272125 HTTP/1.0" 200 2289
+[02/Apr/2014 12:30:32] "GET /weixin/knowledge/24001/ HTTP/1.1" 200 5039
+[02/Apr/2014 12:30:40] "GET /weixin/knowledge/24224/ HTTP/1.1" 200 4703
+[02/Apr/2014 12:30:48] "POST /weixin/dev/?signature=05fea34681949d36fe03433fe5d0298d25ae9213&timestamp=1396441841&nonce=2107519314 HTTP/1.0" 200 2146
+[02/Apr/2014 12:50:12] "GET /weixin/knowledge/22248 HTTP/1.1" 301 0
+[02/Apr/2014 12:50:12] "GET /weixin/knowledge/22248/ HTTP/1.1" 200 6099
+[02/Apr/2014 12:58:55] "GET /offline/getoffline/3 HTTP/1.1" 301 0
+[02/Apr/2014 12:58:55] "GET /offline/getoffline/3/ HTTP/1.1" 200 522
+[02/Apr/2014 13:01:47] "POST /weixin/dev/?signature=ee46660f2a6ccba849aa238cf6f642a1202c0855&timestamp=1396443700&nonce=786843386 HTTP/1.0" 200 467
+[02/Apr/2014 13:04:27] "POST /weixin/dev/?signature=d3d22c34eafceda50b35fb0a53fc78777352b915&timestamp=1396443861&nonce=557746088 HTTP/1.0" 200 255
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1396441822</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.051479 116.295532
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '14', 'windstrong': '1级'}
+baby age by day is 697
+weather info {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '14', 'windstrong': '1级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441828</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[14度 东北风1级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24001/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[男孩女孩智力上的三大差异]]></Title> 
+<Description><![CDATA[ 许多家长有这样一种看法，认为男孩比女孩聪明，或者说小时候女孩可能比男孩聪明，但长大、特别是上高中以后，女孩就不行了。对此，许多专家进行了反复研究讨论，认为虽然男女儿童在身体结构、体质等方面有一定的差异但性别的差异并不影响人的智力的高低，就整体而言，智力在男女儿童之间并不存在差异。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24001/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[问题奶粉层出不穷该如何选择？]]></Title> 
+<Description><![CDATA[面对现在层出不穷的奶粉问题，家长们越来越觉得选择一款好的奶粉是一件不容易的事。有专家称，无论是国内的品牌还是国外的，好的奶粉都应该是合适自家宝宝食用的。儿科专家也指出，要尽量购买一些相对出名的品牌奶粉，才能在配方和产品安全上有所保障。 ]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24224/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[爸爸抚摸宝宝帮助健康成长]]></Title> 
+<Description><![CDATA[专家指出，家长特别是爸爸们，应该多了解一些做抚触的好处和必要性，这样就能更好地帮助宝宝健康成长。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/8.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/23884/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></FromUserName>
+<CreateTime>1396441841</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 40.051479 116.295532
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '14', 'windstrong': '1级'}
+baby age by day is 697
+weather info {'wind': '东北风', 'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'city': '北京', 'temperature': '14', 'windstrong': '1级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuPZ5LAVvYR4Evdcn15qjZ3M]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396441848</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[14度 东北风1级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24358/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[解读不同年龄段孩子的调皮捣蛋]]></Title> 
+<Description><![CDATA[有很多父母由于不了解孩子身心发育的规律，而对孩子本是正常的“自我主张”、“调皮捣蛋”等表现以打骂相向，这样做的结果是给孩子的心灵造成了创伤。因此，为了更好地塑造孩子的心灵，我们有必要了解一下孩子心灵的发育过程。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24358/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[先睹为快 绚丽多彩的婴儿房 ]]></Title> 
+<Description><![CDATA[不同于以往介绍的婴儿房，这位妈妈并没有选择粉色系温柔的色调，而是选择了五彩斑斓的装饰，她的灵感来自于调色盘。彩色也更加能够吸引宝宝的目光，帮助视力和智力发育。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24475/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[如何挑选最适合宝宝的湿巾]]></Title> 
+<Description><![CDATA[越来越多的父母给宝宝用湿巾了，湿巾的用处可是很多哦，不仅可以给宝宝擦屁股，还可以擦手，擦宝宝的嘴巴和鼻涕，在给宝宝清洁的同时也保护了宝宝的皮肤呢？
+]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/24052/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuK-dTC-lqn4kqxJD3_IiaAs]]></FromUserName>
+<CreateTime>1396443700</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+event output: <xml><ToUserName><![CDATA[o7G8DuK-dTC-lqn4kqxJD3_IiaAs]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396443707</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[欢迎来养娃宝瞅一瞅~ 为了获得更精确的知识推送，请在聊天界面告诉我们您家宝宝的生日吧~
+回复：
+生日 20140101
+住址 北京市海淀区XXX街XX号
+请注意格式，谢谢~]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396443861</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.958405</Latitude>
+<Longitude>116.340736</Longitude>
+<Precision>42.000000</Precision>
+</xml>
+user  o7G8DuAY7_0pkrIsmkpSZcsQr9CU location is 39.958405,116.340736 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396443867</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396443940</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.947701</Latitude>
+<Longitude>116.345238</Longitude>
+<Precision>39.000000</Precision>
+</xml>
+user  o7G8DuAY7_0pkrIsmkpSZcsQr9CU location is 39.947701,116.345238 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396443947</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>[06/Apr/2014 10:21:31] "POST /weixin/dev/?signature=96e21423fcf8b62c71e4d0d042945357c5e519fa&timestamp=1396779681&nonce=765254179 HTTP/1.0" 200 2063
+[06/Apr/2014 10:21:36] "POST /weixin/dev/?signature=6eea002ac563f277190a72198527ffb762aaa974&timestamp=1396779689&nonce=1945526554 HTTP/1.0" 200 800
+[06/Apr/2014 10:21:40] "GET /offline/getoffline/1/ HTTP/1.1" 200 955
+[06/Apr/2014 10:21:49] "GET /offline/getoffline/2/ HTTP/1.1" 200 1017
+[06/Apr/2014 10:24:38] "POST /weixin/dev/?signature=9678c6bd5698329224177923189f12ff6595d49e&timestamp=1396779871&nonce=39709708 HTTP/1.0" 200 800
+[06/Apr/2014 10:24:43] "GET /offline/getoffline/2/ HTTP/1.1" 200 1017
+[06/Apr/2014 10:27:43] "GET http://www.google.com/ HTTP/1.0" 404 1654
+[06/Apr/2014 10:35:28] "GET /offline/addshopcomment/2 HTTP/1.1" 301 0
+[06/Apr/2014 10:35:29] "GET /offline/addshopcomment/2/ HTTP/1.1" 500 67849
+[06/Apr/2014 10:53:31] "GET /offline/getoffline/1/ HTTP/1.1" 200 955
+[06/Apr/2014 10:55:34] "POST /weixin/dev/?signature=b3ec1269a110c67999cd81736582154faf885c97&timestamp=1396781728&nonce=428278776 HTTP/1.0" 200 255
+[06/Apr/2014 10:55:37] "POST /weixin/dev/?signature=050963084cce136c7497492ad3950f3d07220069&timestamp=1396781731&nonce=1518492881 HTTP/1.0" 200 800
+[06/Apr/2014 10:55:41] "GET /offline/getoffline/1/ HTTP/1.1" 200 955
+[06/Apr/2014 10:55:48] "POST /offline/addshopcomment/1/ HTTP/1.1" 200 972
+[06/Apr/2014 10:56:03] "POST /weixin/dev/?signature=ce1e9fc98f6fda6f0c9d8fbd601a84873ac6e705&timestamp=1396781756&nonce=117711130 HTTP/1.0" 200 255
+Validating models...
+
+0 errors found
+April 06, 2014 - 10:21:15
+Django version 1.6.1, using settings 'ywbweb.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396779681</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[TODAY_KNOWLEDGE]]></EventKey>
+</xml>
+come here
+in know:long:lat 39.947701 116.345238
+locstr: 北京市
+weixin curpath: /root/ywbweb
+in getweatherinfo
+urln: http://www.weather.com.cn/data/sk/101010100
+get hint
+weatherinfo: {'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'temperature': '21', 'city': '北京', 'wind': '西南风', 'windstrong': '4级'}
+baby age by day is 5
+weather info {'detailinfo': '温度适宜，穿衬衣或羊毛衫', 'temperature': '21', 'city': '北京', 'wind': '西南风', 'windstrong': '4级'}
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396779691</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>4</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[21度 西南风4级 温度适宜，穿衬衣或羊毛衫]]></Title>
+<Description><![CDATA[温度适宜，穿衬衣或羊毛衫]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/21877/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[宝宝长相遗传爸还是妈]]></Title> 
+<Description><![CDATA[现在很多80后爸爸妈妈喜欢在微博上晒BB的照片，得到亲友的夸赞，一边说像爸爸，一边说像妈妈，究竟宝宝像爸爸多一点呢还是像妈妈多一点呢？虽然孕妈在孕期常会以各种食材搭配和运动想让宝宝变成高富帅、白富美，不过基因遗传还是有规律的哦！宝宝长相遗传爸还是妈？下面小编就来为您解答。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/1.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/21877/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[测试新生宝宝6种行为能力]]></Title> 
+<Description><![CDATA[新生儿的行为能力主要表现在看、听、闻、反应能力、神经反射以及与成人的互动6个方面。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/7.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/21939/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[喂奶姿势不对小心BB地包天]]></Title> 
+<Description><![CDATA[用奶瓶给孩子喂奶时，不要喂的时间过久。最好孩子过一岁后，开始慢慢练习用杯子喝水喝奶，过度过长时间吸吮奶嘴对口腔额骨发育不利。]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/weixin/knowledge/22827/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396779689</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396779696</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[紫金庄园幼儿园]]></Title> 
+<Description><![CDATA[北京市海淀区万泉河路68号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/1/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[时尚宝贝]]></Title> 
+<Description><![CDATA[北京市万柳东路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/9.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/2/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+view shop: Shop object
+view shop: Shop object
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></FromUserName>
+<CreateTime>1396779871</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuAY7_0pkrIsmkpSZcsQr9CU]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396779878</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[时尚宝贝]]></Title> 
+<Description><![CDATA[北京市万柳东路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/6.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/2/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[紫金庄园幼儿园]]></Title> 
+<Description><![CDATA[北京市海淀区万泉河路68号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/3.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/1/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+view shop: Shop object
+in save shop comment: 2
+view shop: Shop object
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396781727</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.965202</Latitude>
+<Longitude>116.301682</Longitude>
+<Precision>67.000000</Precision>
+</xml>
+user  o7G8DuHWzAw0InNPcTQEAI5PFDV4 location is 39.965202,116.301682 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396781734</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396781728</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[AROUD_BABY]]></EventKey>
+</xml>
+event output: <xml>
+<ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName>
+<FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName>
+<CreateTime>1396781737</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+
+<item>
+<Title><![CDATA[时尚宝贝]]></Title> 
+<Description><![CDATA[北京市万柳东路]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/5.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/2/]]></Url>
+</item>
+
+<item>
+<Title><![CDATA[紫金庄园幼儿园]]></Title> 
+<Description><![CDATA[北京市海淀区万泉河路68号]]></Description>
+<PicUrl><![CDATA[http://wjbb.cloudapp.net:8001/pic/0.jpg]]></PicUrl>
+<Url><![CDATA[http://wjbb.cloudapp.net/offline/getoffline/1/]]></Url>
+</item>
+
+</Articles>
+</xml>
+
+view shop: Shop object
+in save shop comment: 1
+req post: 呵呵
+shop: Shop object
+view shop: Shop object
+rawstr: <xml><ToUserName><![CDATA[gh_c0105b1055ff]]></ToUserName>
+<FromUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></FromUserName>
+<CreateTime>1396781750</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.965309</Latitude>
+<Longitude>116.301590</Longitude>
+<Precision>49.000000</Precision>
+</xml>
+user  o7G8DuHWzAw0InNPcTQEAI5PFDV4 location is 39.965309,116.30159 saved in db
+event output: <xml><ToUserName><![CDATA[o7G8DuHWzAw0InNPcTQEAI5PFDV4]]></ToUserName><FromUserName><![CDATA[gh_c0105b1055ff]]></FromUserName><CreateTime>1396781763</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[]]></Content><FuncFlag>0</FuncFlag></xml>

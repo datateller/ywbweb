@@ -80,6 +80,7 @@ def weixin_konwledges_reply(age_by_day, number, msg, weatherinfo):
     context['detailinfo'] = weatherinfo['detailinfo']
     context['weather_picurl'] = 'http://wjbb.cloudapp.net:8001/pic/'+str(picindexes[0])+'.jpg'
     context['weather_url'] = 'http://wjbb.cloudapp.net/weixin/knowledge/%d/'%(knowls[0].id)
+    print("weather info", weatherinfo)
     t = get_template('weixin/knowledges_msg.xml')
     return t.render(Context(context))
 
@@ -133,6 +134,7 @@ def weixin_event_handle(msg):
     if msg['Event'] == 'CLICK':
         event_key = msg['EventKey']
         if event_key == 'TODAY_KNOWLEDGE':
+            print("come here")
             weixin_user = WeixinUser.objects.get(openid=msg['FromUserName'])
             baby_birthday = weixin_user.baby_birthday
             latitude = weixin_user.latitude
@@ -142,8 +144,10 @@ def weixin_event_handle(msg):
             if latitude and longitude:
                 addr = get_baidu_address(latitude, longitude, False)
                 weatherinfo = getweatherinfoconv(addr)
+                print("weatherinfo:", weatherinfo)
             else:
                 weatherinfo = getweatherinfoconv()
+                print("default weather")
             if not baby_birthday:
                 return weixin_reply_msg(msg, reply1)
             else:
@@ -169,7 +173,7 @@ def weixin_event_handle(msg):
 def weixin_dev_view(request):
     try:
         rawstr = smart_str(request.body)
-        #print("rawstr:", rawstr)
+        print("rawstr:", rawstr)
         msg = weixinmsg_to_map(rawstr)
         reply = ''
         msg_type = msg['MsgType']
@@ -237,6 +241,7 @@ def weixin_knowledge_view(request, kid):
         imagestart = html.find('<img')
         if imagestart < 0:
         #if True:
+           print("##img try")
            picindex = random.randint(0,9)
            imgstr = '''
 <p style=\"text-align: center\">
@@ -247,6 +252,7 @@ def weixin_knowledge_view(request, kid):
            html = ('%s <body> %s %s')%(htmlsplit[0], imgstr, htmlsplit[1])
 
         else:
+            print("contain img")
             srcstart = html.find("src", imagestart)
             srcend = html.find("\"", srcstart + 5)
             imageurl = html[srcstart+5:srcend]

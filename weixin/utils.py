@@ -11,7 +11,7 @@ from datetime import datetime
 from offline.models import *
 
 
-def get_offline_nearby(latitude, longitude, number):
+def get_offline_nearby(latitude, longitude):
     distance = 5000
     point = fromstr("POINT(%s %s)" % (longitude, latitude))
     nearbys = Shop.objects.filter(point__distance_lt=(point, D(km=int(distance)/1000)))
