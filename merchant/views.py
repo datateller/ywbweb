@@ -146,3 +146,6 @@ class CommercialPostView(FormView):
                 print("form_post not valid")
         return super(CommercialPostView, self).form_valid(form)
 
+def about(request):
+    return render(request, "merchant/about.html")
+

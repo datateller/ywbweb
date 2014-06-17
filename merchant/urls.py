@@ -16,5 +16,6 @@ urlpatterns = patterns('',
     url(r'^commercials/post/', CommercialPostView.as_view(success_url='/merchant/commercials/list/'), name='commercials_post'),
     url(r'^commercials/list/', CommercialListView.as_view(), name='commercials_list'),
     url(r'^commercials/', CommercialListView.as_view(), name='commercials'),
+    url(r'^about$', about, name='about'),
 )
 
