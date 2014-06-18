@@ -9,19 +9,29 @@
     <title>{% block title %}{% endblock %}</title>
     <!-- Bootstrap core CSS -->
     <link href="/static/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/pagefooter.css" rel="stylesheet">
     {% block customcss %}{% endblock %}
+    
 </head>
 
 <body>
+    <div id="wrapper">
+    <div id="header">
     {% include "merchant/navbar.html" %}
+    </div>
+    <div id="content">
     {% block content %}  <h1>content block in base.html</h1>  {% endblock %}
+    </div>
     
     <hr>
-    <footer class="footer">
+    <div id="footer">
+    <footer>
     {% block footer %}
-      <p style="text-align:center">&copy; 养娃宝 2014 </p>
+      <p style="text-align:center;">&copy; 养娃宝 2014 </p>
     {% endblock %}
     </footer>
+    </div>
+    </div>
     
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
