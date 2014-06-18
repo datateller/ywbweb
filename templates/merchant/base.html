@@ -13,13 +13,13 @@
 </head>
 
 <body>
-  {% include "merchant/navbar.html" %}
+    {% include "merchant/navbar.html" %}
     {% block content %}  <h1>content block in base.html</h1>  {% endblock %}
     
     <hr>
-    <footer>
+    <footer class="footer">
     {% block footer %}
-        <p>&copy; 养娃宝 2014 </p>
+      <p style="text-align:center">&copy; 养娃宝 2014 </p>
     {% endblock %}
     </footer>
     
@@ -29,5 +29,19 @@
     <script src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/static/js/offcanvas.js"></script>
     {% block customjs %}{% endblock %}
+    <script>
+      var c=document.getElementById("logoCanvas");
+      var ctx=c.getContext("2d");
+      ctx.font="30px Arial";
+      ctx.shadowBlur=10;
+      ctx.shadowColor="Gray";
+      ctx.shadowOffsetX=5;
+      ctx.shadowOffsetY=5;
+      var lingrad = ctx.createLinearGradient(0,20,100, 50);
+      lingrad.addColorStop(0, '#BA55D3');
+      lingrad.addColorStop(1, '#00868B');
+      ctx.strokeStyle=lingrad;
+      ctx.strokeText("养娃宝",5,25)
+    </script>
 </body>
 </html>
