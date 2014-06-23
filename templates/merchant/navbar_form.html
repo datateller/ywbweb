@@ -1,10 +1,14 @@
 {% if user.is_authenticated %}
  	  <form name = "logout" class="navbar-form navbar-right" role="form" action="/merchant/logout/" method="get">
 				<div class="form-group">
-				  <a herf="#">{{user.username}}</a>
+				  <!-- <a herf="#">{{user.username}}</a> -->
+        <p style="color:red;display:inline" >{{user.username}}</p>
         <button class="btn btn-primary " type="submit" name="logout">退出</button>
 				</div>
     </form>
+          <div style="padding-top:10px">
+          <a class="btn btn-primary" href="/merchant/home/">商家中心</a>
+          </div>
 {% else %}
   {% if login_form %}
     {% include "merchant/login.html" %}

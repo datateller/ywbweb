@@ -21,23 +21,23 @@ var marker = new BMap.Marker();
 distance = 2000
 
 function GetXmlHttpObject() {  
-var xmlHttp=null;  
-try {  
-// Firefox, Opera 8.0+, Safari  
-xmlHttp=new XMLHttpRequest();  
-} catch (e) {  
-// Internet Explorer  
-try {  
-xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");  
-} catch (e) {  
-xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");  
-}  
-}  
-if (xmlHttp==null) {  
-alert ("Your browser does not support AJAX!");  
-return;  
-}  
-return xmlHttp;  
+  var xmlHttp=null;  
+  try {  
+  // Firefox, Opera 8.0+, Safari  
+    xmlHttp=new XMLHttpRequest();  
+  } catch (e) {  
+  // Internet Explorer  
+    try {  
+    xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");  
+    } catch (e) {  
+    xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");  
+    }    
+  }  
+  if (xmlHttp==null) {  
+    alert ("Your browser does not support AJAX!");  
+    return;  
+  }   
+  return xmlHttp;  
 }
 
 function addMarker(point){
@@ -47,26 +47,29 @@ function addMarker(point){
 }
 
 function getsurr(longitude, latitude){
-var xmlHttp=GetXmlHttpObject();  
-responseText="";
-xmlHttp.onreadystatechange= function() {  
-if (xmlHttp.readyState==4) {  
-if (xmlHttp.status==200) {  
-// Here we process the response  
-    responseText=xmlHttp.responseText;
-    userpoints = eval(responseText);
-    for (var p in userpoints) {
-      var point = new BMap.Point(userpoints[p].x, userpoints[p].y);
-      addMarker(point);
-    }//add points on map
-} else {  
-alert("An error has occurred");  
-}  
-}  
-}
-RequestURL="http://wjbb.cloudapp.net:80/surrounding/getsurr/?longitude="+longitude+"&latitude="+latitude+"&distance=2000";
-xmlHttp.open("GET",RequestURL,true); //submit the URL request  
-xmlHttp.send(null);
+  var xmlHttp=GetXmlHttpObject();  
+  responseText="";
+  xmlHttp.onreadystatechange= function() {  
+    if (xmlHttp.readyState==4) {  
+      if (xmlHttp.status==200) {  
+      // Here we process the response  
+        responseText=xmlHttp.responseText;
+        userpoints = eval(responseText);
+        for (var p in userpoints) {
+          var point = new BMap.Point(userpoints[p].x, userpoints[p].y);
+          addMarker(point);
+        }//add points on map
+      } else {  
+        alert(xmlHttp.status.toString());
+        alert("An error has occurred");  
+      }  
+    }  
+  }
+  //RequestURL="http://wjbb.cloudapp.net:8080/surrounding/getsurr/?longitude="+longitude+"&latitude="+latitude+"&distance=2000";
+  RequestURL="http://sj.yangwabao.com:8080/surrounding/getsurr/?longitude="+longitude+"&latitude="+latitude+"&distance=2000";
+  //RequestURL="http://wjbb.cloudapp.net:8080/surrounding/getsurr/?longitude=109&latitude=39&distance=2000";
+  xmlHttp.open("GET",RequestURL,true); //submit the URL request  
+  xmlHttp.send(null);
 }
 
 function fillform(){

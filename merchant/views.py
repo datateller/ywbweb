@@ -52,7 +52,7 @@ class RegisterView(RegistrationView):
         context['register_form'] = RegisterForm()
         return context
 
-    def form_valid(self, form):
+    def form_valid_old(self, form):
         # This method is called when valid form data has been POSTed.
         # It should return an HttpResponse.
         ###process register form
@@ -71,10 +71,27 @@ class RegisterView(RegistrationView):
                 merchant.latitude = form_reg.cleaned_data['latitude']
                 merchant.description = form_reg.cleaned_data['description']
                 #user.save()
+                print("####merchange save")
                 merchant.save()
             else:
-                print("error: not post?")
+                print("###error: not post?")
+                print("###qiguai")
         return super(RegisterView, self).form_valid(form)
+    def form_valid(self, form_reg):
+        username = form_reg.cleaned_data['email']                                
+        user = User.objects.create_user(username = username,                     
+        password = form_reg.cleaned_data['password'],
+        email = form_reg.cleaned_data['email'])
+        merchant = Merchant(user = user)
+        merchant.city = form_reg.cleaned_data['city']
+        merchant.address = form_reg.cleaned_data['address']
+        print("longitude is :" + form_reg.cleaned_data['longitude'])             
+        merchant.longitude = float(form_reg.cleaned_data['longitude'])
+        merchant.latitude = form_reg.cleaned_data['latitude']
+        merchant.description = form_reg.cleaned_data['description']
+        print("####merchange save")
+        merchant.save()
+        return super(RegisterView, self).form_valid(form_reg)
 
 
 class MerchantMainPageView(TemplateView):
@@ -91,6 +108,8 @@ class MerchantHomeView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super(MerchantHomeView, self).get_context_data(**kwargs)
         context['login_form'] = LoginForm()
+       
+        context['merchant'] = Merchant.objects.filter(user__username = self.request.user.username)[0]
         return context
 
     @method_decorator(login_required)
@@ -108,6 +127,7 @@ class CommercialListView(TemplateView):
         clist = []
         clist = Commercial.objects.filter(merchant__username = user.username)
         context['commercial_list'] = clist
+        context['merchant'] = Merchant.objects.filter(user__username = self.request.user.username)[0]
         return context
     
     @method_decorator(login_required)
@@ -127,6 +147,7 @@ class CommercialPostView(FormView):
         context = super(CommercialPostView, self).get_context_data(**kwargs)
         context['login_form'] = LoginForm()
         context['post_form'] = PostCommercialForm()
+        context['merchant'] = Merchant.objects.filter(user__username = self.request.user.username)[0]
         return context
 
     def form_valid(self, form):

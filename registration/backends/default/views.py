@@ -20,8 +20,32 @@ class RegistrationView(BaseRegistrationView):
         context['login_form'] = LoginForm()
         context['register_form'] = RegisterForm()
         return context
+
+
+    def form_valid(self, request, form):                                             
+        form.cleaned_data['username'] = form.cleaned_data['email']                       
+        print(form.cleaned_data)                                                         
+        new_user = self.register(request, **form.cleaned_data)                           
+        success_url = self.get_success_url(request, new_user)
+        merchant = Merchant(user = new_user)
+        merchant.city = form.cleaned_data['city']                            
+        merchant.address = form.cleaned_data['address']
+        print("longitude is :" + form.cleaned_data['longitude'])
+        merchant.longitude = float(form.cleaned_data['longitude'])
+        merchant.latitude = form.cleaned_data['latitude']                    
+        merchant.description = form.cleaned_data['description']
+        #user.save()
+        merchant.save()
+        # success_url may be a simple string, or a tuple providing the
+        # full argument set for redirect(). Attempting to unpack it
+        # tells us which one it is.                                                      
+        try:                                                                             
+            to, args, kwargs = success_url                                               
+            return redirect(to, *args, **kwargs)
+        except ValueError:
+            return redirect(success_url)
     
-    def form_valid(self, request, form):
+    def form_valid_old(self, request, form):
         form.cleaned_data['username'] = form.cleaned_data['email']
         print(form.cleaned_data)
         new_user = self.register(request, **form.cleaned_data)

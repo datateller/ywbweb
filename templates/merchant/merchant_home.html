@@ -15,7 +15,18 @@
             <a href="/merchant/home/" class="list-group-item active">主页</a>
             <a href="/merchant/commercials/post/" class="list-group-item">发布信息</a>
             <a href="#" class="list-group-item">我的推送</a>
-            <a href="#" class="list-group-item">帮助</a>
+            <a href="#" class="list-group-item">我的信息</a>
+          </div>
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <div class="panel-title"><span class="glyphicon glyphicon-certificate"></span>  {{merchant.user.username}}</div>
+            </div>
+            <div class="panel-body">
+              <p style="font-style:italic">所在城市：{{merchant.city}}</p>
+              <p style="font-style:italic">{{merchant.address}}</p>
+              <p style="font-style:italic">{{merchant.description}}</p>
+              <p style="font-style:italic">注册日期：{{merchant.user.date_joined | date}}</p>
+            </div>
           </div>
         </div><!--/span-->
 
