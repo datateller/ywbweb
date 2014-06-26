@@ -19,6 +19,7 @@ def validate_username(username):
 class RegisterForm(forms.Form):
 
     email = forms.EmailField(validators=[validate_username],required=True,widget=forms.EmailInput(attrs={'placeholder':'请输入您的邮件地址' , ' class':'form-control','style':"width: 50%;",'autofocus':'autofocus','required':'required'}))
+    name = forms.CharField(required=True,widget=forms.TextInput(attrs={'placeholder':'请输入您的商家名称', 'class':'form-control', 'required':'required'}))
     password = forms.CharField(required=True,widget=forms.PasswordInput(attrs={'placeholder':'请设置您到登录密码' , ' class':'form-control','style':"width: 50%;",'required':'required'}))
     password1 = forms.CharField(widget=forms.PasswordInput(attrs={'placeholder':'请再次输入您的登录密码' , ' class':'form-control','style':"width: 50%;",'required':'required'}))
     city = forms.CharField(required=True,widget=forms.TextInput(attrs={'placeholder':'请输入您的城市' , ' class':'form-control','required':'required'}))

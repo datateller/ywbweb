@@ -34,6 +34,7 @@ class RegistrationView(BaseRegistrationView):
         merchant.longitude = float(form.cleaned_data['longitude'])
         merchant.latitude = form.cleaned_data['latitude']                    
         merchant.description = form.cleaned_data['description']
+        merchant.name = form.cleaned_data['name']
         #user.save()
         merchant.save()
         # success_url may be a simple string, or a tuple providing the

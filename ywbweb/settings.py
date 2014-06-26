@@ -53,6 +53,7 @@ INSTALLED_APPS = (
     'django.contrib.gis',
     'surrounding',
     'offline',
+    'south',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -82,13 +83,14 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '5432',
     },
-    'wjbbserverdb': {
-        'ENGINE':'django.db.backends.postgresql_psycopg2',
-        'NAME': 'wjbbserverdb',
+    'ywbdb': {
+        'ENGINE':'django.contrib.gis.db.backends.postgis',
+        'NAME': 'ywbdb',
         'USER': 'wjbb',
         'PASSWORD': 'wjbb111',
         'HOST': 'localhost',
         'PORT': '5432',
+        'ATOMIC_REQUESTS':'True',
     },
 #     'geodb': {
 #         'ENGINE': 'django.contrib.gis.db.backends.postgis',

@@ -13,6 +13,7 @@ from  django.template import RequestContext
 from registration.backends.default.views import *
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
+from django.db import connections
 # Create your views here.
 
 
@@ -26,6 +27,8 @@ def login_view(request):
             if user is not None and user.is_active:
                 # Correct password, and the user is marked "active"
                 auth.login(request, user)
+            merchant = Merchant.objects.filter(user__username = username)[0]
+            print("###locals:", locals())
             rcontext = RequestContext(request, locals())
             return render_to_response(MerchantHomeView.template_name, rcontext)
         else:
@@ -70,7 +73,9 @@ class RegisterView(RegistrationView):
                 merchant.longitude = float(form_reg.cleaned_data['longitude'])
                 merchant.latitude = form_reg.cleaned_data['latitude']
                 merchant.description = form_reg.cleaned_data['description']
+                merchant.name = form_reg.cleaned_data['name']
                 #user.save()
+                print("###merchant name:", merchant.name)
                 print("####merchange save")
                 merchant.save()
             else:
@@ -85,10 +90,12 @@ class RegisterView(RegistrationView):
         merchant = Merchant(user = user)
         merchant.city = form_reg.cleaned_data['city']
         merchant.address = form_reg.cleaned_data['address']
-        print("longitude is :" + form_reg.cleaned_data['longitude'])             
+        print("###form valid longitude is :" + form_reg.cleaned_data['longitude'])             
         merchant.longitude = float(form_reg.cleaned_data['longitude'])
         merchant.latitude = form_reg.cleaned_data['latitude']
         merchant.description = form_reg.cleaned_data['description']
+        merchant.name = form_reg.cleaned_data['name']
+        print("###merchant name:", merchant.name)
         print("####merchange save")
         merchant.save()
         return super(RegisterView, self).form_valid(form_reg)
@@ -109,8 +116,19 @@ class MerchantHomeView(TemplateView):
         context = super(MerchantHomeView, self).get_context_data(**kwargs)
         context['login_form'] = LoginForm()
        
-        context['merchant'] = Merchant.objects.filter(user__username = self.request.user.username)[0]
+        context['merchant'] = merchant = Merchant.objects.filter(user__username = self.request.user.username)[0]
+        userpoints = []
+        merp = fromstr("POINT(%s %s)" % (merchant.longitude, merchant.latitude))
+        nearbybabys = Baby.objects.using("ywbdb").filter(homepoint__distance_lt=(merp, D(km=int(5000)/1000)))
+        for baby in nearbybabys:
+            print("###baby x:",baby.homepoint.x,"###baby y:",baby.homepoint.y)
+            userpoints.append({'x':baby.homepoint.x, 'y':baby.homepoint.y})
+
+        context['userpoints'] = userpoints
+        
         return context
+
+        
 
     @method_decorator(login_required)
     def dispatch(self, *args, **kwargs):

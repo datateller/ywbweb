@@ -14,12 +14,12 @@
           <div class="list-group">
             <a href="/merchant/home/" class="list-group-item active">主页</a>
             <a href="/merchant/commercials/post/" class="list-group-item">发布信息</a>
-            <a href="#" class="list-group-item">我的推送</a>
-            <a href="#" class="list-group-item">我的信息</a>
+            <a href="/merchant/commercials/list/" class="list-group-item">已发信息</a>
+            <a href="#" class="list-group-item">帮助</a>
           </div>
           <div class="panel panel-success">
             <div class="panel-heading">
-              <div class="panel-title"><span class="glyphicon glyphicon-certificate"></span>  {{merchant.user.username}}</div>
+              <div class="panel-title"><span class="glyphicon glyphicon-certificate"></span>  {{merchant.name}}</div>
             </div>
             <div class="panel-body">
               <p style="font-style:italic">所在城市：{{merchant.city}}</p>
@@ -69,6 +69,19 @@
             </div><!--/span-->
           </div>
           <div class="row">
+            <div class="col-md-offset-5">
+              <h4>周围宝宝</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-9 col-lg-9 col-xs-9 col-md-9 col-md-offset-2">
+              <div id="map_canvas_login">
+                <!-- <p class="col-sm-3"> 周围孩子：</p><br> -->
+                <div id="loginmap"  style="width: 600px;height: 450px;overflow: hidden;margin:0;border:1px solid black"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
             <div class="col-sm-9 col-lg-9 col-xs-9 col-md-9">
               <p>系统公告</p>
 		<div class="list-group">
@@ -87,6 +100,40 @@
 
 {% block customjs %}
     <script src="/static/js/offcanvas.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=GLbmnUGjCe4B62dqW6l695fL"></script>
+    <script>
+      var map = new BMap.Map("loginmap");
+      map.enableScrollWheelZoom();
+      map.enableKeyboard();
+      map.enableContinuousZoom();
+      //var centerpoint = new BMap.Point(116.404, 39.915);
+      var centerpoint = new BMap.Point({{merchant.longitude}}, {{merchant.latitude}});
+      map.centerAndZoom(centerpoint, 15);
+      var marker = new BMap.Marker(centerpoint);
+      map.addOverlay(marker);
+
+      function addMarker(point) {
+        var marker = new BMap.Marker(point);
+        map.addOverlay(marker);
+        marker.setAnimation(BMAP_ANIMATION_BOUNCE);
+      }
+      //var userpoints = [{'x':116.405, 'y':39.916}, {'x':116.403,'y':39.916}]
+
+      //for (var p in userpoints) 
+      //{
+      {% for userpoint in userpoints %}
+        //var point = new BMap.Point(userpoints[p].x, userpoints[p].y);
+        
+        var point = new BMap.Point({{userpoint.x}}, {{userpoint.y}});
+        //var point = new BMap.Point(116.31438854348, 39.972346582787);
+        addMarker(point);
+      {% endfor %}
+      //}
+
+      //var circle = new BMap.Circle(centerpoint, 5000);
+      //map.addOverlay(circle);
+      //marker.enableDragging();
+    </script>
 {% endblock %}
 
 {% endblock %}
