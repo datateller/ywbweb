@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.gis.db import models
 from django.contrib.auth.models import User
 
 from django.contrib.gis.db import models
@@ -14,6 +15,8 @@ class Merchant(models.Model):
     longitude = models.FloatField(null=True)
     latitude = models.FloatField(null=True)
     description = models.CharField(max_length=2000)
+    point = models.PointField(null=True)
+    objects = models.GeoManager()
 
 
 class Commercial(models.Model):
