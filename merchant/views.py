@@ -14,6 +14,7 @@ from registration.backends.default.views import *
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 from django.db import connections
+from django.contrib.gis.geos import Point, fromstr
 # Create your views here.
 
 
@@ -74,6 +75,7 @@ class RegisterView(RegistrationView):
                 merchant.latitude = form_reg.cleaned_data['latitude']
                 merchant.description = form_reg.cleaned_data['description']
                 merchant.name = form_reg.cleaned_data['name']
+                merchant.point = fromstr("POINT(%s %s)" % (merchant.logitude, merchant.latitude))
                 #user.save()
                 print("###merchant name:", merchant.name)
                 print("####merchange save")
