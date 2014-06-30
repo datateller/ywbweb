@@ -144,8 +144,9 @@ class CommercialListView(TemplateView):
         context = super(CommercialListView, self).get_context_data(**kwargs)
         context['login_form'] = LoginForm()
         user = self.request.user
+        merchant = user.merchant
         clist = []
-        clist = Commercial.objects.filter(merchant__username = user.username)
+        clist = Commercial.objects.filter(merchant = merchant)
         context['commercial_list'] = clist
         context['merchant'] = Merchant.objects.filter(user__username = self.request.user.username)[0]
         return context
@@ -178,7 +179,7 @@ class CommercialPostView(FormView):
             form_post = PostCommercialForm(self.request.POST, self.request.FILES)
             if form_post.is_valid():
                 temp = form_post.save(commit=False)
-                temp.merchant = self.request.user
+                temp.merchant = self.request.user.merchant
                 if self.request.FILES:
                     temp.photo = self.request.FILES['photo']
                 temp.save()
