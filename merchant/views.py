@@ -191,3 +191,41 @@ class CommercialPostView(FormView):
 def about(request):
     return render(request, "merchant/about.html")
 
+from math import radians, cos, sin, asin, sqrt
+
+def haversine(lon1, lat1, lon2, lat2):
+    """
+    Calculate the great circle distance between two points 
+    on the earth (specified in decimal degrees)
+    """
+    # convert decimal degrees to radians 
+    lon1, lat1, lon2, lat2 = map(radians, [lon1, lat1, lon2, lat2])
+
+    # haversine formula 
+    dlon = lon2 - lon1 
+    dlat = lat2 - lat1 
+    a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
+    c = 2 * asin(sqrt(a)) 
+
+    # 6367 km is the radius of the Earth
+    km = 6367 * c
+    return km 
+
+
+class PromotionView(TemplateView):
+    template_name = 'merchant/promotion_effect.html'
+    
+    def get_context_data(self, **kwargs):
+        context = super(PromotionView, self).get_context_data(**kwargs)
+        print("###here kwargs:", kwargs)
+
+        context['merchant'] = merchant = Merchant.objects.filter(user__username = self.request.user.username)[0]
+        userpoints = []
+        merp = fromstr("POINT(%s %s)" % (merchant.longitude, merchant.latitude))
+        nearbybabys = Baby.objects.using("ywbdb").filter(homepoint__distance_lt=(merp, D(km=int(5000)/1000)))
+        for baby in nearbybabys:
+            print("###baby x:",baby.homepoint.x,"###baby y:",baby.homepoint.y)
+            babydistance = min(int(haversine(merchant.longitude, merchant.latitude, baby.homepoint.x, baby.homepoint.y)*1000), 5000)
+            userpoints.append({'x':baby.homepoint.x, 'y':baby.homepoint.y, 'distance':babydistance})
+        context['userpoints'] = userpoints
+        return context

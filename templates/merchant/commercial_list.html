@@ -11,7 +11,10 @@
     		  <h4 class="list-group-item-heading">{{commercial.title}}</h4>
     		  <p class="list-group-item-text">{{commercial.content}}</p>
   		  </a>
+                  {% if commercial.photo %}
   		  <img src="/media/{{commercial.photo}}" class="img-responsive" alt="Responsive image">
+                  {% endif %}
+                  <a class="btn btn-success btn-large" href="/merchant/commercials/promotioneffect/{{commercial.id}}/">推广效果</a>
   		  {%endfor%}
 		   </div>
     </div>

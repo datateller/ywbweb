@@ -1,0 +1,10 @@
+{% extends "merchant/merchant_home.html" %}
+
+{%block home_content%}
+{% for baby in userpoints %}
+<p style="font-size:16px; font-weight:bold">距离您大约{{baby.distance}}m有用户，尚未浏览您的信息，您们尚未联系
+{% endfor %}
+
+{%endblock%}
+
+
