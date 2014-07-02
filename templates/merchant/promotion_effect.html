@@ -1,8 +1,16 @@
 {% extends "merchant/merchant_home.html" %}
 
 {%block home_content%}
+<p class="text-info" style="font-size:30px; font-weight:bold">您周围有{{userpoints | length}}位个人用户</p>
 {% for baby in userpoints %}
-<p style="font-size:16px; font-weight:bold">距离您大约{{baby.distance}}m有用户，尚未浏览您的信息，您们尚未联系
+<p style="font-size:16px; font-weight:bold">距离您大约{{baby.distance}}m有用户，
+  {% if baby.haveseen %}
+    已经浏览该条信息，
+  {% else %}
+    尚未浏览该条信息，
+  {% endif %}
+  您们尚未联系
+  <p>
 {% endfor %}
 
 {%endblock%}

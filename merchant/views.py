@@ -29,7 +29,6 @@ def login_view(request):
                 # Correct password, and the user is marked "active"
                 auth.login(request, user)
             merchant = Merchant.objects.filter(user__username = username)[0]
-            print("###locals:", locals())
             rcontext = RequestContext(request, locals())
             return render_to_response(MerchantHomeView.template_name, rcontext)
         else:
@@ -217,15 +216,22 @@ class PromotionView(TemplateView):
     
     def get_context_data(self, **kwargs):
         context = super(PromotionView, self).get_context_data(**kwargs)
-        print("###here kwargs:", kwargs)
+        commercialid = kwargs["commercial_id"]
 
         context['merchant'] = merchant = Merchant.objects.filter(user__username = self.request.user.username)[0]
         userpoints = []
         merp = fromstr("POINT(%s %s)" % (merchant.longitude, merchant.latitude))
         nearbybabys = Baby.objects.using("ywbdb").filter(homepoint__distance_lt=(merp, D(km=int(5000)/1000)))
+        seenhistory = CommercialHistory.objects.filter(commercial_id=commercialid)
+        seenbabys = [Baby.objects.using("ywbdb").get(id=history.baby_id) for history in seenhistory]
+        
         for baby in nearbybabys:
+            print("###babyid:", baby.id)
             print("###baby x:",baby.homepoint.x,"###baby y:",baby.homepoint.y)
             babydistance = min(int(haversine(merchant.longitude, merchant.latitude, baby.homepoint.x, baby.homepoint.y)*1000), 5000)
-            userpoints.append({'x':baby.homepoint.x, 'y':baby.homepoint.y, 'distance':babydistance})
+            haveseen = False
+            if baby in seenbabys:
+                haveseen = True
+            userpoints.append({'x':baby.homepoint.x, 'y':baby.homepoint.y, 'distance':babydistance, 'haveseen':haveseen})
         context['userpoints'] = userpoints
         return context

@@ -44,3 +44,9 @@ class Baby(models.Model):
 
     class Meta:
         app_label="baby"
+
+class CommercialHistory(models.Model):
+    commercial_id = models.IntegerField()
+    merchant_id = models.IntegerField()
+    baby_id = models.IntegerField()
+    
