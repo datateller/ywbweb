@@ -3,7 +3,7 @@
 
 {% block customcss %}
     <!-- Custom styles for this template -->
-    <link href="/static/css/offcanvas.css" rel="stylesheet">
+    <link href="/static/css/offcanvas.css?v=1" rel="stylesheet">
 {% endblock %}
 
 {% block content %}
@@ -70,7 +70,7 @@
           </div>
           <div class="row">
             <div class="col-md-offset-5">
-              <h4>周围宝宝</h4>
+              <p class="text-info" style="font-size:20px; font-weight:bold">周围宝宝</p>
             </div>
           </div>
           <div class="row">
@@ -81,13 +81,12 @@
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-9 col-lg-9 col-xs-9 col-md-9">
-              <p>系统公告</p>
+          <div class="row" style="margin-top:20px">
+            <div class="col-sm-9 col-lg-9 col-xs-9 col-md-9 col-md-offset-2">
+              <h4>系统公告</h4>
 		<div class="list-group">
   		  <a href="#" class="list-group-item">
     		  <h4 class="list-group-item-heading">欢迎大家来到养娃宝商家平台</h4>
-    		  <p class="list-group-item-text">...</p>
   		  </a>
 		</div>
             </div><!--/span-->

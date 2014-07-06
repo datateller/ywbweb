@@ -4,18 +4,20 @@
 <div class="container">
   <div class="row row-offcanvas-right">
     <div class="col-md-8">
-      <p>已发布商业信息列表</p>
+      <h3 class="text-primary">已发布商业信息列表</h3>
 		   <div class="list-group">
-		   {%for commercial in commercial_list%}
-  		  <a href="#" class="list-group-item">
-    		  <h4 class="list-group-item-heading">{{commercial.title}}</h4>
-    		  <p class="list-group-item-text">{{commercial.content}}</p>
-  		  </a>
-                  {% if commercial.photo %}
-  		  <img src="/media/{{commercial.photo}}" class="img-responsive" alt="Responsive image">
-                  {% endif %}
-                  <a class="btn btn-success btn-large" href="/merchant/commercials/promotioneffect/{{commercial.id}}/">推广效果</a>
-  		  {%endfor%}
+		     {%for commercial in commercial_list%}
+                       <div class="list-group-item list-group-item-success">
+                       
+    		       <h4 class="list-group-item-heading" style="text-align:center">{{commercial.title}}</h4>
+    		       <p class="list-group-item-text text-warning">{{commercial.content}}</p>
+                       {% if commercial.photo %}
+  		         <img src="/media/{{commercial.photo}}" class="img-responsive" style="margin-top:10px" alt="Responsive image">
+                       {% endif %}
+                       <a class="btn btn-success btn-large" style="margin-top:10px" href="/merchant/commercials/promotioneffect/{{commercial.id}}/">推广效果</a>
+                       </div>
+                       <br>
+  		     {%endfor%}
 		   </div>
     </div>
   </div>

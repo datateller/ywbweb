@@ -5,14 +5,14 @@
 {% block customcss %}
     <!-- Custom styles for this template -->
     <link href="/static/css/offcanvas.css" rel="stylesheet">
-    <link href="/static/css/pagefooter.css" rel="stylesheet">
+    <link href="/static/css/pagefooter.css?v=1" rel="stylesheet">
 {% endblock %}
 
 {% block content %}
  <div class="container">
   <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xs-12" class="row">
   <div  style="display:block;width:100px">
-    <p style="color:red; font-sytle:italic; font-size:20px">关于养娃宝</p>
+    <p class="text-info"style="font-sytle:italic; font-size:20px">关于养娃宝</p>
   </div>
   </div>
   <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xs-8">
@@ -32,7 +32,7 @@
   <div class="col-4 col-sm-4 col-md-3 col-lg-4 col-xs-4" style="height:400px">
   <div class="row" style="border:1px solid white; background-color:#C6E2FF">
    
-    <p style="text-align:center; margin-top:20px; font-style:italic; font-weight:bold; font-size:20px; color:red">相关产品和服务</p>
+    <p style="text-align:center; margin-top:20px; font-style:italic; font-weight:bold; font-size:20px" class="text-success">相关产品和服务</p>
     <p style="margin-top:20px; text-align:center; font-weight:bold">ANDROID客户端</p>
     <p style="margin-top:5px; text-align:center; font-weight:bold">IPHONE客户端</p>
     <p style="margin-top:5px; text-align:center; font-weight:bold">微信公众服务号</p>

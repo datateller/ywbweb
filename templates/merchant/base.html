@@ -8,15 +8,16 @@
     <meta name="author" content="">
     <title>{% block title %}养娃宝商家平台{% endblock %}</title>
     <!-- Bootstrap core CSS -->
-    <link href="/static/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/static/css/pagefooter.css" rel="stylesheet">
+    <link href="/static/bootstrap/dist/css/bootstrap.min.css?v=1" rel="stylesheet">
+    <link href="/static/css/pagefooter.css?v=9" rel="stylesheet">
     {% block customcss %}{% endblock %}
     
 </head>
 
+<!-- <body style="background:#222; color:#fff"> -->
 <body>
     <div id="wrapper">
-    <div id="header">
+    <div id="header" style="background-color:#222">
     {% include "merchant/navbar.html" %}
     </div>
     <div id="content">
