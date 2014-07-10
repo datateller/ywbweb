@@ -232,6 +232,6 @@ class PromotionView(TemplateView):
             haveseen = False
             if baby in seenbabys:
                 haveseen = True
-            userpoints.append({'x':baby.homepoint.x, 'y':baby.homepoint.y, 'distance':babydistance, 'haveseen':haveseen})
+            userpoints.append({'x':baby.homepoint.x, 'y':baby.homepoint.y, 'distance':babydistance, 'username':baby.user.username, 'haveseen':haveseen})
         context['userpoints'] = userpoints
         return context

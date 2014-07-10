@@ -29,3 +29,56 @@
     #navbarywb {
     background-color:#f0f0f0;
     }
+
+.btn_style{
+        font-size: 14px;
+        color: #ffffff;
+        background: #F15F43;
+        padding: 12px 30px;
+        line-height: 20px;
+        text-transform: uppercase;
+        border: none;
+        outline: none;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -o-border-radius: 2px;
+}
+.btn_style:hover{
+        background: #354B77;
+}
+
+.menu li a:hover{
+	background: #62A29E;
+	box-shadow: inset 0px -4px 0px #47817E;
+	-webkit-box-shadow: inset 0px -4px 0px #47817E;
+	-moz-box-shadow: inset 0px -4px 0px #47817E;
+	-o-box-shadow: inset 0px -4px 0px #47817E;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;	
+	-moz-border-radius: 4px;	
+	-o-border-radius: 4px;	
+}
+
+.menu li a{
+	text-transform:uppercase;
+	text-decoration: none;
+	font-size: 16px;
+	/*padding: 10px 24px;*/
+        padding-top: 25px;
+	display: block;
+	color: #51bf08;
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-o-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+}
+.menu li a:hover,.menu li:hover>a{
+	color:#ffffff;
+	background: #62A29E;
+}

@@ -9,7 +9,7 @@
     <title>{% block title %}养娃宝商家平台{% endblock %}</title>
     <!-- Bootstrap core CSS -->
     <link href="/static/bootstrap/dist/css/bootstrap.min.css?v=1" rel="stylesheet">
-    <link href="/static/css/pagefooter.css?v=9" rel="stylesheet">
+    <link href="/static/css/pagefooter.css?v=13" rel="stylesheet">
     {% block customcss %}{% endblock %}
     
 </head>
@@ -17,7 +17,7 @@
 <!-- <body style="background:#222; color:#fff"> -->
 <body>
     <div id="wrapper">
-    <div id="header" style="background-color:#222">
+    <div id="header">
     {% include "merchant/navbar.html" %}
     </div>
     <div id="content">
@@ -42,16 +42,18 @@
     <script>
       var c=document.getElementById("logoCanvas");
       var ctx=c.getContext("2d");
-      ctx.font="30px Arial";
+      ctx.font="italic 40px  Calibri";
       ctx.shadowBlur=10;
       ctx.shadowColor="Gray";
       ctx.shadowOffsetX=5;
       ctx.shadowOffsetY=5;
       var lingrad = ctx.createLinearGradient(0,20,100, 50);
-      lingrad.addColorStop(0, '#BA55D3');
-      lingrad.addColorStop(1, '#00868B');
+      lingrad.addColorStop(0, '#ff0a0a');
+      //lingrad.addColorStop(0, '#BA55D3');
+      lingrad.addColorStop(1, '#d1c414');
+      //lingrad.addColorStop(1, '#00868B');
       ctx.strokeStyle=lingrad;
-      ctx.strokeText("养娃宝",5,25)
+      ctx.strokeText("养娃宝",5,40)
     </script>
 </body>
 </html>
