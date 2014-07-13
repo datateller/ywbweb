@@ -9,13 +9,12 @@
     <title>{% block title %}养娃宝商家平台{% endblock %}</title>
     <!-- Bootstrap core CSS -->
     <link href="/static/bootstrap/dist/css/bootstrap.min.css?v=1" rel="stylesheet">
-    <link href="/static/css/pagefooter.css?v=13" rel="stylesheet">
+    <link href="/static/css/pagefooter.css?v=16" rel="stylesheet">
     {% block customcss %}{% endblock %}
     
 </head>
 
-<!-- <body style="background:#222; color:#fff"> -->
-<body>
+<body> 
     <div id="wrapper">
     <div id="header">
     {% include "merchant/navbar.html" %}
@@ -40,6 +39,7 @@
     <script src="/static/js/offcanvas.js"></script>
     {% block customjs %}{% endblock %}
     <script>
+      $("#platbutton").click(function() { window.loation="/merchant/home" });
       var c=document.getElementById("logoCanvas");
       var ctx=c.getContext("2d");
       ctx.font="italic 40px  Calibri";

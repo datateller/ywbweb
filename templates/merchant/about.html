@@ -10,38 +10,30 @@
 
 {% block content %}
  <div class="container">
-  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xs-12" class="row">
-  <div  style="display:block;width:100px">
-    <p class="text-info"style="font-sytle:italic; font-size:20px">关于养娃宝</p>
+  <ul class="nav nav-pills" role="tablist">
+    <li class="active"><a href="#introduction" role="tab" data-toggle="tab" style="font-weight:bold; font-size:20px">关于养娃宝</a></li>
+    <li><a href="#services" role="tab" data-toggle="tab" style="font-weight:bold; font-size:20px">产品和服务</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="introduction">
+      <p style="margin:10px; line-height:30px; font-weight:bold; font-size:20px" class="text-info">养娃宝是一个为0-12岁宝宝的父母量身打造的个性化平台，为父母提供专业的育儿知识，所在位置周边的商家和服务，以及方便彼此交流宝宝成长经验的家圈校圈等。</p>
+      <p style="margin:10px; line-height:30px; font-weight:bold; font-size:20px" class="text-info">我们提供有ANDROID客户端，IPHONE客户端，微信公众服务号，以及商家发布平台。</p>
+      <p style="margin:10px; line-height:30px; font-weight:bold; font-size:20px" class="text-info">在商家服务平台，用户可以注册商家，发布商家信息，养娃宝平台会将商家信息及时展示给相关的宝宝父母</p>
+    </div>
+    <div class="tab-pane" id="services">
+    <p style="margin-top:20px; font-weight:bold; padding-left:20px; font-size:20px" class="text-success">ANDROID客户端</p>
+    <p style="margin-top:5px;  font-weight:bold; padding-left:20px; font-size:20px" class="text-success">IPHONE客户端</p>
+    <p style="margin-top:5px;  font-weight:bold; padding-left:20px; font-size:20px" class="text-success">微信公众服务号</p>
+    <p style="margin-top:5px;  font-weight:bold; padding-left:20px; font-size:20px" class="text-success">商家WEB平台</p>
+
+    </div>
   </div>
-  </div>
-  <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-xs-8">
   <!-- <div class="row">
       <div  style="display:block;width:100px">
         <p style="color:red; font-sytle:italic; font-size:20px">关于养娃宝</p>
       </div>
   </div> -->
   
-  <div style="border:1px solid black; background-color:#E0EEEE" class="row">
-    <p style="margin:10px; line-height:30px">养娃宝是一个为0-12岁宝宝的父母量身打造的个性化平台，为父母提供专业的育儿知识，所在位置周边的商家和服务，以及方便彼此交流宝宝成长经验的家圈校圈等。</p>
-    <p style="margin:10px; line-height:30px">我们提供有ANDROID客户端，IPHONE客户端，微信公众服务号，以及商家发布平台。</p>
-    <p style="margin:10px; line-height:30px">在商家服务平台，用户可以注册商家，发布商家信息，养娃宝平台会将商家信息及时展示给相关的宝宝父母</p>
-  </div>
-  </div>
-
-  <div class="col-4 col-sm-4 col-md-3 col-lg-4 col-xs-4" style="height:400px">
-  <div class="row" style="border:1px solid white; background-color:#C6E2FF">
-   
-    <p style="text-align:center; margin-top:20px; font-style:italic; font-weight:bold; font-size:20px" class="text-success">相关产品和服务</p>
-    <p style="margin-top:20px; text-align:center; font-weight:bold">ANDROID客户端</p>
-    <p style="margin-top:5px; text-align:center; font-weight:bold">IPHONE客户端</p>
-    <p style="margin-top:5px; text-align:center; font-weight:bold">微信公众服务号</p>
-    <p style="margin-top:5px; text-align:center; font-weight:bold">商家WEB平台</p>
-    
-   
-  </div>
-  </div>
-</div>
 {% endblock %}
 
 {% block customjs %}

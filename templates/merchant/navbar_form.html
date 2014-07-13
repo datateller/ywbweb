@@ -1,15 +1,15 @@
 {% if user.is_authenticated %}
- 	  <form name = "logout" class="navbar-form navbar-right" role="form" action="/merchant/logout/" method="get">
+ 	  <form name = "logout" class="navbar-form navbar-right" role="form" action="/merchant/logout/" method="get" style="padding-top:9px">
 				<div class="form-group">
 				  <!-- <a herf="#">{{user.username}}</a> -->
         <p class="text-success" style="display:inline" >{{user.username}}</p>
-          <a href="/merchant/home/"><button class="btn_style navbar-btn">商家平台</button></a>
+          <!-- <a href="/merchant/home/"><button class="btn_style navbar-btn" id="platbutton">商家平台</button></a> -->
         <button class="btn_style" type="submit" name="logout">退出</button>
 				</div>
     </form>
-          <!-- <div style="padding-top:10px">
-          <a class="btn btn-primary" href="/merchant/home/">商家中心</a>
-          </div> -->
+         <div style="padding-top:9px">
+          <a href="/merchant/home/"><button class="btn_style navbar-btn">商家中心</button></a>
+          </div> 
 
           <!-- <a href="/merchant/home/"><button class="btn_style navbar-btn">商家平台</button></a> -->
 {% else %}

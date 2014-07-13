@@ -16,9 +16,22 @@
 
   {% include "merchant/home_slogan.html" %}
   {% include "merchant/home_info.html" %}
+{% endblock %}
 
 {% block customjs %}
     <script src="/static/js/offcanvas.js"></script>
-{% endblock %}
+    <script>
+    //setInterval(function() {$("#kouhao").animate({"width":"+=5px"},1000)}, 3000)
+    function movekouhaoright() {
+      $("#kouhao").animate({"padding-left":"-=200px"},4000);
+      setTimeout("movekouhaoleft()", 100);
+    }
+    function movekouhaoleft() {
+      $("#kouhao").animate({"padding-left":"+=200px"},4000);
+      setTimeout("movekouhaoright()", 100);
+    }
+    setTimeout("movekouhaoleft()", 100);
+    </script>
+   
 
 {% endblock %}

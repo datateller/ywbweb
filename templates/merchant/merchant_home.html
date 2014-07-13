@@ -11,21 +11,21 @@
     <div class="container">
       <div class="row row-offcanvas row-offcanvas-right">
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-          <div class="list-group">
-            <a href="/merchant/home/" class="list-group-item active">主页</a>
-            <a href="/merchant/commercials/post/" class="list-group-item">发布信息</a>
-            <a href="/merchant/commercials/list/" class="list-group-item">已发信息</a>
-            <a href="#" class="list-group-item">帮助</a>
+          <div class="list-group menu">
+            <a href="/merchant/home/" class="list-group-item list-group-item-info homenav">主页</a>
+            <a href="/merchant/commercials/post/" class="list-group-item list-group-item-info homenav">发布信息</a>
+            <a href="/merchant/commercials/list/" class="list-group-item list-group-item-info homenav">已发信息</a>
+            <a href="#" class="list-group-item list-group-item-info homenav">帮助</a>
           </div>
           <div class="panel panel-success">
             <div class="panel-heading">
               <div class="panel-title"><span class="glyphicon glyphicon-certificate"></span>  {{merchant.name}}</div>
             </div>
             <div class="panel-body">
-              <p style="font-style:italic">所在城市：{{merchant.city}}</p>
-              <p style="font-style:italic">{{merchant.address}}</p>
-              <p style="font-style:italic">{{merchant.description}}</p>
-              <p style="font-style:italic">注册日期：{{merchant.user.date_joined | date}}</p>
+              <p style="font-style:italic; font-family:PMingLiU">所在城市：{{merchant.city}}</p>
+              <p style="font-style:italic; font-family:PMingLiU">{{merchant.address}}</p>
+              <p style="font-style:italic; font-family:PMingLiU">{{merchant.description}}</p>
+              <p style="font-style:italic; font-family:PMingLiU">注册日期：{{merchant.user.date_joined | date}}</p>
             </div>
           </div>
         </div><!--/span-->
@@ -99,6 +99,27 @@
 
 {% block customjs %}
     <script src="/static/js/offcanvas.js"></script>
+    <script>
+      $(function(){
+        function stripTrailingSlash(str) {
+          if(str.substr(-1) == '/') {
+            return str.substr(0, str.length - 1);
+          }
+          return str;
+        }
+
+        var url = window.location.pathname;  
+        var activePage = stripTrailingSlash(url);
+
+        $('.menu a').each(function(){  
+          var currentPage = stripTrailingSlash($(this).attr('href'));
+          if (activePage == currentPage) {
+            $(this).addClass('active'); 
+          } 
+        });
+      });
+    
+    </script>
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=GLbmnUGjCe4B62dqW6l695fL"></script>
     <script>
       var map = new BMap.Map("loginmap");

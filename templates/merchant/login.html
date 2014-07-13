@@ -1,4 +1,4 @@
-	  <form name = "login_form" class="navbar-form navbar-right form-signin" role="form" action="/merchant/login/" method="post">
+	  <form name = "login_form" class="navbar-form navbar-right form-signin" role="form" action="/merchant/login/" method="post" style="padding-top:9px">
 	    {% csrf_token %}
 				<div class="form-group">
         {{login_form.username}}
@@ -12,6 +12,6 @@
         {% endif %}
 				</div>
 				<div class="form-group">
-        <button class="btn btn-primary " type="submit" name=login>登录</button>
+        <button class="btn_style " type="submit" name=login>登录</button>
 				</div>
     </form>
