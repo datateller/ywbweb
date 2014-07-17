@@ -4,6 +4,8 @@
 {% block customcss %}
     <!-- Custom styles for this template -->
     <link href="/static/css/offcanvas.css?v=1" rel="stylesheet">
+    {%block innercustomcss %}
+    {%endblock %}
 {% endblock %}
 
 {% block content %}
@@ -120,6 +122,7 @@
       });
     
     </script>
+    {%block innerjs %}
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=GLbmnUGjCe4B62dqW6l695fL"></script>
     <script>
       var map = new BMap.Map("loginmap");
@@ -154,6 +157,7 @@
       //map.addOverlay(circle);
       //marker.enableDragging();
     </script>
+    {%endblock%}
 {% endblock %}
 
 {% endblock %}

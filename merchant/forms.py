@@ -10,6 +10,7 @@ from django.db import models
 from django.contrib.auth.models import User 
 from django.contrib import auth
 from .models import *
+import datetime
 
 def validate_username(username):
     if User.objects.filter(username=username).exists():
@@ -53,8 +54,11 @@ class LoginForm(forms.Form):
 class PostCommercialForm(forms.ModelForm):
     class Meta:
         model = Commercial
-        fields = ('title', 'content', 'photo')
+        fields = ('title', 'valid_date', 'content', 'photo')
         widgets = {
             'title':forms.TextInput(attrs={'placeholder':'请输入您的标题' , ' class':'form-control','required':'required','autofocus':'autofocus'}),
-            'content':forms.Textarea(attrs={'placeholder':'请输入您要发布的具体信息' , ' class':'form-control','required':'required'}), }
+            'content':forms.Textarea(attrs={'placeholder':'请输入您要发布的具体信息' , ' class':'form-control','required':'required'}), 
+            'valid_date':forms.TextInput(attrs={'placeholder':datetime.date.today().strftime("%m/%d/%Y"), 'class':'form-control', 'id':'validdatepicker'}) 
+            #'valid_date':forms.TextInput(attrs={'placeholder':datetime.date.today().strftime("%m/%d/%Y"), 'id':'validdatepicker'}) 
+            }
     

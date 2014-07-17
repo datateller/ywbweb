@@ -9,7 +9,8 @@
     <title>{% block title %}养娃宝商家平台{% endblock %}</title>
     <!-- Bootstrap core CSS -->
     <link href="/static/bootstrap/dist/css/bootstrap.min.css?v=1" rel="stylesheet">
-    <link href="/static/css/pagefooter.css?v=16" rel="stylesheet">
+    <link href="/static/css/jquery-ui.min.css" rel="stylesheet">
+    <link href="/static/css/pagefooter.css?v=21" rel="stylesheet">
     {% block customcss %}{% endblock %}
     
 </head>
@@ -22,7 +23,6 @@
     <div id="content">
     {% block content %}  <h1>content block in base.html</h1>  {% endblock %}
     </div>
-    
     <div id="footer">
     <footer>
     {% block footer %}
@@ -35,11 +35,11 @@
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/static/js/jquery-ui.min.js?v=1"></script>
     <script src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/static/js/offcanvas.js"></script>
     {% block customjs %}{% endblock %}
     <script>
-      $("#platbutton").click(function() { window.loation="/merchant/home" });
       var c=document.getElementById("logoCanvas");
       var ctx=c.getContext("2d");
       ctx.font="italic 40px  Calibri";

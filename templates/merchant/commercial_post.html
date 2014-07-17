@@ -1,5 +1,13 @@
 {%extends "merchant/merchant_home.html"%}
 
+{%block innercustomcss %}
+<style>
+select {
+  background:#ee9a00;
+}
+</style>
+{%endblock %}
+
 {%block home_content%}
 <div class="container">
   <div class="row row-offcanvas-right">
@@ -18,6 +26,17 @@
                 {{ post_form.title.errors }}
               {% endif %}
               </p>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="input_addr">有效信息：</label>
+            <div class="col-sm-10">
+              {{post_form.valid_date}}
+              <p class="help-block">请输入您发布信息的有效日期</p>
+              {% if post_form.valid_date.errors %}
+                {{ post_form.valid_date.errors }}
+              {% endif %}
             </div>
           </div>
 
@@ -54,10 +73,20 @@
           </div>
           </div>
 
+
       </form>
     </div>
   </div>
 </div>
+{%endblock%}
+
+{%block innerjs %}
+<script>
+$(function() {
+//$("#validdatepicker").datepicker({changeYear:true});
+$("#validdatepicker").datepicker({changeYear:true});
+});
+</script>
 {%endblock%}
 
 

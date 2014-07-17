@@ -22,6 +22,7 @@ class Merchant(models.Model):
 class Commercial(models.Model):
     merchant = models.ForeignKey(Merchant)
     title = models.CharField(max_length=100)
+    valid_date = models.DateField()
     content = models.CharField(max_length=2000)
     photo = models.ImageField(upload_to='b_photos/%Y/%m/%d', max_length=10000000, blank=True, null=True, default='b_photos/default.jpg')
 
